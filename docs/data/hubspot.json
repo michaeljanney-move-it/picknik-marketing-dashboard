@@ -1,0 +1,52 @@
+{
+  "leadTypes": [
+    {
+      "key": "mql",
+      "label": "MQL",
+      "goal": 10,
+      "count": 7
+    },
+    {
+      "key": "obql",
+      "label": "ObQL",
+      "goal": 10,
+      "count": 4
+    },
+    {
+      "key": "event_leads",
+      "label": "Event Leads",
+      "goal": null,
+      "count": 12
+    },
+    {
+      "key": "referrals",
+      "label": "Referrals",
+      "goal": null,
+      "count": 3
+    }
+  ],
+  "dealStages": [
+    {
+      "label": "1. Qualifying",
+      "goal": 50,
+      "count": 38
+    },
+    {
+      "label": "2. Qualified (BANT)",
+      "goal": 20,
+      "count": 14
+    },
+    {
+      "label": "3. Proposing & Negotiating",
+      "goal": 10,
+      "count": 6
+    },
+    {
+      "label": "4. Closing & Contracting",
+      "goal": 3,
+      "count": 2
+    }
+  ],
+  "updatedAt": "2026-06-11T21:01:39.056306+00:00",
+  "period": "June 2026"
+}
