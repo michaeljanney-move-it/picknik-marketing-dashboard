@@ -1,0 +1,44 @@
+{
+  "leadTypes": [
+    {
+      "key": "mql",
+      "label": "MQL",
+      "goalMonthly": 10,
+      "filters": [
+        { "propertyName": "lifecyclestage", "operator": "EQ", "value": "marketingqualifiedlead" }
+      ]
+    },
+    {
+      "key": "obql",
+      "label": "ObQL",
+      "goalMonthly": 10,
+      "filters": [
+        { "propertyName": "lifecyclestage", "operator": "EQ", "value": "salesqualifiedlead" },
+        { "propertyName": "hs_analytics_source", "operator": "EQ", "value": "OFFLINE" }
+      ]
+    },
+    {
+      "key": "event_leads",
+      "label": "Event Leads",
+      "goalMonthly": null,
+      "filters": [
+        { "propertyName": "hs_analytics_source", "operator": "EQ", "value": "OTHER_CAMPAIGNS" }
+      ]
+    },
+    {
+      "key": "referrals",
+      "label": "Referrals",
+      "goalMonthly": null,
+      "filters": [
+        { "propertyName": "hs_analytics_source", "operator": "EQ", "value": "REFERRALS" }
+      ]
+    }
+  ],
+  "dealPipeline": "default",
+  "dealStages": [
+    { "label": "1. Qualifying", "stageId": "168528686", "goal": 50 },
+    { "label": "2. Qualified (BANT)", "stageId": "168528687", "goal": 20 },
+    { "label": "3. Proposing & Negotiating", "stageId": "168528688", "goal": 10 },
+    { "label": "4. Closing & Contracting", "stageId": "168528689", "goal": 3 }
+  ]
+}
