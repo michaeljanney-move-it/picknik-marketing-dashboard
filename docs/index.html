@@ -27,6 +27,7 @@
   .bar > div { height: 100%; border-radius: 4px; }
   .chart-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 20px; }
   .grid-2 { display: grid; grid-template-columns: 2fr 1fr; gap: 16px; }
+  .grid-2.rev { grid-template-columns: 1fr 2fr; }
   @media (max-width: 800px) { .grid-2 { grid-template-columns: 1fr; } }
   table { width: 100%; border-collapse: collapse; font-size: 14px; }
   th, td { text-align: left; padding: 8px 6px; border-bottom: 1px solid var(--border); }
@@ -56,6 +57,17 @@
       <table>
         <thead><tr><th>Top companies</th><th class="num">Visits</th></tr></thead>
         <tbody id="companies"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <h2>Traffic sources &amp; top pages</h2>
+  <div class="grid-2 rev">
+    <div class="chart-card"><canvas id="sources" height="220"></canvas></div>
+    <div class="chart-card">
+      <table>
+        <thead><tr><th>Top pages</th><th class="num">Views</th></tr></thead>
+        <tbody id="pages"></tbody>
       </table>
     </div>
   </div>
@@ -130,6 +142,34 @@ function trafficChart(data) {
   });
 }
 
+function sourcesChart(data) {
+  if (!data.sources || !data.sources.length) return;
+  new Chart(document.getElementById("sources"), {
+    type: "doughnut",
+    data: {
+      labels: data.sources.map(s => s.name),
+      datasets: [{
+        data: data.sources.map(s => s.visits),
+        backgroundColor: ["#4caf7d", "#5b9bd5", "#e8b931", "#e58aa0",
+                          "#8e7cc3", "#76a5af", "#f6a05c", "#b6c2cf"],
+        borderWidth: 0
+      }]
+    },
+    options: { responsive: true, plugins: { legend: { position: "right" } } }
+  });
+}
+
+function pagesTable(data) {
+  if (!data.topPages) return;
+  const tbody = document.getElementById("pages");
+  data.topPages.forEach(p => {
+    const tr = document.createElement("tr");
+    const label = p.title ? `${p.path} — ${p.title}` : p.path;
+    tr.innerHTML = `<td>${label}</td><td class="num">${p.views}</td>`;
+    tbody.appendChild(tr);
+  });
+}
+
 async function load(path) {
   const r = await fetch(path + "?t=" + Date.now());
   if (!r.ok) throw new Error(`${path}: HTTP ${r.status}`);
@@ -144,6 +184,8 @@ async function load(path) {
     leadCards(hs);
     funnelChart(hs);
     trafficChart(lf);
+    sourcesChart(lf);
+    pagesTable(lf);
   } catch (e) {
     showError("Could not load dashboard data: " + e.message +
       ". Run the 'Refresh dashboard data' workflow from the Actions tab to generate it.");
