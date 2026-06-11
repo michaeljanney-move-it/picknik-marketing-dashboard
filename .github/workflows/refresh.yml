@@ -22,6 +22,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Fetch HubSpot data
+        continue-on-error: true
         env:
           HUBSPOT_TOKEN: ${{ secrets.HUBSPOT_TOKEN }}
         run: |
@@ -32,6 +33,7 @@ jobs:
           fi
 
       - name: Fetch Leadfeeder data
+        continue-on-error: true
         env:
           LEADFEEDER_TOKEN: ${{ secrets.LEADFEEDER_TOKEN }}
         run: |
