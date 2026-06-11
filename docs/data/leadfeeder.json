@@ -1,157 +1,207 @@
 {
-  "identifiedCompanies": 87,
+  "identifiedCompanies": 938,
   "topCompanies": [
     {
-      "name": "Acme Robotics",
-      "visits": 23,
-      "industry": "Industrial Automation"
+      "name": "PickNik Robotics",
+      "visits": 121,
+      "industry": null
     },
     {
-      "name": "Globex Manufacturing",
+      "name": "Twitter, Inc.",
+      "visits": 101,
+      "industry": null
+    },
+    {
+      "name": "Pontificia Universidad Cat\u00f3lica del Ecuador Sede Santo Domingo",
       "visits": 18,
-      "industry": "Manufacturing"
+      "industry": null
     },
     {
-      "name": "Initech Systems",
+      "name": "West Pomeranian University of Technology",
+      "visits": 17,
+      "industry": null
+    },
+    {
+      "name": "Kyungpook National University",
+      "visits": 17,
+      "industry": null
+    },
+    {
+      "name": "Samsung",
+      "visits": 17,
+      "industry": null
+    },
+    {
+      "name": "Procter & Gamble",
       "visits": 14,
-      "industry": "Software"
+      "industry": null
     },
     {
-      "name": "Umbrella Logistics",
+      "name": "Lockheed Martin Corporation",
+      "visits": 13,
+      "industry": null
+    },
+    {
+      "name": "DRESDNER FORUM F\u00dcR REVISION UND STEUERLEHRE e.V.",
+      "visits": 12,
+      "industry": null
+    },
+    {
+      "name": "Southern University of Science and Technology",
+      "visits": 12,
+      "industry": null
+    },
+    {
+      "name": "Fraunhofer-Institut f\u00fcr Siliziumtechnologie (ISIT)",
       "visits": 11,
-      "industry": "Logistics"
+      "industry": null
     },
     {
-      "name": "Stark Industries",
+      "name": "Magna International Inc.",
+      "visits": 11,
+      "industry": null
+    },
+    {
+      "name": "RWTH Aachen University",
+      "visits": 10,
+      "industry": null
+    },
+    {
+      "name": "Airbus",
+      "visits": 10,
+      "industry": null
+    },
+    {
+      "name": "UNIVERSITY OF WATERLOO",
       "visits": 9,
-      "industry": "Aerospace & Defense"
+      "industry": null
     }
   ],
   "dailyVisits": [
     {
       "date": "2026-05-12",
-      "visits": 15
+      "visits": 0
     },
     {
       "date": "2026-05-13",
-      "visits": 9
+      "visits": 0
     },
     {
       "date": "2026-05-14",
-      "visits": 25
+      "visits": 0
     },
     {
       "date": "2026-05-15",
-      "visits": 23
+      "visits": 0
     },
     {
       "date": "2026-05-16",
-      "visits": 22
+      "visits": 0
     },
     {
       "date": "2026-05-17",
-      "visits": 16
+      "visits": 0
     },
     {
       "date": "2026-05-18",
-      "visits": 14
+      "visits": 0
     },
     {
       "date": "2026-05-19",
-      "visits": 42
+      "visits": 0
     },
     {
       "date": "2026-05-20",
-      "visits": 13
+      "visits": 0
     },
     {
       "date": "2026-05-21",
-      "visits": 45
+      "visits": 0
     },
     {
       "date": "2026-05-22",
-      "visits": 35
+      "visits": 0
     },
     {
       "date": "2026-05-23",
-      "visits": 10
+      "visits": 0
     },
     {
       "date": "2026-05-24",
-      "visits": 9
+      "visits": 0
     },
     {
       "date": "2026-05-25",
-      "visits": 13
+      "visits": 0
     },
     {
       "date": "2026-05-26",
-      "visits": 21
+      "visits": 0
     },
     {
       "date": "2026-05-27",
-      "visits": 22
+      "visits": 0
     },
     {
       "date": "2026-05-28",
-      "visits": 40
+      "visits": 0
     },
     {
       "date": "2026-05-29",
-      "visits": 9
+      "visits": 192
     },
     {
       "date": "2026-05-30",
-      "visits": 43
+      "visits": 63
     },
     {
       "date": "2026-05-31",
-      "visits": 20
-    },
-    {
-      "date": "2026-06-01",
-      "visits": 42
-    },
-    {
-      "date": "2026-06-02",
-      "visits": 34
-    },
-    {
-      "date": "2026-06-03",
-      "visits": 22
-    },
-    {
-      "date": "2026-06-04",
-      "visits": 36
-    },
-    {
-      "date": "2026-06-05",
       "visits": 45
     },
     {
+      "date": "2026-06-01",
+      "visits": 213
+    },
+    {
+      "date": "2026-06-02",
+      "visits": 184
+    },
+    {
+      "date": "2026-06-03",
+      "visits": 178
+    },
+    {
+      "date": "2026-06-04",
+      "visits": 155
+    },
+    {
+      "date": "2026-06-05",
+      "visits": 145
+    },
+    {
       "date": "2026-06-06",
-      "visits": 25
+      "visits": 36
     },
     {
       "date": "2026-06-07",
-      "visits": 8
+      "visits": 27
     },
     {
       "date": "2026-06-08",
-      "visits": 18
+      "visits": 161
     },
     {
       "date": "2026-06-09",
-      "visits": 35
+      "visits": 193
     },
     {
       "date": "2026-06-10",
-      "visits": 29
+      "visits": 219
     },
     {
       "date": "2026-06-11",
-      "visits": 25
+      "visits": 189
     }
   ],
-  "updatedAt": "2026-06-11T21:01:58.911080+00:00"
+  "updatedAt": "2026-06-11T22:44:56.743581+00:00"
 }
