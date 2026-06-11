@@ -24,12 +24,22 @@ jobs:
       - name: Fetch HubSpot data
         env:
           HUBSPOT_TOKEN: ${{ secrets.HUBSPOT_TOKEN }}
-        run: python scripts/fetch_hubspot.py
+        run: |
+          if [ -n "$HUBSPOT_TOKEN" ]; then
+            python scripts/fetch_hubspot.py
+          else
+            echo "HUBSPOT_TOKEN not set - skipping, keeping existing hubspot.json"
+          fi
 
       - name: Fetch Leadfeeder data
         env:
           LEADFEEDER_TOKEN: ${{ secrets.LEADFEEDER_TOKEN }}
-        run: python scripts/fetch_leadfeeder.py
+        run: |
+          if [ -n "$LEADFEEDER_TOKEN" ]; then
+            python scripts/fetch_leadfeeder.py
+          else
+            echo "LEADFEEDER_TOKEN not set - skipping, keeping existing leadfeeder.json"
+          fi
 
       - name: Commit updated data
         run: |
