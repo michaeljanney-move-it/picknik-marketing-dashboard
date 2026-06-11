@@ -69,13 +69,24 @@ def fetch() -> dict:
             return (inc.get("attributes") or {}).get("name")
         return None
 
-    # Daily counts + per-company visit counts
-    by_day, by_company = {}, {}
+    # Daily counts, per-company counts, sources, and top pages
+    by_day, by_company, by_source, by_page = {}, {}, {}, {}
     for v in visits:
         attrs = v.get("attributes", {})
         d = (attrs.get("started_at") or "")[:10]
         if d:
             by_day[d] = by_day.get(d, 0) + 1
+        source = (attrs.get("source") or "(direct)").lower()
+        medium = attrs.get("medium")
+        key = f"{source} / {medium}" if medium else source
+        by_source[key] = by_source.get(key, 0) + 1
+        for e in attrs.get("engagements") or []:
+            page = (e.get("page") or {})
+            path = page.get("path")
+            if path:
+                entry = by_page.setdefault(path, {"path": path, "views": 0,
+                                                  "title": page.get("title")})
+                entry["views"] += 1
         rel = (v.get("relationships") or {}).get("company")
         if rel and rel.get("id"):
             cid = rel["id"]
@@ -88,11 +99,16 @@ def fetch() -> dict:
     days = [(start + timedelta(days=i)).isoformat() for i in range(DAYS + 1)]
     daily = [{"date": d, "visits": by_day.get(d, 0)} for d in days]
     companies = sorted(by_company.values(), key=lambda c: c["visits"], reverse=True)[:15]
+    sources = sorted(({"name": k, "visits": n} for k, n in by_source.items()),
+                     key=lambda s: s["visits"], reverse=True)[:8]
+    pages = sorted(by_page.values(), key=lambda p: p["views"], reverse=True)[:10]
 
     return {
         "identifiedCompanies": len(by_company),
         "topCompanies": companies,
         "dailyVisits": daily,
+        "sources": sources,
+        "topPages": pages,
     }
 
 
@@ -112,6 +128,20 @@ def mock() -> dict:
             {"name": "Stark Industries", "visits": 9, "industry": "Aerospace & Defense"},
         ],
         "dailyVisits": daily,
+        "sources": [
+            {"name": "google / organic", "visits": 220},
+            {"name": "(direct)", "visits": 140},
+            {"name": "linkedin / social", "visits": 45},
+            {"name": "google / cpc", "visits": 30},
+            {"name": "discourse / referral", "visits": 18},
+        ],
+        "topPages": [
+            {"path": "/", "views": 310, "title": "Home"},
+            {"path": "/moveit-pro", "views": 120, "title": "MoveIt Pro"},
+            {"path": "/blog/", "views": 84, "title": "Blog"},
+            {"path": "/pricing/", "views": 60, "title": "Pricing"},
+            {"path": "/contact/", "views": 33, "title": "Contact"},
+        ],
     }
 
 
