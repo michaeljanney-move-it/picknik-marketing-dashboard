@@ -5,7 +5,11 @@
       "label": "MQL",
       "goalMonthly": 10,
       "filters": [
-        { "propertyName": "lifecyclestage", "operator": "EQ", "value": "marketingqualifiedlead" }
+        {
+          "propertyName": "lifecyclestage",
+          "operator": "EQ",
+          "value": "marketingqualifiedlead"
+        }
       ]
     },
     {
@@ -13,8 +17,16 @@
       "label": "ObQL",
       "goalMonthly": 10,
       "filters": [
-        { "propertyName": "lifecyclestage", "operator": "EQ", "value": "salesqualifiedlead" },
-        { "propertyName": "hs_analytics_source", "operator": "EQ", "value": "OFFLINE" }
+        {
+          "propertyName": "lifecyclestage",
+          "operator": "EQ",
+          "value": "salesqualifiedlead"
+        },
+        {
+          "propertyName": "hs_analytics_source",
+          "operator": "EQ",
+          "value": "OFFLINE"
+        }
       ]
     },
     {
@@ -22,7 +34,11 @@
       "label": "Event Leads",
       "goalMonthly": null,
       "filters": [
-        { "propertyName": "hs_analytics_source", "operator": "EQ", "value": "OTHER_CAMPAIGNS" }
+        {
+          "propertyName": "hs_analytics_source",
+          "operator": "EQ",
+          "value": "OTHER_CAMPAIGNS"
+        }
       ]
     },
     {
@@ -30,15 +46,36 @@
       "label": "Referrals",
       "goalMonthly": null,
       "filters": [
-        { "propertyName": "hs_analytics_source", "operator": "EQ", "value": "REFERRALS" }
+        {
+          "propertyName": "hs_analytics_source",
+          "operator": "EQ",
+          "value": "REFERRALS"
+        }
       ]
     }
   ],
   "dealPipeline": "default",
   "dealStages": [
-    { "label": "1. Qualifying", "stageId": "168528686", "goal": 50 },
-    { "label": "2. Qualified (BANT)", "stageId": "168528687", "goal": 20 },
-    { "label": "3. Proposing & Negotiating", "stageId": "168528688", "goal": 10 },
-    { "label": "4. Closing & Contracting", "stageId": "168528689", "goal": 3 }
-  ]
+    {
+      "label": "1. Qualifying",
+      "stageId": "168528686",
+      "goal": 50
+    },
+    {
+      "label": "2. Qualified (BANT)",
+      "stageId": "168528687",
+      "goal": 20
+    },
+    {
+      "label": "3. Proposing & Negotiating",
+      "stageId": "168528688",
+      "goal": 10
+    },
+    {
+      "label": "4. Closing & Contracting",
+      "stageId": "168528689",
+      "goal": 3
+    }
+  ],
+  "dealOriginSince": "2026-05-01"
 }
