@@ -50,6 +50,9 @@
   <h2>Sales pipeline (Product &amp; Services)</h2>
   <div class="chart-card"><canvas id="funnel" height="110"></canvas></div>
 
+  <h2 id="origin-title">Deal origin</h2>
+  <div class="chart-card"><canvas id="origins" height="90"></canvas></div>
+
   <h2>Website traffic — last 30 days (Leadfeeder)</h2>
   <div class="grid-2">
     <div class="chart-card"><canvas id="visits" height="140"></canvas></div>
@@ -116,6 +119,36 @@ function funnelChart(data) {
   });
 }
 
+function originsChart(data) {
+  const o = data.dealOrigins;
+  if (!o || !o.counts || !o.counts.length) {
+    document.getElementById("origin-title").style.display = "none";
+    document.getElementById("origins").parentElement.style.display = "none";
+    return;
+  }
+  const d = new Date(o.since + "T00:00:00");
+  document.getElementById("origin-title").textContent =
+    `Deal origin \u2014 ${o.totalDeals} deals created since ` +
+    d.toLocaleDateString(undefined, { month: "long", day: "numeric", year: "numeric" });
+  new Chart(document.getElementById("origins"), {
+    type: "bar",
+    data: {
+      labels: o.counts.map(c => c.name),
+      datasets: [{
+        label: "Deals",
+        data: o.counts.map(c => c.count),
+        backgroundColor: ["#4caf7d", "#5b9bd5", "#e8b931", "#e58aa0", "#8e7cc3", "#b6c2cf"],
+        borderRadius: 6
+      }]
+    },
+    options: {
+      indexAxis: "y", responsive: true,
+      plugins: { legend: { display: false } },
+      scales: { x: { beginAtZero: true, grid: { display: false } }, y: { grid: { display: false } } }
+    }
+  });
+}
+
 function trafficChart(data) {
   new Chart(document.getElementById("visits"), {
     type: "line",
@@ -164,7 +197,7 @@ function pagesTable(data) {
   const tbody = document.getElementById("pages");
   data.topPages.forEach(p => {
     const tr = document.createElement("tr");
-    const label = p.title ? `${p.path} — ${p.title}` : p.path;
+    const label = p.title ? `${p.path} \u2014 ${p.title}` : p.path;
     tr.innerHTML = `<td>${label}</td><td class="num">${p.views}</td>`;
     tbody.appendChild(tr);
   });
@@ -183,6 +216,7 @@ async function load(path) {
       "Updated " + new Date(hs.updatedAt).toLocaleString();
     leadCards(hs);
     funnelChart(hs);
+    originsChart(hs);
     trafficChart(lf);
     sourcesChart(lf);
     pagesTable(lf);
