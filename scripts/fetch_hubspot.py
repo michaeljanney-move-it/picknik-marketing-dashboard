@@ -64,7 +64,43 @@ def fetch() -> dict:
         ])
         stages.append({"label": st["label"], "goal": st["goal"], "count": count})
 
-    return {"leadTypes": lead_types, "dealStages": stages}
+    origins = fetch_deal_origins(s)
+
+    return {"leadTypes": lead_types, "dealStages": stages, "dealOrigins": origins}
+
+
+def fetch_deal_origins(s: requests.Session) -> dict:
+    """Count deals created since CONFIG['dealOriginSince'] grouped by origin."""
+    since = CONFIG.get("dealOriginSince", "2026-05-01")
+    since_ms = int(datetime.fromisoformat(since).replace(
+        tzinfo=timezone.utc).timestamp() * 1000)
+    by_origin, after, pages, total = {}, None, 0, 0
+    while pages < 30:
+        payload = {
+            "filterGroups": [{"filters": [
+                {"propertyName": "createdate", "operator": "GTE", "value": str(since_ms)}
+            ]}],
+            "limit": 100,
+            "properties": ["origin"],
+        }
+        if after:
+            payload["after"] = after
+        resp = s.post(API.format(obj="deals"), json=payload, timeout=30)
+        resp.raise_for_status()
+        body = resp.json()
+        for d in body.get("results", []):
+            total += 1
+            name = (d.get("properties") or {}).get("origin") or "(not set)"
+            if name.startswith("Outbound"):
+                name = "Outbound"
+            by_origin[name] = by_origin.get(name, 0) + 1
+        after = (body.get("paging") or {}).get("next", {}).get("after")
+        pages += 1
+        if not after:
+            break
+    counts = sorted(({"name": k, "count": n} for k, n in by_origin.items()),
+                    key=lambda c: c["count"], reverse=True)
+    return {"since": since, "totalDeals": total, "counts": counts}
 
 
 def mock() -> dict:
