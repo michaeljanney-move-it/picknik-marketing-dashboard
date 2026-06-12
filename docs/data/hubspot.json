@@ -48,5 +48,35 @@
     }
   ],
   "updatedAt": "2026-06-11T21:01:39.056306+00:00",
-  "period": "June 2026"
+  "period": "June 2026",
+  "dealOrigins": {
+    "since": "2026-05-01",
+    "totalDeals": 79,
+    "counts": [
+      {
+        "name": "Conferences / Events",
+        "count": 28
+      },
+      {
+        "name": "Website Inbound",
+        "count": 22
+      },
+      {
+        "name": "Upsell",
+        "count": 10
+      },
+      {
+        "name": "Networking / Referral",
+        "count": 5
+      },
+      {
+        "name": "Outbound",
+        "count": 2
+      },
+      {
+        "name": "(not set)",
+        "count": 12
+      }
+    ]
+  }
 }
