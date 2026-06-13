@@ -1,19 +1,19 @@
 {
-  "identifiedCompanies": 932,
+  "identifiedCompanies": 950,
   "topCompanies": [
     {
       "name": "PickNik Robotics",
-      "visits": 119,
+      "visits": 126,
       "industry": null
     },
     {
       "name": "Twitter, Inc.",
-      "visits": 100,
+      "visits": 51,
       "industry": null
     },
     {
       "name": "West Pomeranian University of Technology",
-      "visits": 21,
+      "visits": 22,
       "industry": null
     },
     {
@@ -32,6 +32,11 @@
       "industry": null
     },
     {
+      "name": "Magna International Inc.",
+      "visits": 12,
+      "industry": null
+    },
+    {
       "name": "Lockheed Martin Corporation",
       "visits": 12,
       "industry": null
@@ -47,13 +52,13 @@
       "industry": null
     },
     {
-      "name": "Magna International Inc.",
+      "name": "DRESDNER FORUM F\u00dcR REVISION UND STEUERLEHRE e.V.",
       "visits": 11,
       "industry": null
     },
     {
-      "name": "DRESDNER FORUM F\u00dcR REVISION UND STEUERLEHRE e.V.",
-      "visits": 11,
+      "name": "UNIVERSITY OF WATERLOO",
+      "visits": 10,
       "industry": null
     },
     {
@@ -62,26 +67,17 @@
       "industry": null
     },
     {
-      "name": "University of California, Berkeley",
+      "name": "Cogent Communications Group LLC",
       "visits": 9,
       "industry": null
     },
     {
-      "name": "UNIVERSITY OF WATERLOO",
-      "visits": 9,
-      "industry": null
-    },
-    {
-      "name": "Procter & Gamble",
+      "name": "ADDiTEC",
       "visits": 9,
       "industry": null
     }
   ],
   "dailyVisits": [
-    {
-      "date": "2026-05-13",
-      "visits": 0
-    },
     {
       "date": "2026-05-14",
       "visits": 0
@@ -144,7 +140,7 @@
     },
     {
       "date": "2026-05-29",
-      "visits": 98
+      "visits": 26
     },
     {
       "date": "2026-05-30",
@@ -200,33 +196,37 @@
     },
     {
       "date": "2026-06-12",
-      "visits": 89
+      "visits": 141
+    },
+    {
+      "date": "2026-06-13",
+      "visits": 20
     }
   ],
   "sources": [
     {
       "name": "google / organic",
-      "visits": 964
+      "visits": 935
     },
     {
       "name": "direct",
-      "visits": 733
+      "visits": 753
     },
     {
       "name": "github.com / referral",
-      "visits": 50
+      "visits": 51
+    },
+    {
+      "name": "docs.ros.org / referral",
+      "visits": 28
     },
     {
       "name": "hs email / email",
       "visits": 28
     },
     {
-      "name": "docs.ros.org / referral",
-      "visits": 27
-    },
-    {
       "name": "xvenzjmwk1 / social",
-      "visits": 25
+      "visits": 27
     },
     {
       "name": "bing / organic",
@@ -240,37 +240,37 @@
   "topPages": [
     {
       "path": "/",
-      "views": 961,
-      "title": "MoveIt Motion Planning Framework"
-    },
-    {
-      "path": "/install-moveit2/binary/",
-      "views": 226,
-      "title": "MoveIt 2 Binary Install | MoveIt"
+      "views": 979,
+      "title": "Robotics Solutions Company | Robotics Software | PickNik"
     },
     {
       "path": "/careers/",
-      "views": 221,
+      "views": 234,
       "title": "Careers | PickNik"
     },
     {
+      "path": "/install-moveit2/binary/",
+      "views": 229,
+      "title": "MoveIt 2 Binary Install | MoveIt"
+    },
+    {
       "path": "/pro/",
-      "views": 164,
+      "views": 163,
       "title": "MoveIt Pro Runtime & Developer Robotics Software | PickNik"
     },
     {
       "path": "/hardware-ecosystem/",
-      "views": 153,
+      "views": 160,
       "title": "ROS 2 Compatible Hardware - Comprehensive Database | PickNik"
     },
     {
       "path": "/licensing",
-      "views": 101,
+      "views": 103,
       "title": "MoveIt Pro Plans & Pricing | PickNik"
     },
     {
       "path": "/documentation/concepts/",
-      "views": 76,
+      "views": 77,
       "title": "Concepts | MoveIt"
     },
     {
@@ -280,14 +280,14 @@
     },
     {
       "path": "/install-moveit2/source/",
-      "views": 61,
+      "views": 66,
       "title": "MoveIt 2 Source Build - Linux | MoveIt"
     },
     {
       "path": "/careers/?ashby_jid=8e6d2b6e-bb50-463d-b988-f6042fc75f13",
-      "views": 56,
+      "views": 63,
       "title": "Careers | PickNik"
     }
   ],
-  "updatedAt": "2026-06-12T14:53:50.449851+00:00"
+  "updatedAt": "2026-06-13T13:54:29.332844+00:00"
 }
