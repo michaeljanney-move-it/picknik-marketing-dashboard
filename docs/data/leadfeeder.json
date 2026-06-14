@@ -1,19 +1,19 @@
 {
-  "identifiedCompanies": 950,
+  "identifiedCompanies": 953,
   "topCompanies": [
     {
       "name": "PickNik Robotics",
-      "visits": 126,
+      "visits": 127,
       "industry": null
     },
     {
       "name": "Twitter, Inc.",
-      "visits": 51,
+      "visits": 34,
       "industry": null
     },
     {
       "name": "West Pomeranian University of Technology",
-      "visits": 22,
+      "visits": 24,
       "industry": null
     },
     {
@@ -23,7 +23,7 @@
     },
     {
       "name": "Pontificia Universidad Cat\u00f3lica del Ecuador Sede Santo Domingo",
-      "visits": 17,
+      "visits": 16,
       "industry": null
     },
     {
@@ -57,6 +57,11 @@
       "industry": null
     },
     {
+      "name": "University of California, Berkeley",
+      "visits": 10,
+      "industry": null
+    },
+    {
       "name": "UNIVERSITY OF WATERLOO",
       "visits": 10,
       "industry": null
@@ -67,21 +72,12 @@
       "industry": null
     },
     {
-      "name": "Cogent Communications Group LLC",
-      "visits": 9,
-      "industry": null
-    },
-    {
-      "name": "ADDiTEC",
+      "name": "Carnegie Mellon University",
       "visits": 9,
       "industry": null
     }
   ],
   "dailyVisits": [
-    {
-      "date": "2026-05-14",
-      "visits": 0
-    },
     {
       "date": "2026-05-15",
       "visits": 0
@@ -140,11 +136,11 @@
     },
     {
       "date": "2026-05-29",
-      "visits": 26
+      "visits": 0
     },
     {
       "date": "2026-05-30",
-      "visits": 63
+      "visits": 52
     },
     {
       "date": "2026-05-31",
@@ -200,21 +196,25 @@
     },
     {
       "date": "2026-06-13",
-      "visits": 20
+      "visits": 39
+    },
+    {
+      "date": "2026-06-14",
+      "visits": 18
     }
   ],
   "sources": [
     {
       "name": "google / organic",
-      "visits": 935
+      "visits": 933
     },
     {
       "name": "direct",
-      "visits": 753
+      "visits": 759
     },
     {
       "name": "github.com / referral",
-      "visits": 51
+      "visits": 50
     },
     {
       "name": "docs.ros.org / referral",
@@ -226,7 +226,7 @@
     },
     {
       "name": "xvenzjmwk1 / social",
-      "visits": 27
+      "visits": 26
     },
     {
       "name": "bing / organic",
@@ -240,32 +240,32 @@
   "topPages": [
     {
       "path": "/",
-      "views": 979,
-      "title": "Robotics Solutions Company | Robotics Software | PickNik"
-    },
-    {
-      "path": "/careers/",
-      "views": 234,
-      "title": "Careers | PickNik"
+      "views": 990,
+      "title": "MoveIt Motion Planning Framework"
     },
     {
       "path": "/install-moveit2/binary/",
-      "views": 229,
+      "views": 234,
       "title": "MoveIt 2 Binary Install | MoveIt"
     },
     {
+      "path": "/careers/",
+      "views": 230,
+      "title": "Careers | PickNik"
+    },
+    {
       "path": "/pro/",
-      "views": 163,
+      "views": 170,
       "title": "MoveIt Pro Runtime & Developer Robotics Software | PickNik"
     },
     {
       "path": "/hardware-ecosystem/",
-      "views": 160,
+      "views": 158,
       "title": "ROS 2 Compatible Hardware - Comprehensive Database | PickNik"
     },
     {
       "path": "/licensing",
-      "views": 103,
+      "views": 105,
       "title": "MoveIt Pro Plans & Pricing | PickNik"
     },
     {
@@ -280,14 +280,14 @@
     },
     {
       "path": "/install-moveit2/source/",
-      "views": 66,
+      "views": 67,
       "title": "MoveIt 2 Source Build - Linux | MoveIt"
     },
     {
       "path": "/careers/?ashby_jid=8e6d2b6e-bb50-463d-b988-f6042fc75f13",
-      "views": 63,
+      "views": 64,
       "title": "Careers | PickNik"
     }
   ],
-  "updatedAt": "2026-06-13T13:54:29.332844+00:00"
+  "updatedAt": "2026-06-14T13:57:14.309232+00:00"
 }
