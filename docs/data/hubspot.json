@@ -4,42 +4,42 @@
       "key": "mql",
       "label": "MQL",
       "goal": 10,
-      "count": 7
+      "count": 0
     },
     {
       "key": "obql",
       "label": "ObQL",
       "goal": 10,
-      "count": 4
+      "count": 0
     },
     {
       "key": "event_leads",
       "label": "Event Leads",
       "goal": null,
-      "count": 12
+      "count": 0
     },
     {
       "key": "referrals",
       "label": "Referrals",
       "goal": null,
-      "count": 3
+      "count": 0
     }
   ],
   "dealStages": [
     {
       "label": "1. Qualifying",
       "goal": 50,
-      "count": 38
+      "count": 71
     },
     {
       "label": "2. Qualified (BANT)",
       "goal": 20,
-      "count": 14
+      "count": 17
     },
     {
       "label": "3. Proposing & Negotiating",
       "goal": 10,
-      "count": 6
+      "count": 5
     },
     {
       "label": "4. Closing & Contracting",
@@ -47,11 +47,9 @@
       "count": 2
     }
   ],
-  "updatedAt": "2026-06-11T21:01:39.056306+00:00",
-  "period": "June 2026",
   "dealOrigins": {
     "since": "2026-05-01",
-    "totalDeals": 79,
+    "totalDeals": 80,
     "counts": [
       {
         "name": "Conferences / Events",
@@ -60,6 +58,10 @@
       {
         "name": "Website Inbound",
         "count": 22
+      },
+      {
+        "name": "(not set)",
+        "count": 13
       },
       {
         "name": "Upsell",
@@ -72,11 +74,9 @@
       {
         "name": "Outbound",
         "count": 2
-      },
-      {
-        "name": "(not set)",
-        "count": 12
       }
     ]
-  }
+  },
+  "updatedAt": "2026-06-15T22:38:24.825305+00:00",
+  "period": "June 2026"
 }
