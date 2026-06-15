@@ -4,6 +4,12 @@
 Writes docs/data/leadfeeder.json: daily visit counts for the last 30 days
 plus the top identified companies by visits.
 
+The "Top companies" list is restricted to the "Commercial companies
+(no education/research)" custom feed (see COMMERCIAL_FEED_ID): we fetch the
+set of companies belonging to that feed for the window and keep only those
+when ranking by visits. Daily visits, sources, and top pages remain based on
+all identified traffic.
+
 Env vars:
   LEADFEEDER_TOKEN  API key from Leadfeeder Settings -> Personal -> API Keys
   MOCK_DATA=1       Write realistic sample data instead of calling the API
@@ -21,6 +27,41 @@ OUT = ROOT / "docs" / "data" / "leadfeeder.json"
 BASE = "https://api.leadfeeder.com/v1"
 DAYS = 30
 MAX_PAGES = 20  # x100 = up to 2000 visits per refresh
+
+# "Commercial companies (no education/research)" custom feed.
+# Top companies are filtered to the companies belonging to this feed.
+COMMERCIAL_FEED_ID = "efc1def2-68df-11f1-8e64-1d0d56f435f9"
+
+
+def feed_company_ids(s: requests.Session, account_id: str, start, end) -> set:
+    """Return the set of company IDs belonging to the commercial custom feed
+    within the date window."""
+    ids, page = set(), 1
+    while page <= MAX_PAGES:
+        r = s.get(
+            f"{BASE}/web-visits/companies",
+            params={
+                "account_id": account_id,
+                "custom_feed_id": COMMERCIAL_FEED_ID,
+                "start_date": start.isoformat(),
+                "end_date": end.isoformat(),
+                "page[num]": page,
+                "page[size]": 100,
+            },
+            timeout=30,
+        )
+        r.raise_for_status()
+        body = r.json()
+        for item in body.get("data", []):
+            rel = (item.get("relationships") or {}).get("company") or {}
+            cid = rel.get("id")
+            if cid:
+                ids.add(str(cid))
+        pagination = body.get("meta", {}).get("pagination", {})
+        if page >= pagination.get("page_count", page):
+            break
+        page += 1
+    return ids
 
 
 def fetch() -> dict:
@@ -89,16 +130,23 @@ def fetch() -> dict:
                 entry["views"] += 1
         rel = (v.get("relationships") or {}).get("company")
         if rel and rel.get("id"):
-            cid = rel["id"]
+            cid = str(rel["id"])
             name = company_name(rel) or f"Company {cid}"
             entry = by_company.setdefault(cid, {"name": name, "visits": 0, "industry": None})
             entry["visits"] += 1
             if name and entry["name"].startswith("Company "):
                 entry["name"] = name
 
+    # Restrict the top-companies ranking to the commercial custom feed.
+    feed_ids = feed_company_ids(s, account_id, start, end)
+    commercial = [v for cid, v in by_company.items() if cid in feed_ids]
+
     days = [(start + timedelta(days=i)).isoformat() for i in range(DAYS + 1)]
     daily = [{"date": d, "visits": by_day.get(d, 0)} for d in days]
-    companies = sorted(by_company.values(), key=lambda c: c["visits"], reverse=True)[:15]
+    # Fall back to all identified companies only if the feed returned nothing,
+    # so the table is never unexpectedly empty.
+    ranked = commercial if commercial else list(by_company.values())
+    companies = sorted(ranked, key=lambda c: c["visits"], reverse=True)[:15]
     sources = sorted(({"name": k, "visits": n} for k, n in by_source.items()),
                      key=lambda s: s["visits"], reverse=True)[:8]
     pages = sorted(by_page.values(), key=lambda p: p["views"], reverse=True)[:10]
