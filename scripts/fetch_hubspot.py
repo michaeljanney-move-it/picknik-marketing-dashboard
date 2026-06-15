@@ -11,6 +11,7 @@ Env vars:
 import json
 import os
 import sys
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -21,6 +22,30 @@ CONFIG = json.loads((ROOT / "config" / "goals.json").read_text())
 OUT = ROOT / "docs" / "data" / "hubspot.json"
 API = "https://api.hubapi.com/crm/v3/objects/{obj}/search"
 
+MAX_RETRIES = 6  # ~1+2+4+8+16+32s of backoff in the worst case
+
+
+def post_json(session: requests.Session, url: str, payload: dict) -> dict:
+    """POST returning parsed JSON, retrying on 429 (rate limit) and transient
+    5xx errors with exponential backoff. HubSpot's search API has a tight
+    per-second limit, so back-to-back searches can briefly get throttled."""
+    for attempt in range(MAX_RETRIES):
+        resp = session.post(url, json=payload, timeout=30)
+        if resp.status_code == 429 or 500 <= resp.status_code < 600:
+            if attempt == MAX_RETRIES - 1:
+                resp.raise_for_status()
+            # Honour Retry-After when present, otherwise exponential backoff.
+            try:
+                retry_after = float(resp.headers.get("Retry-After", ""))
+            except ValueError:
+                retry_after = 0.0
+            time.sleep(max(retry_after, 2 ** attempt))
+            continue
+        resp.raise_for_status()
+        return resp.json()
+    resp.raise_for_status()
+    return resp.json()
+
 
 def month_start_ms() -> int:
     now = datetime.now(timezone.utc)
@@ -29,13 +54,12 @@ def month_start_ms() -> int:
 
 def search_total(session: requests.Session, obj: str, filters: list) -> int:
     """Return total record count for a filter set (we only need `total`)."""
-    resp = session.post(API.format(obj=obj), json={
+    body = post_json(session, API.format(obj=obj), {
         "filterGroups": [{"filters": filters}],
         "limit": 1,
         "properties": ["hs_object_id"],
-    }, timeout=30)
-    resp.raise_for_status()
-    return resp.json()["total"]
+    })
+    return body["total"]
 
 
 def fetch() -> dict:
@@ -85,9 +109,7 @@ def fetch_deal_origins(s: requests.Session) -> dict:
         }
         if after:
             payload["after"] = after
-        resp = s.post(API.format(obj="deals"), json=payload, timeout=30)
-        resp.raise_for_status()
-        body = resp.json()
+        body = post_json(s, API.format(obj="deals"), payload)
         for d in body.get("results", []):
             total += 1
             name = (d.get("properties") or {}).get("origin") or "(not set)"
