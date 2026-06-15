@@ -31,6 +31,13 @@
   @keyframes spin { to { transform: rotate(360deg); } }
   main { padding: 16px 32px 48px; max-width: 1200px; margin: 0 auto; }
   h2 { font-size: 15px; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; margin: 28px 0 12px; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; }
+  .card .label { font-size: 14px; color: var(--muted); }
+  .card .value { font-size: 34px; font-weight: 700; margin: 4px 0; }
+  .card .goal { font-size: 13px; color: var(--muted); }
+  .bar { height: 8px; background: #edf0f3; border-radius: 4px; margin-top: 10px; overflow: hidden; }
+  .bar > div { height: 100%; border-radius: 4px; }
   .chart-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 20px; }
   .grid-2 { display: grid; grid-template-columns: 2fr 1fr; gap: 16px; }
   .grid-2.rev { grid-template-columns: 1fr 2fr; }
@@ -54,6 +61,15 @@
 </header>
 <main>
   <div id="error"></div>
+
+  <h2>Leads this month <span id="period"></span></h2>
+  <div class="cards" id="lead-cards"></div>
+
+  <h2>Sales pipeline (Product &amp; Services)</h2>
+  <div class="chart-card"><canvas id="funnel" height="110"></canvas></div>
+
+  <h2 id="origin-title">Deal origin</h2>
+  <div class="chart-card"><canvas id="origins" height="90"></canvas></div>
 
   <h2>Website traffic — last 30 days (Leadfeeder)</h2>
   <div class="grid-2">
@@ -82,6 +98,8 @@
 const COLORS = ["#4caf7d", "#e8b931", "#5b9bd5", "#e58aa0"];
 
 // Chart instances are kept so they can be destroyed and rebuilt on refresh.
+let funnelChartInst = null;
+let originsChartInst = null;
 let visitsChart = null;
 let sourcesChartInst = null;
 
@@ -95,6 +113,77 @@ function clearError() {
   const el = document.getElementById("error");
   el.style.display = "none";
   el.textContent = "";
+}
+
+function leadCards(data) {
+  document.getElementById("period").textContent = data.period ? "— " + data.period : "";
+  const wrap = document.getElementById("lead-cards");
+  wrap.innerHTML = "";
+  data.leadTypes.forEach((lt, i) => {
+    const pct = lt.goal ? Math.min(100, Math.round(100 * lt.count / lt.goal)) : null;
+    const card = document.createElement("div");
+    card.className = "card";
+    card.innerHTML = `
+      <div class="label">${lt.label}</div>
+      <div class="value">${lt.count}</div>
+      <div class="goal">${lt.goal ? `Goal: ${lt.goal}/mo · ${pct}%` : "Goal: TBD"}</div>
+      ${lt.goal ? `<div class="bar"><div style="width:${pct}%;background:${COLORS[i % COLORS.length]}"></div></div>` : ""}`;
+    wrap.appendChild(card);
+  });
+}
+
+function funnelChart(data) {
+  if (funnelChartInst) funnelChartInst.destroy();
+  funnelChartInst = new Chart(document.getElementById("funnel"), {
+    type: "bar",
+    data: {
+      labels: data.dealStages.map(s => s.label),
+      datasets: [
+        { label: "Open deals", data: data.dealStages.map(s => s.count), backgroundColor: "#5b9bd5", borderRadius: 6 },
+        { label: "Goal", data: data.dealStages.map(s => s.goal), backgroundColor: "#dfe5ec", borderRadius: 6 }
+      ]
+    },
+    options: {
+      indexAxis: "y", responsive: true,
+      plugins: { legend: { position: "bottom" } },
+      scales: { x: { beginAtZero: true, grid: { display: false } }, y: { grid: { display: false } } }
+    }
+  });
+}
+
+function originsChart(data) {
+  const o = data.dealOrigins;
+  const title = document.getElementById("origin-title");
+  const card = document.getElementById("origins").parentElement;
+  if (!o || !o.counts || !o.counts.length) {
+    title.style.display = "none";
+    card.style.display = "none";
+    return;
+  }
+  title.style.display = "";
+  card.style.display = "";
+  const d = new Date(o.since + "T00:00:00");
+  title.textContent =
+    `Deal origin — ${o.totalDeals} deals created since ` +
+    d.toLocaleDateString(undefined, { month: "long", day: "numeric", year: "numeric" });
+  if (originsChartInst) originsChartInst.destroy();
+  originsChartInst = new Chart(document.getElementById("origins"), {
+    type: "bar",
+    data: {
+      labels: o.counts.map(c => c.name),
+      datasets: [{
+        label: "Deals",
+        data: o.counts.map(c => c.count),
+        backgroundColor: ["#4caf7d", "#5b9bd5", "#e8b931", "#e58aa0", "#8e7cc3", "#b6c2cf"],
+        borderRadius: 6
+      }]
+    },
+    options: {
+      indexAxis: "y", responsive: true,
+      plugins: { legend: { display: false } },
+      scales: { x: { beginAtZero: true, grid: { display: false } }, y: { grid: { display: false } } }
+    }
+  });
 }
 
 function trafficChart(data) {
@@ -162,9 +251,12 @@ async function load(path) {
 }
 
 async function render() {
-  const lf = await load("data/leadfeeder.json");
+  const [hs, lf] = await Promise.all([load("data/hubspot.json"), load("data/leadfeeder.json")]);
   document.getElementById("updated").textContent =
-    "Updated " + new Date(lf.updatedAt).toLocaleString();
+    "Updated " + new Date(hs.updatedAt).toLocaleString();
+  leadCards(hs);
+  funnelChart(hs);
+  originsChart(hs);
   trafficChart(lf);
   sourcesChart(lf);
   pagesTable(lf);
