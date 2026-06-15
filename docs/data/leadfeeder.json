@@ -17,13 +17,13 @@
       "industry": null
     },
     {
-      "name": "Magna International Inc.",
+      "name": "Lockheed Martin Corporation",
       "visits": 14,
       "industry": null
     },
     {
-      "name": "Lockheed Martin Corporation",
-      "visits": 13,
+      "name": "Magna International Inc.",
+      "visits": 14,
       "industry": null
     },
     {
@@ -67,12 +67,12 @@
       "industry": null
     },
     {
-      "name": "Brainloop AG",
+      "name": "AdZurro GmbH",
       "visits": 8,
       "industry": null
     },
     {
-      "name": "AdZurro GmbH",
+      "name": "M-TEC",
       "visits": 8,
       "industry": null
     }
@@ -144,7 +144,7 @@
     },
     {
       "date": "2026-06-01",
-      "visits": 108
+      "visits": 107
     },
     {
       "date": "2026-06-02",
@@ -200,7 +200,7 @@
     },
     {
       "date": "2026-06-15",
-      "visits": 184
+      "visits": 185
     }
   ],
   "sources": [
@@ -240,7 +240,7 @@
   "topPages": [
     {
       "path": "/",
-      "views": 1039,
+      "views": 1038,
       "title": "Robotics Solutions Company | Robotics Software | PickNik"
     },
     {
@@ -255,7 +255,7 @@
     },
     {
       "path": "/pro/",
-      "views": 167,
+      "views": 168,
       "title": "MoveIt Pro Runtime & Developer Robotics Software | PickNik"
     },
     {
@@ -289,5 +289,5 @@
       "title": "MoveIt 2 Source Build - Linux | MoveIt"
     }
   ],
-  "updatedAt": "2026-06-15T22:19:34.778001+00:00"
+  "updatedAt": "2026-06-15T22:35:02.300749+00:00"
 }
