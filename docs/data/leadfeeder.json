@@ -1,19 +1,24 @@
 {
-  "identifiedCompanies": 970,
+  "identifiedCompanies": 973,
   "topCompanies": [
     {
       "name": "PickNik Robotics",
-      "visits": 131,
+      "visits": 133,
       "industry": null
     },
     {
       "name": "Pontificia Universidad Cat\u00f3lica del Ecuador Sede Santo Domingo",
-      "visits": 18,
+      "visits": 19,
+      "industry": null
+    },
+    {
+      "name": "Cogent Communications Group LLC",
+      "visits": 16,
       "industry": null
     },
     {
       "name": "Magna International Inc.",
-      "visits": 13,
+      "visits": 14,
       "industry": null
     },
     {
@@ -33,16 +38,11 @@
     },
     {
       "name": "NASA - National Aeronautics and Space Administration",
-      "visits": 10,
+      "visits": 11,
       "industry": null
     },
     {
       "name": "polash nagor dot net",
-      "visits": 10,
-      "industry": null
-    },
-    {
-      "name": "Cogent Communications Group LLC",
       "visits": 10,
       "industry": null
     },
@@ -144,7 +144,7 @@
     },
     {
       "date": "2026-06-01",
-      "visits": 138
+      "visits": 108
     },
     {
       "date": "2026-06-02",
@@ -200,29 +200,29 @@
     },
     {
       "date": "2026-06-15",
-      "visits": 154
+      "visits": 184
     }
   ],
   "sources": [
     {
       "name": "google / organic",
-      "visits": 916
+      "visits": 909
     },
     {
       "name": "direct",
-      "visits": 763
+      "visits": 769
     },
     {
       "name": "github.com / referral",
       "visits": 52
     },
     {
-      "name": "hs email / email",
-      "visits": 29
+      "name": "bing / organic",
+      "visits": 30
     },
     {
-      "name": "bing / organic",
-      "visits": 28
+      "name": "hs email / email",
+      "visits": 29
     },
     {
       "name": "docs.ros.org / referral",
@@ -240,27 +240,27 @@
   "topPages": [
     {
       "path": "/",
-      "views": 1028,
+      "views": 1039,
       "title": "Robotics Solutions Company | Robotics Software | PickNik"
     },
     {
       "path": "/careers/",
-      "views": 234,
+      "views": 238,
       "title": "Careers | PickNik"
     },
     {
       "path": "/install-moveit2/binary/",
-      "views": 223,
+      "views": 210,
       "title": "MoveIt 2 Binary Install | MoveIt"
     },
     {
       "path": "/pro/",
-      "views": 168,
+      "views": 167,
       "title": "MoveIt Pro Runtime & Developer Robotics Software | PickNik"
     },
     {
       "path": "/hardware-ecosystem/",
-      "views": 158,
+      "views": 156,
       "title": "ROS 2 Compatible Hardware - Comprehensive Database | PickNik"
     },
     {
@@ -270,7 +270,7 @@
     },
     {
       "path": "/documentation/concepts/",
-      "views": 76,
+      "views": 78,
       "title": "Concepts | MoveIt"
     },
     {
@@ -285,9 +285,9 @@
     },
     {
       "path": "/install-moveit2/source/",
-      "views": 65,
+      "views": 64,
       "title": "MoveIt 2 Source Build - Linux | MoveIt"
     }
   ],
-  "updatedAt": "2026-06-15T17:42:35.202905+00:00"
+  "updatedAt": "2026-06-15T22:12:23.547241+00:00"
 }
