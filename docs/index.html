@@ -13,18 +13,24 @@
   }
   * { box-sizing: border-box; }
   body { margin: 0; font-family: -apple-system, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text); }
-  header { padding: 24px 32px 8px; display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; }
+  header { padding: 24px 32px 8px; display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
   h1 { font-size: 22px; margin: 0; }
+  .header-right { display: flex; align-items: center; gap: 14px; }
   #updated { color: var(--muted); font-size: 13px; }
+  #refresh {
+    display: inline-flex; align-items: center; gap: 6px;
+    font: inherit; font-size: 13px; font-weight: 600;
+    color: var(--text); background: var(--card);
+    border: 1px solid var(--border); border-radius: 8px;
+    padding: 7px 14px; cursor: pointer;
+  }
+  #refresh:hover:not(:disabled) { border-color: var(--green); color: var(--green); }
+  #refresh:disabled { opacity: .6; cursor: default; }
+  #refresh .icon { display: inline-block; }
+  #refresh.loading .icon { animation: spin .8s linear infinite; }
+  @keyframes spin { to { transform: rotate(360deg); } }
   main { padding: 16px 32px 48px; max-width: 1200px; margin: 0 auto; }
   h2 { font-size: 15px; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; margin: 28px 0 12px; }
-  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
-  .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; }
-  .card .label { font-size: 14px; color: var(--muted); }
-  .card .value { font-size: 34px; font-weight: 700; margin: 4px 0; }
-  .card .goal { font-size: 13px; color: var(--muted); }
-  .bar { height: 8px; background: #edf0f3; border-radius: 4px; margin-top: 10px; overflow: hidden; }
-  .bar > div { height: 100%; border-radius: 4px; }
   .chart-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 20px; }
   .grid-2 { display: grid; grid-template-columns: 2fr 1fr; gap: 16px; }
   .grid-2.rev { grid-template-columns: 1fr 2fr; }
@@ -39,19 +45,15 @@
 <body>
 <header>
   <h1>PickNik Marketing Dashboard</h1>
-  <span id="updated"></span>
+  <div class="header-right">
+    <span id="updated"></span>
+    <button id="refresh" type="button" title="Re-fetch the latest data">
+      <span class="icon">&#x21bb;</span><span>Refresh</span>
+    </button>
+  </div>
 </header>
 <main>
   <div id="error"></div>
-
-  <h2>Leads this month <span id="period"></span></h2>
-  <div class="cards" id="lead-cards"></div>
-
-  <h2>Sales pipeline (Product &amp; Services)</h2>
-  <div class="chart-card"><canvas id="funnel" height="110"></canvas></div>
-
-  <h2 id="origin-title">Deal origin</h2>
-  <div class="chart-card"><canvas id="origins" height="90"></canvas></div>
 
   <h2>Website traffic — last 30 days (Leadfeeder)</h2>
   <div class="grid-2">
@@ -79,78 +81,25 @@
 <script>
 const COLORS = ["#4caf7d", "#e8b931", "#5b9bd5", "#e58aa0"];
 
+// Chart instances are kept so they can be destroyed and rebuilt on refresh.
+let visitsChart = null;
+let sourcesChartInst = null;
+
 function showError(msg) {
   const el = document.getElementById("error");
   el.style.display = "block";
   el.textContent = msg;
 }
 
-function leadCards(data) {
-  document.getElementById("period").textContent = data.period ? "— " + data.period : "";
-  const wrap = document.getElementById("lead-cards");
-  data.leadTypes.forEach((lt, i) => {
-    const pct = lt.goal ? Math.min(100, Math.round(100 * lt.count / lt.goal)) : null;
-    const card = document.createElement("div");
-    card.className = "card";
-    card.innerHTML = `
-      <div class="label">${lt.label}</div>
-      <div class="value">${lt.count}</div>
-      <div class="goal">${lt.goal ? `Goal: ${lt.goal}/mo · ${pct}%` : "Goal: TBD"}</div>
-      ${lt.goal ? `<div class="bar"><div style="width:${pct}%;background:${COLORS[i % COLORS.length]}"></div></div>` : ""}`;
-    wrap.appendChild(card);
-  });
-}
-
-function funnelChart(data) {
-  new Chart(document.getElementById("funnel"), {
-    type: "bar",
-    data: {
-      labels: data.dealStages.map(s => s.label),
-      datasets: [
-        { label: "Open deals", data: data.dealStages.map(s => s.count), backgroundColor: "#5b9bd5", borderRadius: 6 },
-        { label: "Goal", data: data.dealStages.map(s => s.goal), backgroundColor: "#dfe5ec", borderRadius: 6 }
-      ]
-    },
-    options: {
-      indexAxis: "y", responsive: true,
-      plugins: { legend: { position: "bottom" } },
-      scales: { x: { beginAtZero: true, grid: { display: false } }, y: { grid: { display: false } } }
-    }
-  });
-}
-
-function originsChart(data) {
-  const o = data.dealOrigins;
-  if (!o || !o.counts || !o.counts.length) {
-    document.getElementById("origin-title").style.display = "none";
-    document.getElementById("origins").parentElement.style.display = "none";
-    return;
-  }
-  const d = new Date(o.since + "T00:00:00");
-  document.getElementById("origin-title").textContent =
-    `Deal origin \u2014 ${o.totalDeals} deals created since ` +
-    d.toLocaleDateString(undefined, { month: "long", day: "numeric", year: "numeric" });
-  new Chart(document.getElementById("origins"), {
-    type: "bar",
-    data: {
-      labels: o.counts.map(c => c.name),
-      datasets: [{
-        label: "Deals",
-        data: o.counts.map(c => c.count),
-        backgroundColor: ["#4caf7d", "#5b9bd5", "#e8b931", "#e58aa0", "#8e7cc3", "#b6c2cf"],
-        borderRadius: 6
-      }]
-    },
-    options: {
-      indexAxis: "y", responsive: true,
-      plugins: { legend: { display: false } },
-      scales: { x: { beginAtZero: true, grid: { display: false } }, y: { grid: { display: false } } }
-    }
-  });
+function clearError() {
+  const el = document.getElementById("error");
+  el.style.display = "none";
+  el.textContent = "";
 }
 
 function trafficChart(data) {
-  new Chart(document.getElementById("visits"), {
+  if (visitsChart) visitsChart.destroy();
+  visitsChart = new Chart(document.getElementById("visits"), {
     type: "line",
     data: {
       labels: data.dailyVisits.map(d => d.date.slice(5)),
@@ -168,6 +117,7 @@ function trafficChart(data) {
     }
   });
   const tbody = document.getElementById("companies");
+  tbody.innerHTML = "";
   data.topCompanies.forEach(c => {
     const tr = document.createElement("tr");
     tr.innerHTML = `<td>${c.name}</td><td class="num">${c.visits}</td>`;
@@ -177,7 +127,8 @@ function trafficChart(data) {
 
 function sourcesChart(data) {
   if (!data.sources || !data.sources.length) return;
-  new Chart(document.getElementById("sources"), {
+  if (sourcesChartInst) sourcesChartInst.destroy();
+  sourcesChartInst = new Chart(document.getElementById("sources"), {
     type: "doughnut",
     data: {
       labels: data.sources.map(s => s.name),
@@ -195,9 +146,10 @@ function sourcesChart(data) {
 function pagesTable(data) {
   if (!data.topPages) return;
   const tbody = document.getElementById("pages");
+  tbody.innerHTML = "";
   data.topPages.forEach(p => {
     const tr = document.createElement("tr");
-    const label = p.title ? `${p.path} \u2014 ${p.title}` : p.path;
+    const label = p.title ? `${p.path} — ${p.title}` : p.path;
     tr.innerHTML = `<td>${label}</td><td class="num">${p.views}</td>`;
     tbody.appendChild(tr);
   });
@@ -209,22 +161,34 @@ async function load(path) {
   return r.json();
 }
 
-(async () => {
+async function render() {
+  const lf = await load("data/leadfeeder.json");
+  document.getElementById("updated").textContent =
+    "Updated " + new Date(lf.updatedAt).toLocaleString();
+  trafficChart(lf);
+  sourcesChart(lf);
+  pagesTable(lf);
+}
+
+const refreshBtn = document.getElementById("refresh");
+
+async function refresh() {
+  refreshBtn.disabled = true;
+  refreshBtn.classList.add("loading");
+  clearError();
   try {
-    const [hs, lf] = await Promise.all([load("data/hubspot.json"), load("data/leadfeeder.json")]);
-    document.getElementById("updated").textContent =
-      "Updated " + new Date(hs.updatedAt).toLocaleString();
-    leadCards(hs);
-    funnelChart(hs);
-    originsChart(hs);
-    trafficChart(lf);
-    sourcesChart(lf);
-    pagesTable(lf);
+    await render();
   } catch (e) {
     showError("Could not load dashboard data: " + e.message +
-      ". Run the 'Refresh dashboard data' workflow from the Actions tab to generate it.");
+      ". Run the 'Refresh dashboard data' workflow from the Actions tab to regenerate it.");
+  } finally {
+    refreshBtn.disabled = false;
+    refreshBtn.classList.remove("loading");
   }
-})();
+}
+
+refreshBtn.addEventListener("click", refresh);
+refresh();
 </script>
 </body>
 </html>
