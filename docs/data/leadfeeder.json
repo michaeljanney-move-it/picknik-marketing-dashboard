@@ -1,5 +1,5 @@
 {
-  "identifiedCompanies": 969,
+  "identifiedCompanies": 970,
   "topCompanies": [
     {
       "name": "PickNik Robotics",
@@ -7,23 +7,8 @@
       "industry": null
     },
     {
-      "name": "West Pomeranian University of Technology",
-      "visits": 26,
-      "industry": null
-    },
-    {
       "name": "Pontificia Universidad Cat\u00f3lica del Ecuador Sede Santo Domingo",
       "visits": 18,
-      "industry": null
-    },
-    {
-      "name": "Fraunhofer-Institut f\u00fcr Siliziumtechnologie (ISIT)",
-      "visits": 14,
-      "industry": null
-    },
-    {
-      "name": "Kyungpook National University",
-      "visits": 14,
       "industry": null
     },
     {
@@ -42,11 +27,6 @@
       "industry": null
     },
     {
-      "name": "Chair of Manufacturing Systems (University of Twente)",
-      "visits": 12,
-      "industry": null
-    },
-    {
       "name": "Airbus",
       "visits": 12,
       "industry": null
@@ -62,18 +42,38 @@
       "industry": null
     },
     {
-      "name": "DRESDNER FORUM F\u00dcR REVISION UND STEUERLEHRE e.V.",
-      "visits": 10,
-      "industry": null
-    },
-    {
       "name": "Cogent Communications Group LLC",
       "visits": 10,
       "industry": null
     },
     {
-      "name": "University of California, Berkeley",
-      "visits": 10,
+      "name": "Carnegie Mellon University",
+      "visits": 9,
+      "industry": null
+    },
+    {
+      "name": "ADDiTEC",
+      "visits": 9,
+      "industry": null
+    },
+    {
+      "name": "Zone 404 Mars",
+      "visits": 8,
+      "industry": null
+    },
+    {
+      "name": "Brookhaven National Laboratory",
+      "visits": 8,
+      "industry": null
+    },
+    {
+      "name": "Brainloop AG",
+      "visits": 8,
+      "industry": null
+    },
+    {
+      "name": "AdZurro GmbH",
+      "visits": 8,
       "industry": null
     }
   ],
@@ -144,7 +144,7 @@
     },
     {
       "date": "2026-06-01",
-      "visits": 141
+      "visits": 138
     },
     {
       "date": "2026-06-02",
@@ -200,17 +200,17 @@
     },
     {
       "date": "2026-06-15",
-      "visits": 151
+      "visits": 154
     }
   ],
   "sources": [
     {
       "name": "google / organic",
-      "visits": 914
+      "visits": 916
     },
     {
       "name": "direct",
-      "visits": 765
+      "visits": 763
     },
     {
       "name": "github.com / referral",
@@ -240,17 +240,17 @@
   "topPages": [
     {
       "path": "/",
-      "views": 1029,
+      "views": 1028,
       "title": "Robotics Solutions Company | Robotics Software | PickNik"
     },
     {
       "path": "/careers/",
-      "views": 231,
+      "views": 234,
       "title": "Careers | PickNik"
     },
     {
       "path": "/install-moveit2/binary/",
-      "views": 222,
+      "views": 223,
       "title": "MoveIt 2 Binary Install | MoveIt"
     },
     {
@@ -289,5 +289,5 @@
       "title": "MoveIt 2 Source Build - Linux | MoveIt"
     }
   ],
-  "updatedAt": "2026-06-15T17:12:49.766309+00:00"
+  "updatedAt": "2026-06-15T17:42:35.202905+00:00"
 }
