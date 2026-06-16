@@ -84,33 +84,32 @@ def fetch() -> dict:
 
 
 def fetch_lead_sources(s: requests.Session, since_ms: int) -> list:
-    """Break down contacts created this month by their lead source property
-    (PickNik tracks how leads found them in a custom dropdown, default
-    `discovery_source`). Returns the top-N sources by volume as cards.
-    Contacts with no source set are ignored."""
-    prop = CONFIG.get("leadSourceProperty", "discovery_source")
+    """Cards: deals CREATED this calendar month, grouped by deal origin
+    (top N by volume). Same dimension as the deal-origin chart, but scoped
+    to the current month."""
     top_n = CONFIG.get("leadSourceTopN", 6)
-    by_source, after, pages = {}, None, 0
+    by_origin, after, pages = {}, None, 0
     while pages < 30:
         payload = {
             "filterGroups": [{"filters": [
                 {"propertyName": "createdate", "operator": "GTE", "value": str(since_ms)}
             ]}],
             "limit": 100,
-            "properties": [prop],
+            "properties": ["origin"],
         }
         if after:
             payload["after"] = after
-        body = post_json(s, API.format(obj="contacts"), payload)
-        for c in body.get("results", []):
-            value = (c.get("properties") or {}).get(prop)
-            if value:
-                by_source[value] = by_source.get(value, 0) + 1
+        body = post_json(s, API.format(obj="deals"), payload)
+        for d in body.get("results", []):
+            name = (d.get("properties") or {}).get("origin") or "(not set)"
+            if name.startswith("Outbound"):
+                name = "Outbound"
+            by_origin[name] = by_origin.get(name, 0) + 1
         after = (body.get("paging") or {}).get("next", {}).get("after")
         pages += 1
         if not after:
             break
-    ranked = sorted(by_source.items(), key=lambda kv: kv[1], reverse=True)[:top_n]
+    ranked = sorted(by_origin.items(), key=lambda kv: kv[1], reverse=True)[:top_n]
     return [{"key": name, "label": name, "goal": None, "count": count}
             for name, count in ranked]
 
