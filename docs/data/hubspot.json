@@ -7,6 +7,12 @@
       "count": 5
     },
     {
+      "key": "Website Inbound",
+      "label": "Website Inbound",
+      "goal": null,
+      "count": 5
+    },
+    {
       "key": "Conferences / Events",
       "label": "Conferences / Events",
       "goal": null,
@@ -15,12 +21,6 @@
     {
       "key": "Networking / Referral",
       "label": "Networking / Referral",
-      "goal": null,
-      "count": 4
-    },
-    {
-      "key": "Website Inbound",
-      "label": "Website Inbound",
       "goal": null,
       "count": 4
     }
@@ -49,7 +49,7 @@
   ],
   "dealOrigins": {
     "since": "2026-05-01",
-    "totalDeals": 80,
+    "totalDeals": 81,
     "counts": [
       {
         "name": "Conferences / Events",
@@ -57,7 +57,7 @@
       },
       {
         "name": "Website Inbound",
-        "count": 22
+        "count": 23
       },
       {
         "name": "(not set)",
@@ -77,6 +77,6 @@
       }
     ]
   },
-  "updatedAt": "2026-06-16T00:56:56.486805+00:00",
+  "updatedAt": "2026-06-16T16:45:31.056431+00:00",
   "period": "June 2026"
 }
