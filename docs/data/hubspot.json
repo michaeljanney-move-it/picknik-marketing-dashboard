@@ -1,34 +1,28 @@
 {
   "leadTypes": [
     {
-      "key": "Other",
-      "label": "Other",
+      "key": "(not set)",
+      "label": "(not set)",
       "goal": null,
-      "count": 2
+      "count": 5
     },
     {
-      "key": "Tradeshow",
-      "label": "Tradeshow",
+      "key": "Conferences / Events",
+      "label": "Conferences / Events",
       "goal": null,
-      "count": 1
+      "count": 4
     },
     {
-      "key": "MoveIt Open Source Website",
-      "label": "MoveIt Open Source Website",
+      "key": "Networking / Referral",
+      "label": "Networking / Referral",
       "goal": null,
-      "count": 1
+      "count": 4
     },
     {
-      "key": "Existing Customer",
-      "label": "Existing Customer",
+      "key": "Website Inbound",
+      "label": "Website Inbound",
       "goal": null,
-      "count": 1
-    },
-    {
-      "key": "Social Media",
-      "label": "Social Media",
-      "goal": null,
-      "count": 1
+      "count": 4
     }
   ],
   "dealStages": [
@@ -83,6 +77,6 @@
       }
     ]
   },
-  "updatedAt": "2026-06-16T00:45:13.257424+00:00",
+  "updatedAt": "2026-06-16T00:56:56.486805+00:00",
   "period": "June 2026"
 }

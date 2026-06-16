@@ -1,9 +1,9 @@
 {
-  "identifiedCompanies": 973,
+  "identifiedCompanies": 972,
   "topCompanies": [
     {
       "name": "PickNik Robotics",
-      "visits": 133,
+      "visits": 134,
       "industry": null
     },
     {
@@ -79,10 +79,6 @@
   ],
   "dailyVisits": [
     {
-      "date": "2026-05-16",
-      "visits": 0
-    },
-    {
       "date": "2026-05-17",
       "visits": 0
     },
@@ -144,7 +140,7 @@
     },
     {
       "date": "2026-06-01",
-      "visits": 107
+      "visits": 101
     },
     {
       "date": "2026-06-02",
@@ -200,17 +196,21 @@
     },
     {
       "date": "2026-06-15",
-      "visits": 185
+      "visits": 187
+    },
+    {
+      "date": "2026-06-16",
+      "visits": 4
     }
   ],
   "sources": [
     {
       "name": "google / organic",
-      "visits": 909
+      "visits": 907
     },
     {
       "name": "direct",
-      "visits": 769
+      "visits": 770
     },
     {
       "name": "github.com / referral",
@@ -234,7 +234,7 @@
     },
     {
       "name": "www.automateshow.com / referral",
-      "visits": 19
+      "visits": 20
     }
   ],
   "topPages": [
@@ -255,12 +255,12 @@
     },
     {
       "path": "/pro/",
-      "views": 168,
+      "views": 169,
       "title": "MoveIt Pro Runtime & Developer Robotics Software | PickNik"
     },
     {
       "path": "/hardware-ecosystem/",
-      "views": 156,
+      "views": 155,
       "title": "ROS 2 Compatible Hardware - Comprehensive Database | PickNik"
     },
     {
@@ -289,5 +289,5 @@
       "title": "MoveIt 2 Source Build - Linux | MoveIt"
     }
   ],
-  "updatedAt": "2026-06-15T22:40:16.705242+00:00"
+  "updatedAt": "2026-06-16T00:58:53.985872+00:00"
 }
