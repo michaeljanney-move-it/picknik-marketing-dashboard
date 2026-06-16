@@ -1,6 +1,5 @@
 {
-  "_comment_leadSource": "The 'New leads this month by source' cards count contacts created this calendar month, grouped by the leadSourceProperty (PickNik's custom 'Discovery Source' dropdown). Top N sources by volume are shown. Blank/unset sources are ignored.",
-  "leadSourceProperty": "discovery_source",
+  "_comment_leadCards": "The top cards count deals CREATED this calendar month, grouped by the deal 'origin' property; the top leadSourceTopN origins by volume are shown.",
   "leadSourceTopN": 6,
 
   "dealPipeline": "default",
