@@ -79,8 +79,69 @@ def fetch() -> dict:
         stages.append({"label": st["label"], "goal": st["goal"], "count": count})
 
     origins = fetch_deal_origins(s)
+    closed_won = fetch_closed_won(s)
 
-    return {"leadTypes": lead_types, "dealStages": stages, "dealOrigins": origins}
+    return {"leadTypes": lead_types, "dealStages": stages,
+            "dealOrigins": origins, "closedWon": closed_won}
+
+
+def quarter_start():
+    now = datetime.now(timezone.utc)
+    first_month = 3 * ((now.month - 1) // 3) + 1
+    return now.replace(month=first_month, day=1, hour=0, minute=0,
+                       second=0, microsecond=0)
+
+
+def fetch_closed_won(s: requests.Session) -> dict:
+    """List deals that closed-won this quarter in the Product & Services
+    pipeline, with each deal's License Value and Amount, plus column totals."""
+    stage = CONFIG.get("closedWonStageId")
+    if not stage:
+        return None
+    start = quarter_start()
+    since_ms = int(start.timestamp() * 1000)
+
+    def num(x):
+        try:
+            return float(x) if x not in (None, "") else 0.0
+        except (TypeError, ValueError):
+            return 0.0
+
+    deals, after, pages = [], None, 0
+    while pages < 20:
+        payload = {
+            "filterGroups": [{"filters": [
+                {"propertyName": "dealstage", "operator": "EQ", "value": str(stage)},
+                {"propertyName": "closedate", "operator": "GTE", "value": str(since_ms)},
+            ]}],
+            "limit": 100,
+            "properties": ["dealname", "amount", "license_value", "closedate"],
+            "sorts": [{"propertyName": "closedate", "direction": "DESCENDING"}],
+        }
+        if after:
+            payload["after"] = after
+        body = post_json(s, API.format(obj="deals"), payload)
+        for d in body.get("results", []):
+            p = d.get("properties") or {}
+            deals.append({
+                "name": p.get("dealname") or "(no name)",
+                "amount": num(p.get("amount")),
+                "license": num(p.get("license_value")),
+                "closeDate": p.get("closedate") or "",
+            })
+        after = (body.get("paging") or {}).get("next", {}).get("after")
+        pages += 1
+        if not after:
+            break
+
+    return {
+        "periodLabel": f"Q{(start.month - 1) // 3 + 1} {start.year}",
+        "deals": deals,
+        "totals": {
+            "amount": sum(d["amount"] for d in deals),
+            "license": sum(d["license"] for d in deals),
+        },
+    }
 
 
 def fetch_lead_sources(s: requests.Session, since_ms: int) -> list:
