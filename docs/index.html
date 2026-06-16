@@ -62,7 +62,7 @@
 <main>
   <div id="error"></div>
 
-  <h2>New leads this month by source <span id="period"></span></h2>
+  <h2>New deals this month by origin <span id="period"></span></h2>
   <div class="cards" id="lead-cards"></div>
 
   <h2>Sales pipeline (Product &amp; Services)</h2>
@@ -126,7 +126,7 @@ function leadCards(data) {
     card.innerHTML = `
       <div class="label">${lt.label}</div>
       <div class="value">${lt.count}</div>
-      <div class="goal">${lt.goal ? `Goal: ${lt.goal}/mo · ${pct}%` : "new contacts this month"}</div>
+      <div class="goal">${lt.goal ? `Goal: ${lt.goal}/mo · ${pct}%` : "deals this month"}</div>
       ${lt.goal ? `<div class="bar"><div style="width:${pct}%;background:${COLORS[i % COLORS.length]}"></div></div>` : ""}`;
     wrap.appendChild(card);
   });
