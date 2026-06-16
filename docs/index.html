@@ -46,6 +46,7 @@
   th, td { text-align: left; padding: 8px 6px; border-bottom: 1px solid var(--border); }
   th { color: var(--muted); font-weight: 600; font-size: 12px; text-transform: uppercase; }
   td.num { text-align: right; }
+  tfoot td { border-top: 2px solid var(--border); border-bottom: none; padding-top: 10px; }
   #error { display: none; margin: 16px 0; padding: 12px 16px; background: #fdecea; border: 1px solid #f5c6c2; border-radius: 8px; color: #92400e; }
 </style>
 </head>
@@ -70,6 +71,17 @@
 
   <h2 id="origin-title">Deal origin</h2>
   <div class="chart-card"><canvas id="origins" height="90"></canvas></div>
+
+  <div id="cw-section">
+    <h2>Closed Won deals <span id="cw-period"></span></h2>
+    <div class="chart-card">
+      <table>
+        <thead><tr><th>Deal</th><th>Closed</th><th class="num">License</th><th class="num">Amount</th></tr></thead>
+        <tbody id="closed-won"></tbody>
+        <tfoot id="closed-won-total"></tfoot>
+      </table>
+    </div>
+  </div>
 
   <h2>Website traffic — last 30 days (Leadfeeder)</h2>
   <div class="grid-2">
@@ -244,6 +256,38 @@ function pagesTable(data) {
   });
 }
 
+function fmtMoney(n) {
+  if (n == null) return "—";
+  return "$" + Math.round(n).toLocaleString();
+}
+
+function fmtDate(v) {
+  if (!v) return "";
+  const d = /^\d+$/.test(String(v)) ? new Date(Number(v)) : new Date(v);
+  return isNaN(d) ? "" : d.toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" });
+}
+
+function closedWonTable(data) {
+  const cw = data.closedWon;
+  const section = document.getElementById("cw-section");
+  if (!cw || !cw.deals) { if (section) section.style.display = "none"; return; }
+  section.style.display = "";
+  document.getElementById("cw-period").textContent = cw.periodLabel ? "— " + cw.periodLabel : "";
+  const tbody = document.getElementById("closed-won");
+  tbody.innerHTML = "";
+  cw.deals.forEach(d => {
+    const tr = document.createElement("tr");
+    tr.innerHTML = `<td>${d.name}</td><td>${fmtDate(d.closeDate)}</td>` +
+      `<td class="num">${fmtMoney(d.license)}</td><td class="num">${fmtMoney(d.amount)}</td>`;
+    tbody.appendChild(tr);
+  });
+  const n = cw.deals.length;
+  document.getElementById("closed-won-total").innerHTML =
+    `<tr><td><strong>Total · ${n} deal${n === 1 ? "" : "s"}</strong></td><td></td>` +
+    `<td class="num"><strong>${fmtMoney(cw.totals.license)}</strong></td>` +
+    `<td class="num"><strong>${fmtMoney(cw.totals.amount)}</strong></td></tr>`;
+}
+
 async function load(path) {
   const r = await fetch(path + "?t=" + Date.now());
   if (!r.ok) throw new Error(`${path}: HTTP ${r.status}`);
@@ -257,6 +301,7 @@ async function render() {
   leadCards(hs);
   funnelChart(hs);
   originsChart(hs);
+  closedWonTable(hs);
   trafficChart(lf);
   sourcesChart(lf);
   pagesTable(lf);
