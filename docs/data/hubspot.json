@@ -1,28 +1,34 @@
 {
   "leadTypes": [
     {
-      "key": "mql",
-      "label": "MQL",
-      "goal": 10,
-      "count": 0
-    },
-    {
-      "key": "obql",
-      "label": "ObQL",
-      "goal": 10,
-      "count": 0
-    },
-    {
-      "key": "event_leads",
-      "label": "Event Leads",
+      "key": "Other",
+      "label": "Other",
       "goal": null,
-      "count": 0
+      "count": 2
     },
     {
-      "key": "referrals",
-      "label": "Referrals",
+      "key": "Tradeshow",
+      "label": "Tradeshow",
       "goal": null,
-      "count": 0
+      "count": 1
+    },
+    {
+      "key": "MoveIt Open Source Website",
+      "label": "MoveIt Open Source Website",
+      "goal": null,
+      "count": 1
+    },
+    {
+      "key": "Existing Customer",
+      "label": "Existing Customer",
+      "goal": null,
+      "count": 1
+    },
+    {
+      "key": "Social Media",
+      "label": "Social Media",
+      "goal": null,
+      "count": 1
     }
   ],
   "dealStages": [
@@ -77,6 +83,6 @@
       }
     ]
   },
-  "updatedAt": "2026-06-15T22:38:24.825305+00:00",
+  "updatedAt": "2026-06-16T00:45:13.257424+00:00",
   "period": "June 2026"
 }
