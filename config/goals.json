@@ -2,6 +2,8 @@
   "_comment_leadCards": "The top cards count deals CREATED this calendar month, grouped by the deal 'origin' property; the top leadSourceTopN origins by volume are shown.",
   "leadSourceTopN": 6,
 
+  "closedWonStageId": "170429561",
+
   "dealPipeline": "default",
   "dealStages": [
     {
