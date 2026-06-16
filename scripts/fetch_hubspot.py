@@ -68,17 +68,7 @@ def fetch() -> dict:
     s.headers.update({"Authorization": f"Bearer {token}"})
     since = month_start_ms()
 
-    lead_types = []
-    for lt in CONFIG["leadTypes"]:
-        # Count contacts matching the configured filters, created this month
-        filters = list(lt["filters"]) + [
-            {"propertyName": "createdate", "operator": "GTE", "value": str(since)}
-        ]
-        count = search_total(s, "contacts", filters)
-        lead_types.append({
-            "key": lt["key"], "label": lt["label"],
-            "goal": lt["goalMonthly"], "count": count,
-        })
+    lead_types = fetch_lead_sources(s, since)
 
     stages = []
     for st in CONFIG["dealStages"]:
@@ -91,6 +81,38 @@ def fetch() -> dict:
     origins = fetch_deal_origins(s)
 
     return {"leadTypes": lead_types, "dealStages": stages, "dealOrigins": origins}
+
+
+def fetch_lead_sources(s: requests.Session, since_ms: int) -> list:
+    """Break down contacts created this month by their lead source property
+    (PickNik tracks how leads found them in a custom dropdown, default
+    `discovery_source`). Returns the top-N sources by volume as cards.
+    Contacts with no source set are ignored."""
+    prop = CONFIG.get("leadSourceProperty", "discovery_source")
+    top_n = CONFIG.get("leadSourceTopN", 6)
+    by_source, after, pages = {}, None, 0
+    while pages < 30:
+        payload = {
+            "filterGroups": [{"filters": [
+                {"propertyName": "createdate", "operator": "GTE", "value": str(since_ms)}
+            ]}],
+            "limit": 100,
+            "properties": [prop],
+        }
+        if after:
+            payload["after"] = after
+        body = post_json(s, API.format(obj="contacts"), payload)
+        for c in body.get("results", []):
+            value = (c.get("properties") or {}).get(prop)
+            if value:
+                by_source[value] = by_source.get(value, 0) + 1
+        after = (body.get("paging") or {}).get("next", {}).get("after")
+        pages += 1
+        if not after:
+            break
+    ranked = sorted(by_source.items(), key=lambda kv: kv[1], reverse=True)[:top_n]
+    return [{"key": name, "label": name, "goal": None, "count": count}
+            for name, count in ranked]
 
 
 def fetch_deal_origins(s: requests.Session) -> dict:
