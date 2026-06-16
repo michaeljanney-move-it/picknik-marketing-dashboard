@@ -1,20 +1,14 @@
 {
   "leadTypes": [
     {
-      "key": "(not set)",
-      "label": "(not set)",
-      "goal": null,
-      "count": 5
-    },
-    {
-      "key": "Website Inbound",
-      "label": "Website Inbound",
-      "goal": null,
-      "count": 5
-    },
-    {
       "key": "Conferences / Events",
       "label": "Conferences / Events",
+      "goal": null,
+      "count": 4
+    },
+    {
+      "key": "(not set)",
+      "label": "(not set)",
       "goal": null,
       "count": 4
     },
@@ -23,18 +17,30 @@
       "label": "Networking / Referral",
       "goal": null,
       "count": 4
+    },
+    {
+      "key": "Website Inbound",
+      "label": "Website Inbound",
+      "goal": null,
+      "count": 4
+    },
+    {
+      "key": "Upsell",
+      "label": "Upsell",
+      "goal": null,
+      "count": 1
     }
   ],
   "dealStages": [
     {
       "label": "1. Qualifying",
       "goal": 50,
-      "count": 71
+      "count": 64
     },
     {
       "label": "2. Qualified (BANT)",
       "goal": 20,
-      "count": 17
+      "count": 18
     },
     {
       "label": "3. Proposing & Negotiating",
@@ -49,7 +55,7 @@
   ],
   "dealOrigins": {
     "since": "2026-05-01",
-    "totalDeals": 81,
+    "totalDeals": 80,
     "counts": [
       {
         "name": "Conferences / Events",
@@ -57,15 +63,15 @@
       },
       {
         "name": "Website Inbound",
-        "count": 23
+        "count": 22
       },
       {
         "name": "(not set)",
-        "count": 13
+        "count": 12
       },
       {
         "name": "Upsell",
-        "count": 10
+        "count": 11
       },
       {
         "name": "Networking / Referral",
@@ -77,6 +83,111 @@
       }
     ]
   },
-  "updatedAt": "2026-06-16T16:45:31.056431+00:00",
+  "closedWon": {
+    "periodLabel": "Q2 2026",
+    "deals": [
+      {
+        "name": "Kawasaki Heavy Industries, Ltd. - Monthly Retainer 0.25 FTE",
+        "amount": 10005.0,
+        "license": 0.0,
+        "closeDate": "2026-06-11T15:24:54.564Z"
+      },
+      {
+        "name": "ROBOX Work - Palletizing work cell ",
+        "amount": 19200.0,
+        "license": 19200.0,
+        "closeDate": "2026-06-10T21:22:59.844Z"
+      },
+      {
+        "name": "Google - Data Center Robot",
+        "amount": 49700.0,
+        "license": 0.0,
+        "closeDate": "2026-06-10T16:53:55.079Z"
+      },
+      {
+        "name": "Autonomous Solutions, Inc. - Yard Truck Arm",
+        "amount": 35000.0,
+        "license": 0.0,
+        "closeDate": "2026-06-09T21:43:25.563Z"
+      },
+      {
+        "name": "Vermeer - Solar Installation, Pile Driving - Upgrade from Trial (services)",
+        "amount": 28700.0,
+        "license": 0.0,
+        "closeDate": "2026-06-09T16:57:55.488Z"
+      },
+      {
+        "name": "Vermeer - Solar Installation, Pile Driving - License",
+        "amount": 98000.0,
+        "license": 98000.0,
+        "closeDate": "2026-06-08T17:41:34.319Z"
+      },
+      {
+        "name": "Teledyne Scientific - Ultra-sound robot",
+        "amount": 35000.0,
+        "license": 0.0,
+        "closeDate": "2026-06-03T20:35:34.438Z"
+      },
+      {
+        "name": "XELA - $2k Perpetual License",
+        "amount": 2000.0,
+        "license": 2000.0,
+        "closeDate": "2026-05-28T22:37:13.862Z"
+      },
+      {
+        "name": "Nabors - Oil Rig Automation",
+        "amount": 298500.0,
+        "license": 126000.0,
+        "closeDate": "2026-05-28T21:20:50.801Z"
+      },
+      {
+        "name": "RayService - Runtime Lics for LMCO Project & Training",
+        "amount": 14800.0,
+        "license": 10000.0,
+        "closeDate": "2026-05-12T18:14:24.406Z"
+      },
+      {
+        "name": "Foundry Robotics - Complex Manufacturing",
+        "amount": 65700.0,
+        "license": 48200.0,
+        "closeDate": "2026-05-05T16:52:45.409Z"
+      },
+      {
+        "name": "Meta - Datacenter Robot Services - Phase 2 ",
+        "amount": 277785.0,
+        "license": 0.0,
+        "closeDate": "2026-05-05T15:24:22.711Z"
+      },
+      {
+        "name": "Meta - License Datacenter Robot - Phase 2 ",
+        "amount": 118400.0,
+        "license": 118400.0,
+        "closeDate": "2026-05-05T15:24:17.966Z"
+      },
+      {
+        "name": "Qualcomm - 200 Hour consulting block for Robotics Partnership",
+        "amount": 122000.0,
+        "license": 0.0,
+        "closeDate": "2026-04-10T17:54:26.084Z"
+      },
+      {
+        "name": "WATT - Korean Mobile Delivery Robot",
+        "amount": 30300.0,
+        "license": 30300.0,
+        "closeDate": "2026-04-02T14:48:14.307Z"
+      },
+      {
+        "name": "Prehensio GmbH - Machine Tending work-cell",
+        "amount": 21700.0,
+        "license": 21700.0,
+        "closeDate": "2026-04-02T14:28:23.157Z"
+      }
+    ],
+    "totals": {
+      "amount": 1226790.0,
+      "license": 473800.0
+    }
+  },
+  "updatedAt": "2026-06-16T22:15:58.006496+00:00",
   "period": "June 2026"
 }
