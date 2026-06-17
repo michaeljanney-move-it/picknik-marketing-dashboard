@@ -1,6 +1,12 @@
 {
   "leadTypes": [
     {
+      "key": "Website Inbound",
+      "label": "Website Inbound",
+      "goal": null,
+      "count": 5
+    },
+    {
       "key": "Conferences / Events",
       "label": "Conferences / Events",
       "goal": null,
@@ -15,12 +21,6 @@
     {
       "key": "Networking / Referral",
       "label": "Networking / Referral",
-      "goal": null,
-      "count": 4
-    },
-    {
-      "key": "Website Inbound",
-      "label": "Website Inbound",
       "goal": null,
       "count": 4
     },
@@ -40,12 +40,12 @@
     {
       "label": "2. Qualified (BANT)",
       "goal": 20,
-      "count": 18
+      "count": 17
     },
     {
       "label": "3. Proposing & Negotiating",
       "goal": 10,
-      "count": 5
+      "count": 4
     },
     {
       "label": "4. Closing & Contracting",
@@ -55,7 +55,7 @@
   ],
   "dealOrigins": {
     "since": "2026-05-01",
-    "totalDeals": 80,
+    "totalDeals": 81,
     "counts": [
       {
         "name": "Conferences / Events",
@@ -63,7 +63,7 @@
       },
       {
         "name": "Website Inbound",
-        "count": 22
+        "count": 23
       },
       {
         "name": "(not set)",
@@ -86,6 +86,12 @@
   "closedWon": {
     "periodLabel": "Q2 2026",
     "deals": [
+      {
+        "name": "AutoWash - Phase 3c Services",
+        "amount": 300000.0,
+        "license": 0.0,
+        "closeDate": "2026-06-16T22:39:28.718Z"
+      },
       {
         "name": "Kawasaki Heavy Industries, Ltd. - Monthly Retainer 0.25 FTE",
         "amount": 10005.0,
@@ -184,10 +190,10 @@
       }
     ],
     "totals": {
-      "amount": 1226790.0,
+      "amount": 1526790.0,
       "license": 473800.0
     }
   },
-  "updatedAt": "2026-06-16T22:15:58.006496+00:00",
+  "updatedAt": "2026-06-17T15:19:15.459611+00:00",
   "period": "June 2026"
 }
