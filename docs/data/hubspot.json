@@ -40,7 +40,7 @@
     {
       "label": "2. Qualified (BANT)",
       "goal": 20,
-      "count": 16
+      "count": 17
     },
     {
       "label": "3. Proposing & Negotiating",
@@ -194,6 +194,6 @@
       "license": 473800.0
     }
   },
-  "updatedAt": "2026-06-19T14:58:25.985244+00:00",
+  "updatedAt": "2026-06-20T13:55:19.398893+00:00",
   "period": "June 2026"
 }

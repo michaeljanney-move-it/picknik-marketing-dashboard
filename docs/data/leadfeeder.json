@@ -1,9 +1,9 @@
 {
-  "identifiedCompanies": 996,
+  "identifiedCompanies": 1002,
   "topCompanies": [
     {
       "name": "PickNik Robotics",
-      "visits": 127,
+      "visits": 130,
       "industry": null
     },
     {
@@ -12,12 +12,12 @@
       "industry": null
     },
     {
-      "name": "AdZurro GmbH",
-      "visits": 14,
+      "name": "polash nagor dot net",
+      "visits": 15,
       "industry": null
     },
     {
-      "name": "polash nagor dot net",
+      "name": "AdZurro GmbH",
       "visits": 14,
       "industry": null
     },
@@ -72,16 +72,12 @@
       "industry": null
     },
     {
-      "name": "Brookhaven National Laboratory",
+      "name": "Vimotek AB",
       "visits": 8,
       "industry": null
     }
   ],
   "dailyVisits": [
-    {
-      "date": "2026-05-20",
-      "visits": 0
-    },
     {
       "date": "2026-05-21",
       "visits": 0
@@ -144,7 +140,7 @@
     },
     {
       "date": "2026-06-05",
-      "visits": 80
+      "visits": 23
     },
     {
       "date": "2026-06-06",
@@ -200,29 +196,33 @@
     },
     {
       "date": "2026-06-19",
-      "visits": 119
+      "visits": 155
+    },
+    {
+      "date": "2026-06-20",
+      "visits": 21
     }
   ],
   "sources": [
     {
       "name": "google / organic",
-      "visits": 880
+      "visits": 874
     },
     {
       "name": "direct",
-      "visits": 726
+      "visits": 729
     },
     {
       "name": "github.com / referral",
-      "visits": 73
+      "visits": 74
     },
     {
       "name": "linkedin / social",
-      "visits": 44
+      "visits": 47
     },
     {
       "name": "xvenzjmwk1 / social",
-      "visits": 36
+      "visits": 34
     },
     {
       "name": "bing / organic",
@@ -240,54 +240,54 @@
   "topPages": [
     {
       "path": "/",
-      "views": 990,
-      "title": "Robotics Solutions Company | Robotics Software | PickNik"
+      "views": 994,
+      "title": "MoveIt Motion Planning Framework"
     },
     {
       "path": "/careers/",
-      "views": 408,
+      "views": 436,
       "title": "Careers | PickNik"
     },
     {
       "path": "/install-moveit2/binary/",
-      "views": 206,
+      "views": 204,
       "title": "MoveIt 2 Binary Install | MoveIt"
     },
     {
       "path": "/hardware-ecosystem/",
-      "views": 172,
+      "views": 173,
       "title": "ROS 2 Compatible Hardware - Comprehensive Database | PickNik"
     },
     {
       "path": "/pro/",
-      "views": 167,
+      "views": 169,
       "title": "MoveIt Pro Runtime & Developer Robotics Software | PickNik"
     },
     {
       "path": "/licensing",
-      "views": 108,
+      "views": 113,
       "title": "MoveIt Pro Plans & Pricing | PickNik"
     },
     {
       "path": "/careers/?ashby_jid=10dd8c20-ca45-4841-80c2-ea4f6e33453e",
-      "views": 90,
+      "views": 92,
       "title": "Careers | PickNik"
     },
     {
       "path": "/careers/?ashby_jid=8e6d2b6e-bb50-463d-b988-f6042fc75f13",
-      "views": 86,
+      "views": 74,
       "title": "Careers | PickNik"
     },
     {
-      "path": "/install-moveit2/source/",
-      "views": 66,
-      "title": "MoveIt 2 Source Build - Linux | MoveIt"
+      "path": "/moveit/ros2/servo/jog/2020/09/09/moveit2-servo.html",
+      "views": 65,
+      "title": "Introducing MoveIt Servo in ROS 2 | MoveIt"
     },
     {
-      "path": "/moveit/ros2/servo/jog/2020/09/09/moveit2-servo.html",
-      "views": 64,
-      "title": "Introducing MoveIt Servo in ROS 2 | MoveIt"
+      "path": "/install-moveit2/source/",
+      "views": 65,
+      "title": "MoveIt 2 Source Build - Linux | MoveIt"
     }
   ],
-  "updatedAt": "2026-06-19T15:00:32.213232+00:00"
+  "updatedAt": "2026-06-20T13:57:14.066509+00:00"
 }
