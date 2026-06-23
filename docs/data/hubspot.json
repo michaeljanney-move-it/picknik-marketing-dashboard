@@ -4,7 +4,7 @@
       "key": "Website Inbound",
       "label": "Website Inbound",
       "goal": null,
-      "count": 9
+      "count": 8
     },
     {
       "key": "Conferences / Events",
@@ -50,12 +50,12 @@
     {
       "label": "4. Closing & Contracting",
       "goal": 3,
-      "count": 3
+      "count": 2
     }
   ],
   "dealOrigins": {
     "since": "2026-05-01",
-    "totalDeals": 85,
+    "totalDeals": 84,
     "counts": [
       {
         "name": "Conferences / Events",
@@ -63,7 +63,7 @@
       },
       {
         "name": "Website Inbound",
-        "count": 27
+        "count": 26
       },
       {
         "name": "(not set)",
@@ -86,6 +86,12 @@
   "closedWon": {
     "periodLabel": "Q2 2026",
     "deals": [
+      {
+        "name": "Nabors - Prepaid Runtime Licenses",
+        "amount": 1000000.0,
+        "license": 1000000.0,
+        "closeDate": "2026-06-23T02:34:54.892Z"
+      },
       {
         "name": "AutoWash - Phase 3c Services",
         "amount": 300000.0,
@@ -190,10 +196,10 @@
       }
     ],
     "totals": {
-      "amount": 1526790.0,
-      "license": 473800.0
+      "amount": 2526790.0,
+      "license": 1473800.0
     }
   },
-  "updatedAt": "2026-06-22T16:50:18.070553+00:00",
+  "updatedAt": "2026-06-23T14:41:58.434841+00:00",
   "period": "June 2026"
 }
