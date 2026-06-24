@@ -1,39 +1,34 @@
 {
-  "identifiedCompanies": 1005,
+  "identifiedCompanies": 1007,
   "topCompanies": [
     {
       "name": "PickNik Robotics",
-      "visits": 124,
+      "visits": 120,
       "industry": null
     },
     {
       "name": "Pontificia Universidad Cat\u00f3lica del Ecuador Sede Santo Domingo",
-      "visits": 21,
-      "industry": null
-    },
-    {
-      "name": "NASA - National Aeronautics and Space Administration",
-      "visits": 15,
+      "visits": 20,
       "industry": null
     },
     {
       "name": "AdZurro GmbH",
+      "visits": 16,
+      "industry": null
+    },
+    {
+      "name": "NASA - National Aeronautics and Space Administration",
       "visits": 14,
       "industry": null
     },
     {
-      "name": "polash nagor dot net",
+      "name": "Massachusetts Institute of Technology",
       "visits": 13,
       "industry": null
     },
     {
-      "name": "Massachusetts Institute of Technology",
-      "visits": 12,
-      "industry": null
-    },
-    {
-      "name": "milledmail.com",
-      "visits": 12,
+      "name": "Alliant Insurance Services, Inc.",
+      "visits": 13,
       "industry": null
     },
     {
@@ -48,11 +43,21 @@
     },
     {
       "name": "Lockheed Martin Corporation",
-      "visits": 11,
+      "visits": 10,
       "industry": null
     },
     {
       "name": "Brainloop AG",
+      "visits": 10,
+      "industry": null
+    },
+    {
+      "name": "ZeroTier, Inc.",
+      "visits": 10,
+      "industry": null
+    },
+    {
+      "name": "milledmail.com",
       "visits": 10,
       "industry": null
     },
@@ -62,26 +67,17 @@
       "industry": null
     },
     {
-      "name": "Airbus",
+      "name": "polash nagor dot net",
       "visits": 9,
       "industry": null
     },
     {
       "name": "SEW-EURODRIVE Verwaltungs-GmbH",
-      "visits": 9,
-      "industry": null
-    },
-    {
-      "name": "Magna International Inc.",
       "visits": 8,
       "industry": null
     }
   ],
   "dailyVisits": [
-    {
-      "date": "2026-05-24",
-      "visits": 0
-    },
     {
       "date": "2026-05-25",
       "visits": 0
@@ -144,11 +140,11 @@
     },
     {
       "date": "2026-06-09",
-      "visits": 67
+      "visits": 0
     },
     {
       "date": "2026-06-10",
-      "visits": 220
+      "visits": 50
     },
     {
       "date": "2026-06-11",
@@ -200,25 +196,29 @@
     },
     {
       "date": "2026-06-23",
-      "visits": 115
+      "visits": 193
+    },
+    {
+      "date": "2026-06-24",
+      "visits": 159
     }
   ],
   "sources": [
     {
       "name": "google / organic",
-      "visits": 858
+      "visits": 841
     },
     {
       "name": "direct",
-      "visits": 728
+      "visits": 727
     },
     {
       "name": "github.com / referral",
-      "visits": 88
+      "visits": 86
     },
     {
       "name": "linkedin / social",
-      "visits": 52
+      "visits": 54
     },
     {
       "name": "bing / organic",
@@ -226,68 +226,68 @@
     },
     {
       "name": "xvenzjmwk1 / social",
-      "visits": 31
+      "visits": 32
     },
     {
       "name": "hs email / email",
-      "visits": 29
+      "visits": 31
     },
     {
       "name": "docs.ros.org / referral",
-      "visits": 23
+      "visits": 26
     }
   ],
   "topPages": [
     {
       "path": "/",
-      "views": 983,
+      "views": 986,
       "title": "Robotics Solutions Company | Robotics Software | PickNik"
     },
     {
       "path": "/careers/",
-      "views": 457,
+      "views": 495,
       "title": "Careers | PickNik"
     },
     {
       "path": "/install-moveit2/binary/",
-      "views": 232,
+      "views": 241,
       "title": "MoveIt 2 Binary Install | MoveIt"
     },
     {
       "path": "/hardware-ecosystem/",
-      "views": 195,
+      "views": 184,
       "title": "ROS 2 Compatible Hardware - Comprehensive Database | PickNik"
     },
     {
       "path": "/pro/",
-      "views": 170,
+      "views": 183,
       "title": "MoveIt Pro Runtime & Developer Robotics Software | PickNik"
     },
     {
       "path": "/licensing",
-      "views": 104,
+      "views": 114,
       "title": "MoveIt Pro Plans & Pricing | PickNik"
     },
     {
       "path": "/careers/?ashby_jid=10dd8c20-ca45-4841-80c2-ea4f6e33453e",
-      "views": 103,
+      "views": 106,
+      "title": "Careers | PickNik"
+    },
+    {
+      "path": "/careers/?ashby_jid=8e6d2b6e-bb50-463d-b988-f6042fc75f13",
+      "views": 81,
       "title": "Careers | PickNik"
     },
     {
       "path": "/install-moveit2/source/",
-      "views": 71,
+      "views": 80,
       "title": "MoveIt 2 Source Build - Linux | MoveIt"
     },
     {
       "path": "/moveit/ros2/servo/jog/2020/09/09/moveit2-servo.html",
-      "views": 63,
+      "views": 59,
       "title": "Introducing MoveIt Servo in ROS 2 | MoveIt"
-    },
-    {
-      "path": "/documentation/concepts/",
-      "views": 62,
-      "title": "Concepts | MoveIt"
     }
   ],
-  "updatedAt": "2026-06-23T14:44:07.669453+00:00"
+  "updatedAt": "2026-06-24T14:25:50.183524+00:00"
 }
