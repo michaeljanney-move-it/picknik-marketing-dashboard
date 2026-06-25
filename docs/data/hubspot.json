@@ -4,7 +4,7 @@
       "key": "Website Inbound",
       "label": "Website Inbound",
       "goal": null,
-      "count": 10
+      "count": 12
     },
     {
       "key": "Conferences / Events",
@@ -61,14 +61,14 @@
   ],
   "dealOrigins": {
     "since": "2026-05-01",
-    "totalDeals": 87,
+    "totalDeals": 89,
     "counts": [
       {
-        "name": "Conferences / Events",
-        "count": 28
+        "name": "Website Inbound",
+        "count": 30
       },
       {
-        "name": "Website Inbound",
+        "name": "Conferences / Events",
         "count": 28
       },
       {
@@ -210,6 +210,6 @@
       "license": 1473800.0
     }
   },
-  "updatedAt": "2026-06-24T14:23:47.722918+00:00",
+  "updatedAt": "2026-06-25T14:25:24.783825+00:00",
   "period": "June 2026"
 }
