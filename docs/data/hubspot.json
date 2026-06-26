@@ -4,17 +4,17 @@
       "key": "Website Inbound",
       "label": "Website Inbound",
       "goal": null,
-      "count": 12
-    },
-    {
-      "key": "Conferences / Events",
-      "label": "Conferences / Events",
-      "goal": null,
-      "count": 4
+      "count": 14
     },
     {
       "key": "(not set)",
       "label": "(not set)",
+      "goal": null,
+      "count": 5
+    },
+    {
+      "key": "Conferences / Events",
+      "label": "Conferences / Events",
       "goal": null,
       "count": 4
     },
@@ -56,16 +56,16 @@
     {
       "label": "4. Closing & Contracting",
       "goal": 3,
-      "count": 2
+      "count": 1
     }
   ],
   "dealOrigins": {
     "since": "2026-05-01",
-    "totalDeals": 89,
+    "totalDeals": 92,
     "counts": [
       {
         "name": "Website Inbound",
-        "count": 30
+        "count": 32
       },
       {
         "name": "Conferences / Events",
@@ -73,7 +73,7 @@
       },
       {
         "name": "(not set)",
-        "count": 12
+        "count": 13
       },
       {
         "name": "Upsell",
@@ -96,6 +96,12 @@
   "closedWon": {
     "periodLabel": "Q2 2026",
     "deals": [
+      {
+        "name": "NASA JSC - SOW 3 - LASAR - Onsite Services at MSFC JUL2026",
+        "amount": 10256.0,
+        "license": 0.0,
+        "closeDate": "2026-06-25T23:33:10.607Z"
+      },
       {
         "name": "Nabors - Prepaid Runtime Licenses",
         "amount": 1000000.0,
@@ -206,10 +212,10 @@
       }
     ],
     "totals": {
-      "amount": 2526790.0,
+      "amount": 2537046.0,
       "license": 1473800.0
     }
   },
-  "updatedAt": "2026-06-25T14:25:24.783825+00:00",
+  "updatedAt": "2026-06-26T14:17:49.384934+00:00",
   "period": "June 2026"
 }

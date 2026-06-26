@@ -3,22 +3,27 @@
   "topCompanies": [
     {
       "name": "PickNik Robotics",
-      "visits": 118,
+      "visits": 101,
       "industry": null
     },
     {
       "name": "Pontificia Universidad Cat\u00f3lica del Ecuador Sede Santo Domingo",
-      "visits": 22,
+      "visits": 23,
       "industry": null
     },
     {
       "name": "NASA - National Aeronautics and Space Administration",
-      "visits": 16,
+      "visits": 19,
       "industry": null
     },
     {
       "name": "ZeroTier, Inc.",
-      "visits": 14,
+      "visits": 15,
+      "industry": null
+    },
+    {
+      "name": "Structural Steel Research Group, IIT Hyderabad",
+      "visits": 13,
       "industry": null
     },
     {
@@ -37,28 +42,18 @@
       "industry": null
     },
     {
-      "name": "Structural Steel Research Group, IIT Hyderabad",
-      "visits": 12,
-      "industry": null
-    },
-    {
-      "name": "AdZurro GmbH",
-      "visits": 10,
+      "name": "milledmail.com",
+      "visits": 11,
       "industry": null
     },
     {
       "name": "Brainloop AG",
-      "visits": 10,
+      "visits": 11,
       "industry": null
     },
     {
-      "name": "milledmail.com",
-      "visits": 10,
-      "industry": null
-    },
-    {
-      "name": "Lockheed Martin Corporation",
-      "visits": 8,
+      "name": "AdZurro GmbH",
+      "visits": 9,
       "industry": null
     },
     {
@@ -72,16 +67,17 @@
       "industry": null
     },
     {
-      "name": "Universit\u00e4tsmedizin Greifswald",
+      "name": "McCormick Place",
+      "visits": 7,
+      "industry": null
+    },
+    {
+      "name": "SoftServe Inc",
       "visits": 7,
       "industry": null
     }
   ],
   "dailyVisits": [
-    {
-      "date": "2026-05-26",
-      "visits": 0
-    },
     {
       "date": "2026-05-27",
       "visits": 0
@@ -144,11 +140,11 @@
     },
     {
       "date": "2026-06-11",
-      "visits": 71
+      "visits": 0
     },
     {
       "date": "2026-06-12",
-      "visits": 130
+      "visits": 64
     },
     {
       "date": "2026-06-13",
@@ -200,21 +196,25 @@
     },
     {
       "date": "2026-06-25",
-      "visits": 98
+      "visits": 158
+    },
+    {
+      "date": "2026-06-26",
+      "visits": 77
     }
   ],
   "sources": [
     {
       "name": "google / organic",
-      "visits": 844
+      "visits": 846
     },
     {
       "name": "direct",
-      "visits": 716
+      "visits": 707
     },
     {
       "name": "github.com / referral",
-      "visits": 89
+      "visits": 91
     },
     {
       "name": "linkedin / social",
@@ -222,30 +222,30 @@
     },
     {
       "name": "hs email / email",
-      "visits": 37
+      "visits": 39
     },
     {
       "name": "bing / organic",
-      "visits": 36
+      "visits": 39
     },
     {
       "name": "xvenzjmwk1 / social",
       "visits": 33
     },
     {
-      "name": "docs.ros.org / referral",
-      "visits": 23
+      "name": "chatgpt.com",
+      "visits": 25
     }
   ],
   "topPages": [
     {
       "path": "/",
-      "views": 1000,
+      "views": 980,
       "title": "MoveIt Motion Planning Framework"
     },
     {
       "path": "/careers/",
-      "views": 500,
+      "views": 483,
       "title": "Careers | PickNik"
     },
     {
@@ -255,17 +255,17 @@
     },
     {
       "path": "/pro/",
-      "views": 195,
+      "views": 192,
       "title": "MoveIt Pro Runtime & Developer Robotics Software | PickNik"
     },
     {
       "path": "/hardware-ecosystem/",
-      "views": 179,
+      "views": 164,
       "title": "ROS 2 Compatible Hardware - Comprehensive Database | PickNik"
     },
     {
       "path": "/careers/?ashby_jid=10dd8c20-ca45-4841-80c2-ea4f6e33453e",
-      "views": 110,
+      "views": 112,
       "title": "Careers | PickNik"
     },
     {
@@ -275,7 +275,7 @@
     },
     {
       "path": "/careers/?ashby_jid=8e6d2b6e-bb50-463d-b988-f6042fc75f13",
-      "views": 84,
+      "views": 83,
       "title": "Careers | PickNik"
     },
     {
@@ -285,9 +285,9 @@
     },
     {
       "path": "/moveit/ros2/servo/jog/2020/09/09/moveit2-servo.html",
-      "views": 58,
+      "views": 61,
       "title": "Introducing MoveIt Servo in ROS 2 | MoveIt"
     }
   ],
-  "updatedAt": "2026-06-25T14:27:37.840615+00:00"
+  "updatedAt": "2026-06-26T14:19:40.017770+00:00"
 }
