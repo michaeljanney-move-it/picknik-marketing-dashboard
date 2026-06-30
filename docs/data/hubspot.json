@@ -1,22 +1,22 @@
 {
   "leadTypes": [
     {
+      "key": "Conferences / Events",
+      "label": "Conferences / Events",
+      "goal": null,
+      "count": 24
+    },
+    {
       "key": "Website Inbound",
       "label": "Website Inbound",
       "goal": null,
-      "count": 17
+      "count": 14
     },
     {
       "key": "(not set)",
       "label": "(not set)",
       "goal": null,
-      "count": 5
-    },
-    {
-      "key": "Conferences / Events",
-      "label": "Conferences / Events",
-      "goal": null,
-      "count": 4
+      "count": 6
     },
     {
       "key": "Networking / Referral",
@@ -41,39 +41,39 @@
     {
       "label": "1. Qualifying",
       "goal": 50,
-      "count": 66
+      "count": 52
     },
     {
       "label": "2. Qualified (BANT)",
       "goal": 20,
-      "count": 17
+      "count": 19
     },
     {
       "label": "3. Proposing & Negotiating",
       "goal": 10,
-      "count": 2
+      "count": 4
     },
     {
       "label": "4. Closing & Contracting",
       "goal": 3,
-      "count": 1
+      "count": 0
     }
   ],
   "dealOrigins": {
     "since": "2026-05-01",
-    "totalDeals": 95,
+    "totalDeals": 113,
     "counts": [
       {
-        "name": "Website Inbound",
-        "count": 35
+        "name": "Conferences / Events",
+        "count": 48
       },
       {
-        "name": "Conferences / Events",
-        "count": 28
+        "name": "Website Inbound",
+        "count": 32
       },
       {
         "name": "(not set)",
-        "count": 13
+        "count": 14
       },
       {
         "name": "Upsell",
@@ -96,6 +96,12 @@
   "closedWon": {
     "periodLabel": "Q2 2026",
     "deals": [
+      {
+        "name": "HCLTech Global IT Services - Training ",
+        "amount": 4800.0,
+        "license": 0.0,
+        "closeDate": "2026-06-29T19:21:04.805Z"
+      },
       {
         "name": "NASA JSC - SOW 3 - LASAR - Onsite Services at MSFC JUL2026",
         "amount": 10256.0,
@@ -212,10 +218,10 @@
       }
     ],
     "totals": {
-      "amount": 2537046.0,
+      "amount": 2541846.0,
       "license": 1473800.0
     }
   },
-  "updatedAt": "2026-06-29T15:40:49.886739+00:00",
+  "updatedAt": "2026-06-30T14:12:21.655473+00:00",
   "period": "June 2026"
 }
