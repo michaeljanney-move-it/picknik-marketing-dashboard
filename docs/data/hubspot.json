@@ -1,47 +1,10 @@
 {
-  "leadTypes": [
-    {
-      "key": "Conferences / Events",
-      "label": "Conferences / Events",
-      "goal": null,
-      "count": 24
-    },
-    {
-      "key": "Website Inbound",
-      "label": "Website Inbound",
-      "goal": null,
-      "count": 14
-    },
-    {
-      "key": "(not set)",
-      "label": "(not set)",
-      "goal": null,
-      "count": 6
-    },
-    {
-      "key": "Networking / Referral",
-      "label": "Networking / Referral",
-      "goal": null,
-      "count": 4
-    },
-    {
-      "key": "Upsell",
-      "label": "Upsell",
-      "goal": null,
-      "count": 1
-    },
-    {
-      "key": "RoboBusiness 2024",
-      "label": "RoboBusiness 2024",
-      "goal": null,
-      "count": 1
-    }
-  ],
+  "leadTypes": [],
   "dealStages": [
     {
       "label": "1. Qualifying",
       "goal": 50,
-      "count": 52
+      "count": 56
     },
     {
       "label": "2. Qualified (BANT)",
@@ -61,27 +24,27 @@
   ],
   "dealOrigins": {
     "since": "2026-05-01",
-    "totalDeals": 113,
+    "totalDeals": 121,
     "counts": [
       {
         "name": "Conferences / Events",
-        "count": 48
+        "count": 50
       },
       {
         "name": "Website Inbound",
         "count": 32
       },
       {
+        "name": "Upsell",
+        "count": 16
+      },
+      {
         "name": "(not set)",
         "count": 14
       },
       {
-        "name": "Upsell",
-        "count": 11
-      },
-      {
         "name": "Networking / Referral",
-        "count": 5
+        "count": 6
       },
       {
         "name": "Outbound",
@@ -94,134 +57,13 @@
     ]
   },
   "closedWon": {
-    "periodLabel": "Q2 2026",
-    "deals": [
-      {
-        "name": "HCLTech Global IT Services - Training ",
-        "amount": 4800.0,
-        "license": 0.0,
-        "closeDate": "2026-06-29T19:21:04.805Z"
-      },
-      {
-        "name": "NASA JSC - SOW 3 - LASAR - Onsite Services at MSFC JUL2026",
-        "amount": 10256.0,
-        "license": 0.0,
-        "closeDate": "2026-06-25T23:33:10.607Z"
-      },
-      {
-        "name": "Nabors - Prepaid Runtime Licenses",
-        "amount": 1000000.0,
-        "license": 1000000.0,
-        "closeDate": "2026-06-23T02:34:54.892Z"
-      },
-      {
-        "name": "AutoWash - Phase 3c Services",
-        "amount": 300000.0,
-        "license": 0.0,
-        "closeDate": "2026-06-16T22:39:28.718Z"
-      },
-      {
-        "name": "Kawasaki Heavy Industries, Ltd. - Monthly Retainer 0.25 FTE",
-        "amount": 10005.0,
-        "license": 0.0,
-        "closeDate": "2026-06-11T15:24:54.564Z"
-      },
-      {
-        "name": "ROBOX Work - Palletizing work cell ",
-        "amount": 19200.0,
-        "license": 19200.0,
-        "closeDate": "2026-06-10T21:22:59.844Z"
-      },
-      {
-        "name": "Google - Data Center Robot",
-        "amount": 49700.0,
-        "license": 0.0,
-        "closeDate": "2026-06-10T16:53:55.079Z"
-      },
-      {
-        "name": "Autonomous Solutions, Inc. - Yard Truck Arm",
-        "amount": 35000.0,
-        "license": 0.0,
-        "closeDate": "2026-06-09T21:43:25.563Z"
-      },
-      {
-        "name": "Vermeer - Solar Installation, Pile Driving - Upgrade from Trial (services)",
-        "amount": 28700.0,
-        "license": 0.0,
-        "closeDate": "2026-06-09T16:57:55.488Z"
-      },
-      {
-        "name": "Vermeer - Solar Installation, Pile Driving - License",
-        "amount": 98000.0,
-        "license": 98000.0,
-        "closeDate": "2026-06-08T17:41:34.319Z"
-      },
-      {
-        "name": "Teledyne Scientific - Ultra-sound robot",
-        "amount": 35000.0,
-        "license": 0.0,
-        "closeDate": "2026-06-03T20:35:34.438Z"
-      },
-      {
-        "name": "XELA - $2k Perpetual License",
-        "amount": 2000.0,
-        "license": 2000.0,
-        "closeDate": "2026-05-28T22:37:13.862Z"
-      },
-      {
-        "name": "Nabors - Oil Rig Automation",
-        "amount": 298500.0,
-        "license": 126000.0,
-        "closeDate": "2026-05-28T21:20:50.801Z"
-      },
-      {
-        "name": "RayService - Runtime Lics for LMCO Project & Training",
-        "amount": 14800.0,
-        "license": 10000.0,
-        "closeDate": "2026-05-12T18:14:24.406Z"
-      },
-      {
-        "name": "Foundry Robotics - Complex Manufacturing",
-        "amount": 65700.0,
-        "license": 48200.0,
-        "closeDate": "2026-05-05T16:52:45.409Z"
-      },
-      {
-        "name": "Meta - Datacenter Robot Services - Phase 2 ",
-        "amount": 277785.0,
-        "license": 0.0,
-        "closeDate": "2026-05-05T15:24:22.711Z"
-      },
-      {
-        "name": "Meta - License Datacenter Robot - Phase 2 ",
-        "amount": 118400.0,
-        "license": 118400.0,
-        "closeDate": "2026-05-05T15:24:17.966Z"
-      },
-      {
-        "name": "Qualcomm - 200 Hour consulting block for Robotics Partnership",
-        "amount": 122000.0,
-        "license": 0.0,
-        "closeDate": "2026-04-10T17:54:26.084Z"
-      },
-      {
-        "name": "WATT - Korean Mobile Delivery Robot",
-        "amount": 30300.0,
-        "license": 30300.0,
-        "closeDate": "2026-04-02T14:48:14.307Z"
-      },
-      {
-        "name": "Prehensio GmbH - Machine Tending work-cell",
-        "amount": 21700.0,
-        "license": 21700.0,
-        "closeDate": "2026-04-02T14:28:23.157Z"
-      }
-    ],
+    "periodLabel": "Q3 2026",
+    "deals": [],
     "totals": {
-      "amount": 2541846.0,
-      "license": 1473800.0
+      "amount": 0,
+      "license": 0
     }
   },
-  "updatedAt": "2026-06-30T14:12:21.655473+00:00",
-  "period": "June 2026"
+  "updatedAt": "2026-07-01T14:28:15.521699+00:00",
+  "period": "July 2026"
 }
