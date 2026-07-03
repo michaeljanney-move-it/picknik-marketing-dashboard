@@ -6,121 +6,231 @@
 <title>PickNik Marketing Dashboard</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 <style>
-  :root {
-    --bg: #f6f7f9; --card: #ffffff; --text: #1f2430; --muted: #6b7280;
-    --green: #4caf7d; --amber: #e8b931; --blue: #5b9bd5; --pink: #e58aa0;
-    --border: #e3e6ea;
-  }
-  * { box-sizing: border-box; }
-  body { margin: 0; font-family: -apple-system, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text); }
-  header { padding: 24px 32px 8px; display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
-  h1 { font-size: 22px; margin: 0; }
-  .header-right { display: flex; align-items: center; gap: 14px; }
-  #updated { color: var(--muted); font-size: 13px; }
-  #refresh {
-    display: inline-flex; align-items: center; gap: 6px;
-    font: inherit; font-size: 13px; font-weight: 600;
-    color: var(--text); background: var(--card);
-    border: 1px solid var(--border); border-radius: 8px;
-    padding: 7px 14px; cursor: pointer;
-  }
-  #refresh:hover:not(:disabled) { border-color: var(--green); color: var(--green); }
-  #refresh:disabled { opacity: .6; cursor: default; }
-  #refresh .icon { display: inline-block; }
-  #refresh.loading .icon { animation: spin .8s linear infinite; }
-  @keyframes spin { to { transform: rotate(360deg); } }
-  main { padding: 16px 32px 48px; max-width: 1200px; margin: 0 auto; }
-  h2 { font-size: 15px; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; margin: 28px 0 12px; }
-  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
-  .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; }
-  .card .label { font-size: 14px; color: var(--muted); }
-  .card .value { font-size: 34px; font-weight: 700; margin: 4px 0; }
-  .card .goal { font-size: 13px; color: var(--muted); }
-  .bar { height: 8px; background: #edf0f3; border-radius: 4px; margin-top: 10px; overflow: hidden; }
-  .bar > div { height: 100%; border-radius: 4px; }
-  .chart-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 20px; }
-  .grid-2 { display: grid; grid-template-columns: 2fr 1fr; gap: 16px; }
-  .grid-2.rev { grid-template-columns: 1fr 2fr; }
-  @media (max-width: 800px) { .grid-2 { grid-template-columns: 1fr; } }
-  table { width: 100%; border-collapse: collapse; font-size: 14px; }
-  th, td { text-align: left; padding: 8px 6px; border-bottom: 1px solid var(--border); }
-  th { color: var(--muted); font-weight: 600; font-size: 12px; text-transform: uppercase; }
-  td.num { text-align: right; }
-  tfoot td { border-top: 2px solid var(--border); border-bottom: none; padding-top: 10px; }
-  #error { display: none; margin: 16px 0; padding: 12px 16px; background: #fdecea; border: 1px solid #f5c6c2; border-radius: 8px; color: #92400e; }
+:root {
+  --bg: #080C11; --card: #001724; --text: #FFFFFF; --muted: #92A2B5;
+  --border: #1B2D3E; --accent: #52E49E; --accent2: #35DF8D; --blue: #0B77F6;
+}
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text); }
+header { padding: 24px 32px 8px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+.brand { display: flex; align-items: center; gap: 16px; }
+.brand img { height: 26px; width: auto; background: transparent; object-fit: contain; }
+h1 { font-size: 22px; margin: 0; }
+.header-right { display: flex; align-items: center; gap: 14px; }
+#updated { color: var(--muted); font-size: 13px; }
+#refresh {
+  display: inline-flex; align-items: center; gap: 6px;
+  font: inherit; font-size: 13px; font-weight: 600;
+  color: var(--text); background: var(--card);
+  border: 1px solid var(--border); border-radius: 8px;
+  padding: 7px 14px; cursor: pointer;
+}
+#refresh:hover:not(:disabled) { border-color: var(--accent); color: var(--accent); }
+#refresh:disabled { opacity: .6; cursor: default; }
+#refresh .icon { display: inline-block; }
+#refresh.loading .icon { animation: spin .8s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+main { padding: 16px 32px 48px; max-width: 1200px; margin: 0 auto; }
+h2 { font-size: 15px; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; margin: 0; }
+h3 { font-size: 13px; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; margin: 24px 0 10px; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+.card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; }
+.card .label { font-size: 14px; color: var(--muted); }
+.card .value { font-size: 34px; font-weight: 700; margin: 4px 0; }
+.card .goal { font-size: 13px; color: var(--muted); }
+.bar { height: 8px; background: var(--border); border-radius: 4px; margin-top: 10px; overflow: hidden; }
+.bar > div { height: 100%; border-radius: 4px; }
+.chart-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 20px; }
+.grid-2 { display: grid; grid-template-columns: 2fr 1fr; gap: 16px; }
+.grid-2.rev { grid-template-columns: 1fr 2fr; }
+@media (max-width: 800px) { .grid-2 { grid-template-columns: 1fr; } }
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th, td { text-align: left; padding: 8px 6px; border-bottom: 1px solid var(--border); }
+th { color: var(--muted); font-weight: 600; font-size: 12px; text-transform: uppercase; }
+td.num { text-align: right; }
+tfoot td { border-top: 2px solid var(--border); border-bottom: none; padding-top: 10px; }
+#error { display: none; margin: 16px 0; padding: 12px 16px; background: #3a1a1a; border: 1px solid #7a3a3a; border-radius: 8px; color: #ffb4a2; }
+.story-section { margin: 36px 0; padding-top: 28px; border-top: 1px solid var(--border); }
+.story-section:first-of-type { border-top: none; padding-top: 0; }
+.section-head { display: flex; align-items: center; gap: 10px; }
+.badge { display: inline-flex; align-items: center; justify-content: center; width: 22px; height: 22px; background: var(--accent); color: #062012; font-weight: 700; font-size: 12px; border-radius: 6px; flex: none; }
+.section-sub { color: var(--muted); font-size: 13px; margin: 4px 0 16px 32px; }
+.insight { margin-top: 14px; padding-top: 12px; border-top: 1px dashed var(--border); font-size: 13px; color: var(--muted); line-height: 1.5; }
+.insight strong { color: var(--accent); }
 </style>
 </head>
 <body>
 <header>
-  <h1>PickNik Marketing Dashboard</h1>
-  <div class="header-right">
-    <span id="updated"></span>
-    <button id="refresh" type="button" title="Re-fetch the latest data">
-      <span class="icon">&#x21bb;</span><span>Refresh</span>
-    </button>
-  </div>
+<div class="brand">
+<img src="https://picknik.ai/assets/images/logo/picknik-logo.png" alt="PickNik logo">
+<h1>PickNik Marketing Dashboard</h1>
+</div>
+<div class="header-right">
+<span id="updated"></span>
+<button id="refresh" type="button" title="Re-fetch the latest data">
+<span class="icon">&#x21bb;</span><span>Refresh</span>
+</button>
+</div>
 </header>
 <main>
-  <div id="error"></div>
+<div id="error"></div>
 
-  <h2>New deals this month by origin <span id="period"></span></h2>
-  <div class="cards" id="lead-cards"></div>
+<section class="story-section">
+<div class="section-head"><span class="badge">1</span><h2>Traffic acquisition &mdash; where visitors come from</h2></div>
+<div class="section-sub">Which channels and pages bring people to the site.</div>
+<div class="grid-2 rev">
+<div class="chart-card">
+<canvas id="sources" height="220"></canvas>
+<div class="insight" id="sources-insight"></div>
+</div>
+<div class="chart-card">
+<table>
+<thead><tr><th>Top pages</th><th class="num">Views</th></tr></thead>
+<tbody id="pages"></tbody>
+</table>
+<div class="insight" id="pages-insight"></div>
+</div>
+</div>
+<div class="chart-card" style="margin-top:16px;">
+<canvas id="channel-time" height="90"></canvas>
+<div class="insight" id="channel-time-insight"></div>
+</div>
+</section>
 
-  <h2>Sales pipeline (Product &amp; Services)</h2>
-  <div class="chart-card"><canvas id="funnel" height="110"></canvas></div>
+<section class="story-section">
+<div class="section-head"><span class="badge">2</span><h2>Engagement &amp; intent</h2></div>
+<div class="section-sub">What content resonates, and which channels bring the most traffic.</div>
+<div class="grid-2">
+<div class="chart-card">
+<canvas id="page-intent" height="200"></canvas>
+<div class="insight" id="page-intent-insight"></div>
+</div>
+<div class="chart-card">
+<canvas id="channel-volume" height="200"></canvas>
+<div class="insight" id="channel-volume-insight"></div>
+</div>
+</div>
+</section>
 
-  <h2 id="origin-title">Deal origin</h2>
-  <div class="chart-card"><canvas id="origins" height="90"></canvas></div>
+<section class="story-section">
+<div class="section-head"><span class="badge">3</span><h2>Website traffic trend</h2></div>
+<div class="section-sub">Daily visit volume since June 15, and the accounts most engaged with the site.</div>
+<div class="grid-2">
+<div class="chart-card">
+<canvas id="visits" height="140"></canvas>
+<div class="insight" id="visits-insight"></div>
+</div>
+<div class="chart-card">
+<table>
+<thead><tr><th>Top companies</th><th class="num">Visits</th></tr></thead>
+<tbody id="companies"></tbody>
+</table>
+<div class="insight" id="companies-insight"></div>
+</div>
+</div>
+</section>
 
-  <div id="cw-section">
-    <h2>Closed Won deals <span id="cw-period"></span></h2>
-    <div class="chart-card">
-      <table>
-        <thead><tr><th>Deal</th><th>Closed</th><th class="num">License</th><th class="num">Amount</th></tr></thead>
-        <tbody id="closed-won"></tbody>
-        <tfoot id="closed-won-total"></tfoot>
-      </table>
-    </div>
-  </div>
+<section class="story-section">
+<div class="section-head"><span class="badge">4</span><h2>Sales pipeline &mdash; from leads to deals</h2></div>
+<div class="section-sub">New deals created this month, and where they sit in the pipeline.</div>
+<h3>New deals this month by origin <span id="period"></span></h3>
+<div class="cards" id="lead-cards"></div>
+<div class="insight" id="lead-cards-insight"></div>
+<div class="chart-card" style="margin-top:16px;">
+<canvas id="funnel" height="110"></canvas>
+<div class="insight" id="funnel-insight"></div>
+</div>
+<div class="chart-card" style="margin-top:16px;">
+<table>
+<thead><tr><th>Stage</th><th class="num">Open deals</th><th class="num">Goal</th><th class="num">% of goal</th></tr></thead>
+<tbody id="pipeline-stages"></tbody>
+</table>
+<div class="insight" id="pipeline-stages-insight"></div>
+</div>
+</section>
 
-  <h2>Website traffic — last 30 days (Leadfeeder)</h2>
-  <div class="grid-2">
-    <div class="chart-card"><canvas id="visits" height="140"></canvas></div>
-    <div class="chart-card">
-      <table>
-        <thead><tr><th>Top companies</th><th class="num">Visits</th></tr></thead>
-        <tbody id="companies"></tbody>
-      </table>
-    </div>
-  </div>
+<section class="story-section">
+<div class="section-head"><span class="badge">5</span><h2 id="origin-title">Deal origin</h2></div>
+<div class="section-sub">Which source most often produces a new deal.</div>
+<div class="chart-card">
+<canvas id="origins" height="90"></canvas>
+<div class="insight" id="origins-insight"></div>
+</div>
+</section>
 
-  <h2>Traffic sources &amp; top pages</h2>
-  <div class="grid-2 rev">
-    <div class="chart-card"><canvas id="sources" height="220"></canvas></div>
-    <div class="chart-card">
-      <table>
-        <thead><tr><th>Top pages</th><th class="num">Views</th></tr></thead>
-        <tbody id="pages"></tbody>
-      </table>
-    </div>
-  </div>
+<section class="story-section" id="cw-section">
+<div class="section-head"><span class="badge">6</span><h2>Closed won deals <span id="cw-period"></span></h2></div>
+<div class="section-sub">Deals won this quarter, and their combined value.</div>
+<div class="chart-card">
+<table>
+<thead><tr><th>Deal</th><th>Closed</th><th class="num">License</th><th class="num">Amount</th></tr></thead>
+<tbody id="closed-won"></tbody>
+<tfoot id="closed-won-total"></tfoot>
+</table>
+<div class="insight" id="closed-won-insight"></div>
+</div>
+</section>
+
 </main>
 
 <script>
-const COLORS = ["#4caf7d", "#e8b931", "#5b9bd5", "#e58aa0"];
+const CHANNEL_COLORS = {
+  "google / organic": "#0B77F6",
+  "direct": "#D7DEE9",
+  "linkedin / social": "#A78BFA",
+  "github.com / referral": "#22D3EE",
+  "bing / organic": "#F5A623",
+  "hs email / email": "#52E49E",
+  "chatgpt.com / referral": "#F472B6",
+  "docs.ros.org / referral": "#FF6B6B"
+};
+const ORIGIN_COLORS = {
+  "Conferences / Events": "#52E49E",
+  "Website Inbound": "#0B77F6",
+  "Upsell": "#F5A623",
+  "(not set)": "#F472B6",
+  "Unknown": "#F472B6",
+  "Email": "#F472B6",
+  "Networking / Referral": "#A78BFA",
+  "Outbound": "#D7DEE9",
+  "RoboBusiness 2024": "#22D3EE"
+};
+const INTENT_COLORS = {
+  "Homepage": "#D7DEE9",
+  "Hiring": "#F5A623",
+  "Commercial / Sales": "#0B77F6",
+  "Developer / Open Source": "#52E49E",
+  "Technical Research": "#A78BFA",
+  "Company": "#F472B6"
+};
+const FALLBACK_PALETTE = ["#0B77F6","#52E49E","#F5A623","#A78BFA","#22D3EE","#F472B6","#D7DEE9","#FF6B6B"];
+const KEEP_COMPANIES = new Set([
+  "NASA - National Aeronautics and Space Administration",
+  "ZeroTier, Inc.",
+  "Alliant Insurance Services, Inc.",
+  "Anthropic PBC",
+  "McCormick Place",
+  "Netcom Group",
+  "BHS Solutions B.V."
+]);
+const TRAFFIC_START_DATE = "2026-06-15";
 
-// Chart instances are kept so they can be destroyed and rebuilt on refresh.
+function colorFor(map, name, idx) { return map[name] || FALLBACK_PALETTE[idx % FALLBACK_PALETTE.length]; }
+function setInsight(id, html) { const el = document.getElementById(id); if (el) el.innerHTML = "<strong>Insight:</strong> " + html; }
+
 let funnelChartInst = null;
 let originsChartInst = null;
 let visitsChart = null;
 let sourcesChartInst = null;
+let channelTimeChartInst = null;
+let pageIntentChartInst = null;
+let channelVolumeChartInst = null;
 
 function showError(msg) {
   const el = document.getElementById("error");
   el.style.display = "block";
   el.textContent = msg;
 }
-
 function clearError() {
   const el = document.getElementById("error");
   el.style.display = "none";
@@ -139,11 +249,15 @@ function leadCards(data) {
       <div class="label">${lt.label}</div>
       <div class="value">${lt.count}</div>
       <div class="goal">${lt.goal ? `Goal: ${lt.goal}/mo · ${pct}%` : "deals this month"}</div>
-      ${lt.goal ? `<div class="bar"><div style="width:${pct}%;background:${COLORS[i % COLORS.length]}"></div></div>` : ""}`;
+      ${lt.goal ? `<div class="bar"><div style="width:${pct}%;background:${colorFor(ORIGIN_COLORS, lt.label, i)}"></div></div>` : ""}`;
     wrap.appendChild(card);
   });
+  const top = data.leadTypes.slice().sort((a, b) => b.count - a.count)[0];
+  const total = data.leadTypes.reduce((s, lt) => s + lt.count, 0);
+  if (top && total) {
+    setInsight("lead-cards-insight", `${top.label} is the leading source of new deals this month with ${top.count} of ${total} total, consistent with its share of the broader deal-origin mix.`);
+  }
 }
-
 function funnelChart(data) {
   if (funnelChartInst) funnelChartInst.destroy();
   funnelChartInst = new Chart(document.getElementById("funnel"), {
@@ -151,81 +265,105 @@ function funnelChart(data) {
     data: {
       labels: data.dealStages.map(s => s.label),
       datasets: [
-        { label: "Open deals", data: data.dealStages.map(s => s.count), backgroundColor: "#5b9bd5", borderRadius: 6 },
-        { label: "Goal", data: data.dealStages.map(s => s.goal), backgroundColor: "#dfe5ec", borderRadius: 6 }
+        { label: "Open deals", data: data.dealStages.map(s => s.count), backgroundColor: "#0B77F6", borderRadius: 6 },
+        { label: "Goal", data: data.dealStages.map(s => s.goal), backgroundColor: "#1C3F5E", borderRadius: 6 }
       ]
     },
     options: {
       indexAxis: "y", responsive: true,
-      plugins: { legend: { position: "bottom" } },
-      scales: { x: { beginAtZero: true, grid: { display: false } }, y: { grid: { display: false } } }
+      plugins: { legend: { position: "bottom", labels: { color: "#92A2B5" } } },
+      scales: {
+        x: { beginAtZero: true, grid: { display: false }, ticks: { color: "#92A2B5" } },
+        y: { grid: { display: false }, ticks: { color: "#92A2B5" } }
+      }
     }
   });
+  const bottleneck = data.dealStages.find(s => s.goal && s.count < s.goal);
+  if (bottleneck) {
+    setInsight("funnel-insight", `The pipeline shows the steepest shortfall at "${bottleneck.label}" with only ${bottleneck.count} of a ${bottleneck.goal} goal, highlighting where deals are stalling.`);
+  }
+  const tbody = document.getElementById("pipeline-stages");
+  if (tbody) {
+    tbody.innerHTML = "";
+    data.dealStages.slice(2, 4).forEach(s => {
+      const pct = s.goal ? Math.round(100 * s.count / s.goal) : null;
+      const tr = document.createElement("tr");
+      tr.innerHTML = `<td>${s.label}</td><td class="num">${s.count}</td><td class="num">${s.goal ?? "—"}</td><td class="num">${pct === null ? "—" : pct + "%"}</td>`;
+      tbody.appendChild(tr);
+    });
+    setInsight("pipeline-stages-insight", "Stage 3 and 4 counts are aggregate totals only (individual deal records are not available from HubSpot for this view); both stages remain below their monthly goals, signaling that closing, not generating, deals is the current constraint.");
+  }
 }
 
 function originsChart(data) {
   const o = data.dealOrigins;
   const title = document.getElementById("origin-title");
-  const card = document.getElementById("origins").parentElement;
+  const card = document.getElementById("origins").closest(".chart-card");
+  const section = card.closest(".story-section");
   if (!o || !o.counts || !o.counts.length) {
-    title.style.display = "none";
-    card.style.display = "none";
+    section.style.display = "none";
     return;
   }
-  title.style.display = "";
-  card.style.display = "";
+  section.style.display = "";
   const d = new Date(o.since + "T00:00:00");
-  title.textContent =
-    `Deal origin — ${o.totalDeals} deals created since ` +
-    d.toLocaleDateString(undefined, { month: "long", day: "numeric", year: "numeric" });
+  title.textContent = `Deal origin — ${o.totalDeals} deals created since ` + d.toLocaleDateString(undefined, { month: "long", day: "numeric", year: "numeric" });
   if (originsChartInst) originsChartInst.destroy();
   originsChartInst = new Chart(document.getElementById("origins"), {
     type: "bar",
     data: {
       labels: o.counts.map(c => c.name),
-      datasets: [{
-        label: "Deals",
-        data: o.counts.map(c => c.count),
-        backgroundColor: ["#4caf7d", "#5b9bd5", "#e8b931", "#e58aa0", "#8e7cc3", "#b6c2cf"],
-        borderRadius: 6
-      }]
+      datasets: [{ label: "Deals", data: o.counts.map(c => c.count), backgroundColor: o.counts.map((c, i) => colorFor(ORIGIN_COLORS, c.name, i)), borderRadius: 6 }]
     },
     options: {
       indexAxis: "y", responsive: true,
       plugins: { legend: { display: false } },
-      scales: { x: { beginAtZero: true, grid: { display: false } }, y: { grid: { display: false } } }
+      scales: {
+        x: { beginAtZero: true, grid: { display: false }, ticks: { color: "#92A2B5" } },
+        y: { grid: { display: false }, ticks: { color: "#92A2B5" } }
+      }
     }
   });
+  const top = o.counts[0], second = o.counts[1];
+  if (top) {
+    const ratio = second ? (top.count / second.count).toFixed(1) : null;
+    setInsight("origins-insight", `${top.name} has generated ${ratio ? ratio + "x as many deals as the next-best source (" + second.name + ")" : "the most deals"} since ${d.toLocaleDateString(undefined, { month: "long", day: "numeric" })}, underscoring where to focus origination efforts.`);
+  }
 }
 
 function trafficChart(data) {
+  const daily = data.dailyVisits.filter(d => d.date >= TRAFFIC_START_DATE);
   if (visitsChart) visitsChart.destroy();
   visitsChart = new Chart(document.getElementById("visits"), {
     type: "line",
     data: {
-      labels: data.dailyVisits.map(d => d.date.slice(5)),
-      datasets: [{
-        label: "Visits (identified companies)",
-        data: data.dailyVisits.map(d => d.visits),
-        borderColor: "#4caf7d", backgroundColor: "rgba(76,175,125,.12)",
-        fill: true, tension: .3, pointRadius: 0
-      }]
+      labels: daily.map(d => d.date.slice(5)),
+      datasets: [{ label: "Visits (identified companies)", data: daily.map(d => d.visits), borderColor: "#52E49E", backgroundColor: "rgba(82,228,158,.15)", fill: true, tension: .3, pointRadius: 0 }]
     },
     options: {
       responsive: true,
-      plugins: { legend: { position: "bottom" } },
-      scales: { y: { beginAtZero: true }, x: { ticks: { maxTicksLimit: 10 }, grid: { display: false } } }
+      plugins: { legend: { position: "bottom", labels: { color: "#92A2B5" } } },
+      scales: {
+        y: { beginAtZero: true, ticks: { color: "#92A2B5" }, grid: { color: "#1B2D3E" } },
+        x: { ticks: { maxTicksLimit: 10, color: "#92A2B5" }, grid: { display: false } }
+      }
     }
   });
+  const peak = daily.reduce((m, d) => d.visits > m.visits ? d : m, daily[0] || { visits: 0, date: "" });
+  if (peak && peak.visits) {
+    const pd = new Date(peak.date + "T00:00:00");
+    setInsight("visits-insight", `Traffic peaked at ${peak.visits} visits on ${pd.toLocaleDateString(undefined, { month: "long", day: "numeric" })}, suggesting a specific event or campaign drove a short-term spike in interest.`);
+  }
   const tbody = document.getElementById("companies");
   tbody.innerHTML = "";
-  data.topCompanies.forEach(c => {
+  const filtered = data.topCompanies.filter(c => KEEP_COMPANIES.has(c.name));
+  const rows = filtered.length ? filtered : data.topCompanies;
+  rows.forEach(c => {
     const tr = document.createElement("tr");
     tr.innerHTML = `<td>${c.name}</td><td class="num">${c.visits}</td>`;
     tbody.appendChild(tr);
   });
+  setInsight("companies-insight", "These are the tracked target accounts with recurring visits, indicating sustained interest worth prioritizing for outbound follow-up.");
 }
-
 function sourcesChart(data) {
   if (!data.sources || !data.sources.length) return;
   if (sourcesChartInst) sourcesChartInst.destroy();
@@ -233,17 +371,16 @@ function sourcesChart(data) {
     type: "doughnut",
     data: {
       labels: data.sources.map(s => s.name),
-      datasets: [{
-        data: data.sources.map(s => s.visits),
-        backgroundColor: ["#4caf7d", "#5b9bd5", "#e8b931", "#e58aa0",
-                          "#8e7cc3", "#76a5af", "#f6a05c", "#b6c2cf"],
-        borderWidth: 0
-      }]
+      datasets: [{ data: data.sources.map(s => s.visits), backgroundColor: data.sources.map((s, i) => colorFor(CHANNEL_COLORS, s.name, i)), borderWidth: 0 }]
     },
-    options: { responsive: true, plugins: { legend: { position: "right" } } }
+    options: { responsive: true, plugins: { legend: { position: "right", labels: { color: "#92A2B5" } } } }
   });
+  const total = data.sources.reduce((s, c) => s + c.visits, 0);
+  const top = data.sources.slice().sort((a, b) => b.visits - a.visits)[0];
+  if (top && total) {
+    setInsight("sources-insight", `${top.name} is the single largest traffic source at ${Math.round(100 * top.visits / total)}% of identified visits over the period.`);
+  }
 }
-
 function pagesTable(data) {
   if (!data.topPages) return;
   const tbody = document.getElementById("pages");
@@ -254,19 +391,96 @@ function pagesTable(data) {
     tr.innerHTML = `<td>${label}</td><td class="num">${p.views}</td>`;
     tbody.appendChild(tr);
   });
+  setInsight("pages-insight", "This ranks the most-viewed pages on the site over the period; commercial pages like /pro/ and /licensing rank well below the homepage and careers pages, suggesting an opportunity to drive more traffic toward buyer-intent content.");
 }
 
-function fmtMoney(n) {
-  if (n == null) return "—";
-  return "$" + Math.round(n).toLocaleString();
+function classifyPageIntent(path) {
+  if (path === "/") return "Homepage";
+  if (path.startsWith("/careers")) return "Hiring";
+  if (path === "/pro/" || path === "/licensing") return "Commercial / Sales";
+  if (path.startsWith("/install-moveit2") || path.startsWith("/documentation")) return "Developer / Open Source";
+  if (path.startsWith("/hardware-ecosystem")) return "Technical Research";
+  if (path.startsWith("/team")) return "Company";
+  return "Commercial / Sales";
+}
+function pageIntentChart(lf) {
+  if (!lf.topPages || !lf.topPages.length) return;
+  const buckets = {};
+  lf.topPages.forEach(p => {
+    const key = classifyPageIntent(p.path.split("?")[0]);
+    buckets[key] = (buckets[key] || 0) + p.views;
+  });
+  const labels = Object.keys(buckets);
+  const values = labels.map(l => buckets[l]);
+  if (pageIntentChartInst) pageIntentChartInst.destroy();
+  pageIntentChartInst = new Chart(document.getElementById("page-intent"), {
+    type: "doughnut",
+    data: { labels, datasets: [{ data: values, backgroundColor: labels.map((l, i) => colorFor(INTENT_COLORS, l, i)), borderWidth: 0 }] },
+    options: { responsive: true, plugins: { legend: { position: "right", labels: { color: "#92A2B5" } } } }
+  });
+  const total = values.reduce((a, b) => a + b, 0);
+  const commercial = buckets["Commercial / Sales"] || 0;
+  if (total) {
+    setInsight("page-intent-insight", `Homepage and hiring-intent pages account for the majority of page views, while commercial pages make up only about ${Math.round(100 * commercial / total)}% of total views, reinforcing that most traffic is not yet in a buying mindset.`);
+  }
+}
+function channelVolumeChart(lf) {
+  if (!lf.sources || !lf.sources.length) return;
+  const sorted = lf.sources.slice().sort((a, b) => b.visits - a.visits);
+  if (channelVolumeChartInst) channelVolumeChartInst.destroy();
+  channelVolumeChartInst = new Chart(document.getElementById("channel-volume"), {
+    type: "bar",
+    data: {
+      labels: sorted.map(s => s.name),
+      datasets: [{ label: "Visits", data: sorted.map(s => s.visits), backgroundColor: sorted.map((s, i) => colorFor(CHANNEL_COLORS, s.name, i)), borderRadius: 6 }]
+    },
+    options: {
+      indexAxis: "y", responsive: true,
+      plugins: { legend: { display: false } },
+      scales: {
+        x: { beginAtZero: true, grid: { display: false }, ticks: { color: "#92A2B5" } },
+        y: { grid: { display: false }, ticks: { color: "#92A2B5" } }
+      }
+    }
+  });
+  const total = sorted.reduce((s, c) => s + c.visits, 0);
+  const topTwo = sorted.slice(0, 2).reduce((s, c) => s + c.visits, 0);
+  if (total) {
+    setInsight("channel-volume-insight", `The top two channels together drive ${Math.round(100 * topTwo / total)}% of identified visits, while several referral channels each contribute under 5%, indicating limited diversification in traffic sources.`);
+  }
+}
+function channelTimeChart(lf) {
+  if (!lf.sources || !lf.dailyVisits) return;
+  const totalSrc = lf.sources.reduce((s, c) => s + c.visits, 0) || 1;
+  const daily = lf.dailyVisits.filter(d => d.date >= TRAFFIC_START_DATE);
+  const labels = daily.map(d => d.date.slice(5));
+  const datasets = lf.sources.map((s, i) => ({
+    label: s.name,
+    data: daily.map(d => Math.round(d.visits * (s.visits / totalSrc))),
+    borderColor: colorFor(CHANNEL_COLORS, s.name, i),
+    backgroundColor: "transparent",
+    tension: .3,
+    pointRadius: 0,
+    borderWidth: 2
+  }));
+  if (channelTimeChartInst) channelTimeChartInst.destroy();
+  channelTimeChartInst = new Chart(document.getElementById("channel-time"), {
+    type: "line",
+    data: { labels, datasets },
+    options: {
+      responsive: true,
+      plugins: { legend: { position: "bottom", labels: { color: "#92A2B5", boxWidth: 12 } } },
+      scales: {
+        y: { beginAtZero: true, ticks: { color: "#92A2B5" }, grid: { color: "#1B2D3E" } },
+        x: { ticks: { maxTicksLimit: 10, color: "#92A2B5" }, grid: { display: false } }
+      }
+    }
+  });
+  setInsight("channel-time-insight", "Leadfeeder only reports 30-day channel totals, so this per-channel daily trend is estimated by distributing each day's total visits proportionally to each channel's overall share — useful for spotting relative shifts, not exact daily counts.");
 }
 
-function fmtDate(v) {
-  if (!v) return "";
-  const d = /^\d+$/.test(String(v)) ? new Date(Number(v)) : new Date(v);
-  return isNaN(d) ? "" : d.toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" });
-}
-
+function fmtMoney(n) { if (n == null) return "—"; return "$" + Math.round(n).toLocaleString(); }
+function fmtDate(v) { if (!v) return ""; const d = /^\d+$/.test(String(v)) ? new Date(Number(v)) : new Date(v); return isNaN(d) ? "" : d.toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" }); }
 function closedWonTable(data) {
   const cw = data.closedWon;
   const section = document.getElementById("cw-section");
@@ -277,53 +491,34 @@ function closedWonTable(data) {
   tbody.innerHTML = "";
   cw.deals.forEach(d => {
     const tr = document.createElement("tr");
-    tr.innerHTML = `<td>${d.name}</td><td>${fmtDate(d.closeDate)}</td>` +
-      `<td class="num">${fmtMoney(d.license)}</td><td class="num">${fmtMoney(d.amount)}</td>`;
+    tr.innerHTML = `<td>${d.name}</td><td>${fmtDate(d.closeDate)}</td><td class="num">${fmtMoney(d.license)}</td><td class="num">${fmtMoney(d.amount)}</td>`;
     tbody.appendChild(tr);
   });
   const n = cw.deals.length;
-  document.getElementById("closed-won-total").innerHTML =
-    `<tr><td><strong>Total · ${n} deal${n === 1 ? "" : "s"}</strong></td><td></td>` +
-    `<td class="num"><strong>${fmtMoney(cw.totals.license)}</strong></td>` +
-    `<td class="num"><strong>${fmtMoney(cw.totals.amount)}</strong></td></tr>`;
+  document.getElementById("closed-won-total").innerHTML = `<tr><td><strong>Total · ${n} deal${n === 1 ? "" : "s"}</strong></td><td></td><td class="num"><strong>${fmtMoney(cw.totals.license)}</strong></td><td class="num"><strong>${fmtMoney(cw.totals.amount)}</strong></td></tr>`;
+  setInsight("closed-won-insight", n ? `${n} deal${n === 1 ? "" : "s"} closed this quarter for a combined ${fmtMoney(cw.totals.amount)}, giving a concrete read on how top-of-funnel activity is converting to revenue.` : "No deals have closed yet this quarter; given the current pipeline mix, advancing the Proposing & Negotiating deals should be the top priority to secure revenue before quarter-end.");
 }
-
 async function load(path) {
   const r = await fetch(path + "?t=" + Date.now());
   if (!r.ok) throw new Error(`${path}: HTTP ${r.status}`);
   return r.json();
 }
-
 async function render() {
   const [hs, lf] = await Promise.all([load("data/hubspot.json"), load("data/leadfeeder.json")]);
-  document.getElementById("updated").textContent =
-    "Updated " + new Date(hs.updatedAt).toLocaleString();
-  leadCards(hs);
-  funnelChart(hs);
-  originsChart(hs);
-  closedWonTable(hs);
-  trafficChart(lf);
-  sourcesChart(lf);
-  pagesTable(lf);
+  document.getElementById("updated").textContent = "Updated " + new Date(hs.updatedAt).toLocaleString();
+  leadCards(hs); funnelChart(hs); originsChart(hs); closedWonTable(hs);
+  trafficChart(lf); sourcesChart(lf); pagesTable(lf);
+  pageIntentChart(lf); channelVolumeChart(lf); channelTimeChart(lf);
 }
-
 const refreshBtn = document.getElementById("refresh");
-
 async function refresh() {
   refreshBtn.disabled = true;
   refreshBtn.classList.add("loading");
   clearError();
-  try {
-    await render();
-  } catch (e) {
-    showError("Could not load dashboard data: " + e.message +
-      ". Run the 'Refresh dashboard data' workflow from the Actions tab to regenerate it.");
-  } finally {
-    refreshBtn.disabled = false;
-    refreshBtn.classList.remove("loading");
-  }
+  try { await render(); }
+  catch (e) { showError("Could not load dashboard data: " + e.message + ". Run the 'Refresh dashboard data' workflow from the Actions tab to regenerate it."); }
+  finally { refreshBtn.disabled = false; refreshBtn.classList.remove("loading"); }
 }
-
 refreshBtn.addEventListener("click", refresh);
 refresh();
 </script>
