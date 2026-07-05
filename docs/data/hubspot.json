@@ -7,6 +7,12 @@
       "count": 4
     },
     {
+      "key": "Website Inbound",
+      "label": "Website Inbound",
+      "goal": null,
+      "count": 3
+    },
+    {
       "key": "Upsell",
       "label": "Upsell",
       "goal": null,
@@ -17,12 +23,6 @@
       "label": "(not set)",
       "goal": null,
       "count": 2
-    },
-    {
-      "key": "Website Inbound",
-      "label": "Website Inbound",
-      "goal": null,
-      "count": 1
     }
   ],
   "dealStages": [
@@ -49,7 +49,7 @@
   ],
   "dealOrigins": {
     "since": "2026-05-01",
-    "totalDeals": 130,
+    "totalDeals": 132,
     "counts": [
       {
         "name": "Conferences / Events",
@@ -57,7 +57,7 @@
       },
       {
         "name": "Website Inbound",
-        "count": 33
+        "count": 35
       },
       {
         "name": "Upsell",
@@ -89,6 +89,6 @@
       "license": 0
     }
   },
-  "updatedAt": "2026-07-04T13:17:29.494680+00:00",
+  "updatedAt": "2026-07-05T13:23:47.717969+00:00",
   "period": "July 2026"
 }

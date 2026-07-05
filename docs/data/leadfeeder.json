@@ -3,7 +3,7 @@
   "topCompanies": [
     {
       "name": "PickNik Robotics",
-      "visits": 98,
+      "visits": 97,
       "industry": null
     },
     {
@@ -13,7 +13,7 @@
     },
     {
       "name": "National Tsing Hua University",
-      "visits": 19,
+      "visits": 22,
       "industry": null
     },
     {
@@ -27,7 +27,7 @@
       "industry": null
     },
     {
-      "name": "Structural Steel Research Group, IIT Hyderabad",
+      "name": "Anthropic PBC",
       "visits": 14,
       "industry": null
     },
@@ -37,7 +37,7 @@
       "industry": null
     },
     {
-      "name": "Anthropic PBC",
+      "name": "Structural Steel Research Group, IIT Hyderabad",
       "visits": 11,
       "industry": null
     },
@@ -78,10 +78,6 @@
     }
   ],
   "dailyVisits": [
-    {
-      "date": "2026-06-04",
-      "visits": 0
-    },
     {
       "date": "2026-06-05",
       "visits": 0
@@ -144,11 +140,11 @@
     },
     {
       "date": "2026-06-20",
-      "visits": 37
+      "visits": 0
     },
     {
       "date": "2026-06-21",
-      "visits": 43
+      "visits": 41
     },
     {
       "date": "2026-06-22",
@@ -184,7 +180,7 @@
     },
     {
       "date": "2026-06-30",
-      "visits": 244
+      "visits": 245
     },
     {
       "date": "2026-07-01",
@@ -200,21 +196,25 @@
     },
     {
       "date": "2026-07-04",
-      "visits": 29
+      "visits": 42
+    },
+    {
+      "date": "2026-07-05",
+      "visits": 25
     }
   ],
   "sources": [
     {
       "name": "google / organic",
-      "visits": 816
+      "visits": 819
     },
     {
       "name": "direct",
-      "visits": 748
+      "visits": 745
     },
     {
       "name": "github.com / referral",
-      "visits": 91
+      "visits": 92
     },
     {
       "name": "linkedin / social",
@@ -230,42 +230,42 @@
     },
     {
       "name": "chatgpt.com / referral",
-      "visits": 23
+      "visits": 25
     },
     {
       "name": "docs.ros.org / referral",
-      "visits": 21
+      "visits": 23
     }
   ],
   "topPages": [
     {
       "path": "/",
-      "views": 903,
-      "title": "Robotics Solutions Company | Robotics Software | PickNik"
+      "views": 906,
+      "title": "MoveIt Motion Planning Framework"
     },
     {
       "path": "/careers/",
-      "views": 499,
+      "views": 503,
       "title": "Careers | PickNik"
     },
     {
-      "path": "/install-moveit2/binary/",
-      "views": 240,
-      "title": "MoveIt 2 Binary Install | MoveIt"
-    },
-    {
       "path": "/pro/",
-      "views": 229,
+      "views": 233,
       "title": "MoveIt Pro Runtime & Developer Robotics Software | PickNik"
     },
     {
+      "path": "/install-moveit2/binary/",
+      "views": 233,
+      "title": "MoveIt 2 Binary Install | MoveIt"
+    },
+    {
       "path": "/hardware-ecosystem/",
-      "views": 138,
+      "views": 146,
       "title": "ROS 2 Compatible Hardware - Comprehensive Database | PickNik"
     },
     {
       "path": "/licensing",
-      "views": 101,
+      "views": 97,
       "title": "MoveIt Pro Plans & Pricing | PickNik"
     },
     {
@@ -275,7 +275,7 @@
     },
     {
       "path": "/careers/?ashby_jid=8e6d2b6e-bb50-463d-b988-f6042fc75f13",
-      "views": 66,
+      "views": 68,
       "title": "Careers | PickNik"
     },
     {
@@ -284,10 +284,10 @@
       "title": "Concepts | MoveIt"
     },
     {
-      "path": "/team/",
-      "views": 62,
-      "title": "Team | PickNik"
+      "path": "/moveit-2-vs-moveit-pro/",
+      "views": 63,
+      "title": "MoveIt 2 vs MoveIt Pro | PickNik"
     }
   ],
-  "updatedAt": "2026-07-04T13:19:15.337006+00:00"
+  "updatedAt": "2026-07-05T13:25:46.238504+00:00"
 }
