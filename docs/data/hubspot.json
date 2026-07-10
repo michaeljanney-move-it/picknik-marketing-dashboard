@@ -1,14 +1,20 @@
 {
   "leadTypes": [
     {
-      "key": "Conferences / Events",
-      "label": "Conferences / Events",
+      "key": "Website Inbound",
+      "label": "Website Inbound",
+      "goal": null,
+      "count": 7
+    },
+    {
+      "key": "Upsell",
+      "label": "Upsell",
       "goal": null,
       "count": 4
     },
     {
-      "key": "Website Inbound",
-      "label": "Website Inbound",
+      "key": "Conferences / Events",
+      "label": "Conferences / Events",
       "goal": null,
       "count": 4
     },
@@ -19,17 +25,17 @@
       "count": 3
     },
     {
-      "key": "Upsell",
-      "label": "Upsell",
+      "key": "Outbound",
+      "label": "Outbound",
       "goal": null,
-      "count": 2
+      "count": 1
     }
   ],
   "dealStages": [
     {
       "label": "1. Qualifying",
       "goal": 50,
-      "count": 52
+      "count": 54
     },
     {
       "label": "2. Qualified (BANT)",
@@ -49,7 +55,7 @@
   ],
   "dealOrigins": {
     "since": "2026-05-01",
-    "totalDeals": 134,
+    "totalDeals": 140,
     "counts": [
       {
         "name": "Conferences / Events",
@@ -57,11 +63,11 @@
       },
       {
         "name": "Website Inbound",
-        "count": 36
+        "count": 39
       },
       {
         "name": "Upsell",
-        "count": 18
+        "count": 20
       },
       {
         "name": "(not set)",
@@ -73,7 +79,7 @@
       },
       {
         "name": "Outbound",
-        "count": 2
+        "count": 3
       },
       {
         "name": "RoboBusiness 2024",
@@ -96,6 +102,6 @@
       "license": 118000.0
     }
   },
-  "updatedAt": "2026-07-09T14:50:58.733626+00:00",
+  "updatedAt": "2026-07-10T14:16:10.956740+00:00",
   "period": "July 2026"
 }
