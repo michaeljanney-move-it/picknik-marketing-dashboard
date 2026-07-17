@@ -1,24 +1,24 @@
 {
-  "identifiedCompanies": 1015,
+  "identifiedCompanies": 1003,
   "topCompanies": [
     {
       "name": "PickNik Robotics",
-      "visits": 105,
-      "industry": null
-    },
-    {
-      "name": "NASA - National Aeronautics and Space Administration",
-      "visits": 30,
+      "visits": 107,
       "industry": null
     },
     {
       "name": "Pontificia Universidad Cat\u00f3lica del Ecuador Sede Santo Domingo",
-      "visits": 29,
+      "visits": 31,
+      "industry": null
+    },
+    {
+      "name": "NASA - National Aeronautics and Space Administration",
+      "visits": 27,
       "industry": null
     },
     {
       "name": "ELSA Japan",
-      "visits": 25,
+      "visits": 26,
       "industry": null
     },
     {
@@ -32,8 +32,13 @@
       "industry": null
     },
     {
+      "name": "Lockheed Martin Corporation",
+      "visits": 15,
+      "industry": null
+    },
+    {
       "name": "National Tsing Hua University",
-      "visits": 17,
+      "visits": 15,
       "industry": null
     },
     {
@@ -42,22 +47,17 @@
       "industry": null
     },
     {
-      "name": "Lockheed Martin Corporation",
-      "visits": 13,
-      "industry": null
-    },
-    {
       "name": "Industrial Technology Research Institute",
       "visits": 11,
       "industry": null
     },
     {
-      "name": "Office of District Attorney Dee Bates",
-      "visits": 10,
+      "name": "Meta",
+      "visits": 11,
       "industry": null
     },
     {
-      "name": "KUKA AG",
+      "name": "Spartan Host",
       "visits": 10,
       "industry": null
     },
@@ -67,7 +67,7 @@
       "industry": null
     },
     {
-      "name": "Spartan Host",
+      "name": "Asahi Europe & International",
       "visits": 9,
       "industry": null
     },
@@ -78,10 +78,6 @@
     }
   ],
   "dailyVisits": [
-    {
-      "date": "2026-06-16",
-      "visits": 0
-    },
     {
       "date": "2026-06-17",
       "visits": 0
@@ -140,7 +136,7 @@
     },
     {
       "date": "2026-07-01",
-      "visits": 152
+      "visits": 50
     },
     {
       "date": "2026-07-02",
@@ -156,7 +152,7 @@
     },
     {
       "date": "2026-07-05",
-      "visits": 44
+      "visits": 45
     },
     {
       "date": "2026-07-06",
@@ -164,7 +160,7 @@
     },
     {
       "date": "2026-07-07",
-      "visits": 204
+      "visits": 203
     },
     {
       "date": "2026-07-08",
@@ -176,7 +172,7 @@
     },
     {
       "date": "2026-07-10",
-      "visits": 134
+      "visits": 135
     },
     {
       "date": "2026-07-11",
@@ -188,11 +184,11 @@
     },
     {
       "date": "2026-07-13",
-      "visits": 191
+      "visits": 190
     },
     {
       "date": "2026-07-14",
-      "visits": 146
+      "visits": 147
     },
     {
       "date": "2026-07-15",
@@ -200,25 +196,29 @@
     },
     {
       "date": "2026-07-16",
-      "visits": 79
+      "visits": 128
+    },
+    {
+      "date": "2026-07-17",
+      "visits": 52
     }
   ],
   "sources": [
     {
       "name": "google / organic",
-      "visits": 902
+      "visits": 901
     },
     {
       "name": "direct",
-      "visits": 751
+      "visits": 759
     },
     {
       "name": "github.com / referral",
-      "visits": 105
+      "visits": 106
     },
     {
       "name": "bing / organic",
-      "visits": 64
+      "visits": 60
     },
     {
       "name": "chatgpt.com / referral",
@@ -226,11 +226,11 @@
     },
     {
       "name": "linkedin / social",
-      "visits": 24
+      "visits": 23
     },
     {
       "name": "docs.ros.org / referral",
-      "visits": 22
+      "visits": 20
     },
     {
       "name": "duckduckgo / organic",
@@ -240,54 +240,54 @@
   "topPages": [
     {
       "path": "/",
-      "views": 994,
+      "views": 996,
       "title": "MoveIt Motion Planning Framework"
     },
     {
       "path": "/careers/",
-      "views": 297,
+      "views": 283,
       "title": "Careers | PickNik"
     },
     {
       "path": "/install-moveit2/binary/",
-      "views": 257,
+      "views": 267,
       "title": "MoveIt 2 Binary Install | MoveIt"
     },
     {
       "path": "/pro/",
-      "views": 191,
+      "views": 192,
       "title": "MoveIt Pro Runtime & Developer Robotics Software | PickNik"
     },
     {
       "path": "/hardware-ecosystem/",
-      "views": 156,
+      "views": 157,
       "title": "ROS 2 Compatible Hardware - Comprehensive Database | PickNik"
     },
     {
       "path": "/licensing",
-      "views": 107,
+      "views": 105,
       "title": "MoveIt Pro Plans & Pricing | PickNik"
     },
     {
       "path": "/install-moveit2/source/",
-      "views": 105,
+      "views": 103,
       "title": "MoveIt 2 Source Build - Linux | MoveIt"
     },
     {
       "path": "/documentation/concepts/",
-      "views": 79,
+      "views": 76,
       "title": "Concepts | MoveIt"
     },
     {
       "path": "/team/",
-      "views": 62,
+      "views": 59,
       "title": "Team | PickNik"
     },
     {
       "path": "/moveit-2-vs-moveit-pro/",
-      "views": 57,
+      "views": 55,
       "title": "MoveIt 2 vs MoveIt Pro | PickNik"
     }
   ],
-  "updatedAt": "2026-07-16T13:44:42.041539+00:00"
+  "updatedAt": "2026-07-17T13:22:31.122840+00:00"
 }
