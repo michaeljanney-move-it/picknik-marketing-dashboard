@@ -1,9 +1,9 @@
 {
-  "identifiedCompanies": 1003,
+  "identifiedCompanies": 1008,
   "topCompanies": [
     {
       "name": "PickNik Robotics",
-      "visits": 107,
+      "visits": 103,
       "industry": null
     },
     {
@@ -12,13 +12,13 @@
       "industry": null
     },
     {
-      "name": "NASA - National Aeronautics and Space Administration",
-      "visits": 27,
+      "name": "ELSA Japan",
+      "visits": 26,
       "industry": null
     },
     {
-      "name": "ELSA Japan",
-      "visits": 26,
+      "name": "NASA - National Aeronautics and Space Administration",
+      "visits": 22,
       "industry": null
     },
     {
@@ -32,6 +32,11 @@
       "industry": null
     },
     {
+      "name": "HostDZire Web Services Pvt. Ltd.",
+      "visits": 15,
+      "industry": null
+    },
+    {
       "name": "Lockheed Martin Corporation",
       "visits": 15,
       "industry": null
@@ -39,11 +44,6 @@
     {
       "name": "National Tsing Hua University",
       "visits": 15,
-      "industry": null
-    },
-    {
-      "name": "HostDZire Web Services Pvt. Ltd.",
-      "visits": 14,
       "industry": null
     },
     {
@@ -62,8 +62,8 @@
       "industry": null
     },
     {
-      "name": "Anthropic PBC",
-      "visits": 10,
+      "name": "ILINK",
+      "visits": 9,
       "industry": null
     },
     {
@@ -78,10 +78,6 @@
     }
   ],
   "dailyVisits": [
-    {
-      "date": "2026-06-17",
-      "visits": 0
-    },
     {
       "date": "2026-06-18",
       "visits": 0
@@ -136,7 +132,7 @@
     },
     {
       "date": "2026-07-01",
-      "visits": 50
+      "visits": 8
     },
     {
       "date": "2026-07-02",
@@ -152,7 +148,7 @@
     },
     {
       "date": "2026-07-05",
-      "visits": 45
+      "visits": 44
     },
     {
       "date": "2026-07-06",
@@ -160,7 +156,7 @@
     },
     {
       "date": "2026-07-07",
-      "visits": 203
+      "visits": 204
     },
     {
       "date": "2026-07-08",
@@ -172,7 +168,7 @@
     },
     {
       "date": "2026-07-10",
-      "visits": 135
+      "visits": 134
     },
     {
       "date": "2026-07-11",
@@ -184,11 +180,11 @@
     },
     {
       "date": "2026-07-13",
-      "visits": 190
+      "visits": 191
     },
     {
       "date": "2026-07-14",
-      "visits": 147
+      "visits": 146
     },
     {
       "date": "2026-07-15",
@@ -200,25 +196,29 @@
     },
     {
       "date": "2026-07-17",
-      "visits": 52
+      "visits": 78
+    },
+    {
+      "date": "2026-07-18",
+      "visits": 17
     }
   ],
   "sources": [
     {
       "name": "google / organic",
-      "visits": 901
+      "visits": 907
     },
     {
       "name": "direct",
-      "visits": 759
+      "visits": 746
     },
     {
       "name": "github.com / referral",
-      "visits": 106
+      "visits": 109
     },
     {
       "name": "bing / organic",
-      "visits": 60
+      "visits": 61
     },
     {
       "name": "chatgpt.com / referral",
@@ -226,41 +226,41 @@
     },
     {
       "name": "linkedin / social",
-      "visits": 23
+      "visits": 21
     },
     {
       "name": "docs.ros.org / referral",
-      "visits": 20
+      "visits": 21
     },
     {
       "name": "duckduckgo / organic",
-      "visits": 16
+      "visits": 18
     }
   ],
   "topPages": [
     {
       "path": "/",
-      "views": 996,
+      "views": 1002,
       "title": "MoveIt Motion Planning Framework"
     },
     {
       "path": "/careers/",
-      "views": 283,
+      "views": 272,
       "title": "Careers | PickNik"
     },
     {
       "path": "/install-moveit2/binary/",
-      "views": 267,
+      "views": 268,
       "title": "MoveIt 2 Binary Install | MoveIt"
     },
     {
       "path": "/pro/",
-      "views": 192,
+      "views": 184,
       "title": "MoveIt Pro Runtime & Developer Robotics Software | PickNik"
     },
     {
       "path": "/hardware-ecosystem/",
-      "views": 157,
+      "views": 153,
       "title": "ROS 2 Compatible Hardware - Comprehensive Database | PickNik"
     },
     {
@@ -270,24 +270,24 @@
     },
     {
       "path": "/install-moveit2/source/",
-      "views": 103,
+      "views": 104,
       "title": "MoveIt 2 Source Build - Linux | MoveIt"
     },
     {
       "path": "/documentation/concepts/",
-      "views": 76,
+      "views": 81,
       "title": "Concepts | MoveIt"
     },
     {
       "path": "/team/",
-      "views": 59,
+      "views": 57,
       "title": "Team | PickNik"
     },
     {
       "path": "/moveit-2-vs-moveit-pro/",
-      "views": 55,
+      "views": 54,
       "title": "MoveIt 2 vs MoveIt Pro | PickNik"
     }
   ],
-  "updatedAt": "2026-07-17T13:22:31.122840+00:00"
+  "updatedAt": "2026-07-18T13:08:41.344333+00:00"
 }
