@@ -4,7 +4,7 @@
       "key": "Website Inbound",
       "label": "Website Inbound",
       "goal": null,
-      "count": 10
+      "count": 12
     },
     {
       "key": "Upsell",
@@ -61,7 +61,7 @@
   ],
   "dealOrigins": {
     "since": "2026-05-01",
-    "totalDeals": 145,
+    "totalDeals": 147,
     "counts": [
       {
         "name": "Conferences / Events",
@@ -69,7 +69,7 @@
       },
       {
         "name": "Website Inbound",
-        "count": 42
+        "count": 44
       },
       {
         "name": "Upsell",
@@ -108,6 +108,6 @@
       "license": 118000.0
     }
   },
-  "updatedAt": "2026-07-20T13:58:29.591470+00:00",
+  "updatedAt": "2026-07-21T13:40:44.339078+00:00",
   "period": "July 2026"
 }
