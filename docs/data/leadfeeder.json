@@ -3,12 +3,12 @@
   "topCompanies": [
     {
       "name": "PickNik Robotics",
-      "visits": 97,
+      "visits": 99,
       "industry": null
     },
     {
       "name": "Pontificia Universidad Cat\u00f3lica del Ecuador Sede Santo Domingo",
-      "visits": 33,
+      "visits": 35,
       "industry": null
     },
     {
@@ -28,7 +28,7 @@
     },
     {
       "name": "Modern Aviation Inc.",
-      "visits": 20,
+      "visits": 19,
       "industry": null
     },
     {
@@ -42,18 +42,13 @@
       "industry": null
     },
     {
-      "name": "HostDZire Web Services Pvt. Ltd.",
+      "name": "Meta",
       "visits": 14,
       "industry": null
     },
     {
-      "name": "Meta",
-      "visits": 12,
-      "industry": null
-    },
-    {
-      "name": "National Tsing Hua University",
-      "visits": 12,
+      "name": "HostDZire Web Services Pvt. Ltd.",
+      "visits": 14,
       "industry": null
     },
     {
@@ -72,16 +67,17 @@
       "industry": null
     },
     {
+      "name": "Teledyne Technologies Incorporated",
+      "visits": 9,
+      "industry": null
+    },
+    {
       "name": "Brainlab SE",
       "visits": 9,
       "industry": null
     }
   ],
   "dailyVisits": [
-    {
-      "date": "2026-06-21",
-      "visits": 0
-    },
     {
       "date": "2026-06-22",
       "visits": 0
@@ -128,11 +124,11 @@
     },
     {
       "date": "2026-07-03",
-      "visits": 40
+      "visits": 0
     },
     {
       "date": "2026-07-04",
-      "visits": 42
+      "visits": 33
     },
     {
       "date": "2026-07-05",
@@ -200,29 +196,33 @@
     },
     {
       "date": "2026-07-21",
-      "visits": 100
+      "visits": 128
+    },
+    {
+      "date": "2026-07-22",
+      "visits": 21
     }
   ],
   "sources": [
     {
       "name": "google / organic",
-      "visits": 916
+      "visits": 918
     },
     {
       "name": "direct",
-      "visits": 750
+      "visits": 741
     },
     {
       "name": "github.com / referral",
-      "visits": 106
+      "visits": 108
     },
     {
       "name": "bing / organic",
-      "visits": 60
+      "visits": 61
     },
     {
       "name": "chatgpt.com / referral",
-      "visits": 26
+      "visits": 25
     },
     {
       "name": "docs.ros.org / referral",
@@ -230,17 +230,17 @@
     },
     {
       "name": "duckduckgo / organic",
-      "visits": 18
+      "visits": 19
     },
     {
       "name": "linkedin / social",
-      "visits": 15
+      "visits": 16
     }
   ],
   "topPages": [
     {
       "path": "/",
-      "views": 1006,
+      "views": 1013,
       "title": "MoveIt Motion Planning Framework"
     },
     {
@@ -250,27 +250,27 @@
     },
     {
       "path": "/careers/",
-      "views": 210,
+      "views": 197,
       "title": "Careers | PickNik"
     },
     {
       "path": "/pro/",
-      "views": 158,
+      "views": 152,
       "title": "MoveIt Pro Runtime & Developer Robotics Software | PickNik"
     },
     {
       "path": "/hardware-ecosystem/",
-      "views": 145,
+      "views": 144,
       "title": "ROS 2 Compatible Hardware - Comprehensive Database | PickNik"
     },
     {
       "path": "/install-moveit2/source/",
-      "views": 109,
+      "views": 108,
       "title": "MoveIt 2 Source Build - Linux | MoveIt"
     },
     {
       "path": "/licensing",
-      "views": 93,
+      "views": 87,
       "title": "MoveIt Pro Plans & Pricing | PickNik"
     },
     {
@@ -280,14 +280,14 @@
     },
     {
       "path": "/team/",
-      "views": 57,
+      "views": 58,
       "title": "Team | PickNik"
     },
     {
       "path": "/robots/",
-      "views": 56,
+      "views": 57,
       "title": "Robots | MoveIt"
     }
   ],
-  "updatedAt": "2026-07-21T13:42:53.019863+00:00"
+  "updatedAt": "2026-07-22T13:45:59.453705+00:00"
 }
