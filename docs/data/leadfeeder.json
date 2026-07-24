@@ -1,19 +1,19 @@
 {
-  "identifiedCompanies": 994,
+  "identifiedCompanies": 986,
   "topCompanies": [
     {
       "name": "PickNik Robotics",
-      "visits": 103,
+      "visits": 105,
       "industry": null
     },
     {
       "name": "Pontificia Universidad Cat\u00f3lica del Ecuador Sede Santo Domingo",
-      "visits": 38,
+      "visits": 39,
       "industry": null
     },
     {
       "name": "ELSA Japan",
-      "visits": 27,
+      "visits": 30,
       "industry": null
     },
     {
@@ -43,7 +43,7 @@
     },
     {
       "name": "Meta",
-      "visits": 14,
+      "visits": 15,
       "industry": null
     },
     {
@@ -52,8 +52,13 @@
       "industry": null
     },
     {
+      "name": "Beijing E-motion Control Equipment",
+      "visits": 12,
+      "industry": null
+    },
+    {
       "name": "Asahi Europe & International",
-      "visits": 11,
+      "visits": 12,
       "industry": null
     },
     {
@@ -70,18 +75,9 @@
       "name": "Teledyne Technologies Incorporated",
       "visits": 9,
       "industry": null
-    },
-    {
-      "name": "Brainlab SE",
-      "visits": 9,
-      "industry": null
     }
   ],
   "dailyVisits": [
-    {
-      "date": "2026-06-23",
-      "visits": 0
-    },
     {
       "date": "2026-06-24",
       "visits": 0
@@ -128,7 +124,7 @@
     },
     {
       "date": "2026-07-05",
-      "visits": 40
+      "visits": 8
     },
     {
       "date": "2026-07-06",
@@ -200,17 +196,21 @@
     },
     {
       "date": "2026-07-23",
-      "visits": 18
+      "visits": 34
+    },
+    {
+      "date": "2026-07-24",
+      "visits": 16
     }
   ],
   "sources": [
     {
       "name": "google / organic",
-      "visits": 922
+      "visits": 925
     },
     {
       "name": "direct",
-      "visits": 739
+      "visits": 738
     },
     {
       "name": "github.com / referral",
@@ -221,12 +221,12 @@
       "visits": 62
     },
     {
-      "name": "chatgpt.com / referral",
-      "visits": 25
+      "name": "docs.ros.org / referral",
+      "visits": 23
     },
     {
-      "name": "docs.ros.org / referral",
-      "visits": 24
+      "name": "chatgpt.com / referral",
+      "visits": 23
     },
     {
       "name": "duckduckgo / organic",
@@ -234,43 +234,43 @@
     },
     {
       "name": "linkedin / social",
-      "visits": 14
+      "visits": 13
     }
   ],
   "topPages": [
     {
       "path": "/",
       "views": 1022,
-      "title": "MoveIt Motion Planning Framework"
+      "title": "Robotics Solutions Company | Robotics Software | PickNik"
     },
     {
       "path": "/install-moveit2/binary/",
-      "views": 282,
+      "views": 283,
       "title": "MoveIt 2 Binary Install | MoveIt"
     },
     {
       "path": "/careers/",
-      "views": 194,
+      "views": 189,
       "title": "Careers | PickNik"
     },
     {
       "path": "/pro/",
-      "views": 150,
+      "views": 155,
       "title": "MoveIt Pro Runtime & Developer Robotics Software | PickNik"
     },
     {
       "path": "/hardware-ecosystem/",
-      "views": 148,
+      "views": 147,
       "title": "ROS 2 Compatible Hardware - Comprehensive Database | PickNik"
     },
     {
       "path": "/install-moveit2/source/",
-      "views": 106,
+      "views": 105,
       "title": "MoveIt 2 Source Build - Linux | MoveIt"
     },
     {
       "path": "/licensing",
-      "views": 92,
+      "views": 98,
       "title": "MoveIt Pro Plans & Pricing | PickNik"
     },
     {
@@ -279,15 +279,15 @@
       "title": "Concepts | MoveIt"
     },
     {
+      "path": "/team/",
+      "views": 59,
+      "title": "Team | PickNik"
+    },
+    {
       "path": "/robots/",
       "views": 58,
       "title": "Robots | MoveIt"
-    },
-    {
-      "path": "/moveit/ros2/servo/jog/2020/09/09/moveit2-servo.html",
-      "views": 57,
-      "title": "Introducing MoveIt Servo in ROS 2 | MoveIt"
     }
   ],
-  "updatedAt": "2026-07-23T13:51:36.567286+00:00"
+  "updatedAt": "2026-07-24T13:31:39.559373+00:00"
 }
