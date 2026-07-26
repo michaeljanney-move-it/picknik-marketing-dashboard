@@ -13,7 +13,7 @@
     },
     {
       "name": "ELSA Japan",
-      "visits": 27,
+      "visits": 25,
       "industry": null
     },
     {
@@ -79,10 +79,6 @@
   ],
   "dailyVisits": [
     {
-      "date": "2026-06-25",
-      "visits": 0
-    },
-    {
       "date": "2026-06-26",
       "visits": 0
     },
@@ -124,7 +120,7 @@
     },
     {
       "date": "2026-07-06",
-      "visits": 148
+      "visits": 140
     },
     {
       "date": "2026-07-07",
@@ -200,17 +196,21 @@
     },
     {
       "date": "2026-07-25",
-      "visits": 7
+      "visits": 11
+    },
+    {
+      "date": "2026-07-26",
+      "visits": 4
     }
   ],
   "sources": [
     {
       "name": "google / organic",
-      "visits": 921
+      "visits": 918
     },
     {
       "name": "direct",
-      "visits": 743
+      "visits": 744
     },
     {
       "name": "github.com / referral",
@@ -226,7 +226,7 @@
     },
     {
       "name": "docs.ros.org / referral",
-      "visits": 22
+      "visits": 21
     },
     {
       "name": "duckduckgo / organic",
@@ -234,18 +234,18 @@
     },
     {
       "name": "linkedin / social",
-      "visits": 15
+      "visits": 17
     }
   ],
   "topPages": [
     {
       "path": "/",
-      "views": 1016,
+      "views": 1020,
       "title": "MoveIt Motion Planning Framework"
     },
     {
       "path": "/install-moveit2/binary/",
-      "views": 283,
+      "views": 280,
       "title": "MoveIt 2 Binary Install | MoveIt"
     },
     {
@@ -265,7 +265,7 @@
     },
     {
       "path": "/install-moveit2/source/",
-      "views": 105,
+      "views": 104,
       "title": "MoveIt 2 Source Build - Linux | MoveIt"
     },
     {
@@ -275,7 +275,7 @@
     },
     {
       "path": "/documentation/concepts/",
-      "views": 83,
+      "views": 84,
       "title": "Concepts | MoveIt"
     },
     {
@@ -289,5 +289,5 @@
       "title": "Robots | MoveIt"
     }
   ],
-  "updatedAt": "2026-07-25T13:19:05.037045+00:00"
+  "updatedAt": "2026-07-26T13:14:40.425848+00:00"
 }
