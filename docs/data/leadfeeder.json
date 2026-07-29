@@ -1,9 +1,9 @@
 {
-  "identifiedCompanies": 980,
+  "identifiedCompanies": 981,
   "topCompanies": [
     {
       "name": "PickNik Robotics",
-      "visits": 110,
+      "visits": 115,
       "industry": null
     },
     {
@@ -13,17 +13,17 @@
     },
     {
       "name": "ELSA Japan",
-      "visits": 26,
-      "industry": null
-    },
-    {
-      "name": "Octopus Web Solution Inc",
-      "visits": 22,
+      "visits": 28,
       "industry": null
     },
     {
       "name": "NASA - National Aeronautics and Space Administration",
       "visits": 22,
+      "industry": null
+    },
+    {
+      "name": "Octopus Web Solution Inc",
+      "visits": 21,
       "industry": null
     },
     {
@@ -79,10 +79,6 @@
   ],
   "dailyVisits": [
     {
-      "date": "2026-06-28",
-      "visits": 0
-    },
-    {
       "date": "2026-06-29",
       "visits": 0
     },
@@ -112,7 +108,7 @@
     },
     {
       "date": "2026-07-06",
-      "visits": 94
+      "visits": 58
     },
     {
       "date": "2026-07-07",
@@ -200,67 +196,71 @@
     },
     {
       "date": "2026-07-28",
-      "visits": 14
+      "visits": 30
+    },
+    {
+      "date": "2026-07-29",
+      "visits": 20
     }
   ],
   "sources": [
     {
       "name": "google / organic",
-      "visits": 900
+      "visits": 896
     },
     {
       "name": "direct",
-      "visits": 761
+      "visits": 766
     },
     {
       "name": "github.com / referral",
-      "visits": 105
+      "visits": 104
     },
     {
       "name": "bing / organic",
-      "visits": 63
+      "visits": 64
     },
     {
       "name": "chatgpt.com / referral",
-      "visits": 25
-    },
-    {
-      "name": "docs.ros.org / referral",
-      "visits": 20
-    },
-    {
-      "name": "linkedin / social",
-      "visits": 18
+      "visits": 23
     },
     {
       "name": "duckduckgo / organic",
-      "visits": 18
+      "visits": 19
+    },
+    {
+      "name": "docs.ros.org / referral",
+      "visits": 19
+    },
+    {
+      "name": "linkedin / social",
+      "visits": 17
     }
   ],
   "topPages": [
     {
       "path": "/",
-      "views": 1029,
-      "title": "MoveIt Motion Planning Framework"
+      "views": 1038,
+      "title": "Robotics Solutions Company | Robotics Software | PickNik"
     },
     {
       "path": "/install-moveit2/binary/",
-      "views": 274,
+      "views": 267,
       "title": "MoveIt 2 Binary Install | MoveIt"
     },
     {
       "path": "/careers/",
-      "views": 188,
+      "views": 191,
       "title": "Careers | PickNik"
     },
     {
       "path": "/pro/",
-      "views": 153,
+      "views": 154,
       "title": "MoveIt Pro Runtime & Developer Robotics Software | PickNik"
     },
     {
       "path": "/hardware-ecosystem/",
-      "views": 145,
+      "views": 144,
       "title": "ROS 2 Compatible Hardware - Comprehensive Database | PickNik"
     },
     {
@@ -270,24 +270,24 @@
     },
     {
       "path": "/install-moveit2/source/",
-      "views": 97,
+      "views": 86,
       "title": "MoveIt 2 Source Build - Linux | MoveIt"
     },
     {
       "path": "/documentation/concepts/",
-      "views": 86,
+      "views": 84,
       "title": "Concepts | MoveIt"
     },
     {
       "path": "/team/",
-      "views": 61,
+      "views": 63,
       "title": "Team | PickNik"
     },
     {
       "path": "/robots/",
-      "views": 59,
+      "views": 61,
       "title": "Robots | MoveIt"
     }
   ],
-  "updatedAt": "2026-07-28T13:59:54.657701+00:00"
+  "updatedAt": "2026-07-29T14:03:57.367110+00:00"
 }
