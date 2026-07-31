@@ -4,7 +4,7 @@
       "key": "Website Inbound",
       "label": "Website Inbound",
       "goal": null,
-      "count": 14
+      "count": 15
     },
     {
       "key": "Upsell",
@@ -34,14 +34,14 @@
       "key": "Networking / Referral",
       "label": "Networking / Referral",
       "goal": null,
-      "count": 1
+      "count": 2
     }
   ],
   "dealStages": [
     {
       "label": "1. Qualifying",
       "goal": 50,
-      "count": 56
+      "count": 57
     },
     {
       "label": "2. Qualified (BANT)",
@@ -61,7 +61,7 @@
   ],
   "dealOrigins": {
     "since": "2026-05-01",
-    "totalDeals": 152,
+    "totalDeals": 154,
     "counts": [
       {
         "name": "Conferences / Events",
@@ -69,7 +69,7 @@
       },
       {
         "name": "Website Inbound",
-        "count": 46
+        "count": 47
       },
       {
         "name": "Upsell",
@@ -81,7 +81,7 @@
       },
       {
         "name": "Networking / Referral",
-        "count": 7
+        "count": 8
       },
       {
         "name": "Outbound",
@@ -108,6 +108,6 @@
       "license": 118000.0
     }
   },
-  "updatedAt": "2026-07-30T13:50:47.566555+00:00",
+  "updatedAt": "2026-07-31T13:56:33.235404+00:00",
   "period": "July 2026"
 }
