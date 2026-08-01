@@ -1,42 +1,5 @@
 {
-  "leadTypes": [
-    {
-      "key": "Website Inbound",
-      "label": "Website Inbound",
-      "goal": null,
-      "count": 15
-    },
-    {
-      "key": "Upsell",
-      "label": "Upsell",
-      "goal": null,
-      "count": 6
-    },
-    {
-      "key": "(not set)",
-      "label": "(not set)",
-      "goal": null,
-      "count": 4
-    },
-    {
-      "key": "Conferences / Events",
-      "label": "Conferences / Events",
-      "goal": null,
-      "count": 4
-    },
-    {
-      "key": "Outbound",
-      "label": "Outbound",
-      "goal": null,
-      "count": 2
-    },
-    {
-      "key": "Networking / Referral",
-      "label": "Networking / Referral",
-      "goal": null,
-      "count": 2
-    }
-  ],
+  "leadTypes": [],
   "dealStages": [
     {
       "label": "1. Qualifying",
@@ -108,6 +71,6 @@
       "license": 118000.0
     }
   },
-  "updatedAt": "2026-07-31T13:56:33.235404+00:00",
-  "period": "July 2026"
+  "updatedAt": "2026-08-01T13:12:00.210064+00:00",
+  "period": "August 2026"
 }
