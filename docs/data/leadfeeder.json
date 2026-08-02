@@ -1,5 +1,5 @@
 {
-  "identifiedCompanies": 982,
+  "identifiedCompanies": 985,
   "topCompanies": [
     {
       "name": "PickNik Robotics",
@@ -13,7 +13,7 @@
     },
     {
       "name": "ELSA Japan",
-      "visits": 27,
+      "visits": 26,
       "industry": null
     },
     {
@@ -79,10 +79,6 @@
   ],
   "dailyVisits": [
     {
-      "date": "2026-07-02",
-      "visits": 0
-    },
-    {
       "date": "2026-07-03",
       "visits": 0
     },
@@ -100,7 +96,7 @@
     },
     {
       "date": "2026-07-07",
-      "visits": 199
+      "visits": 194
     },
     {
       "date": "2026-07-08",
@@ -200,17 +196,21 @@
     },
     {
       "date": "2026-08-01",
+      "visits": 5
+    },
+    {
+      "date": "2026-08-02",
       "visits": 1
     }
   ],
   "sources": [
     {
       "name": "google / organic",
-      "visits": 894
+      "visits": 895
     },
     {
       "name": "direct",
-      "visits": 773
+      "visits": 772
     },
     {
       "name": "github.com / referral",
@@ -240,7 +240,7 @@
   "topPages": [
     {
       "path": "/",
-      "views": 1039,
+      "views": 1041,
       "title": "Robotics Solutions Company | Robotics Software | PickNik"
     },
     {
@@ -270,12 +270,12 @@
     },
     {
       "path": "/documentation/concepts/",
-      "views": 85,
+      "views": 83,
       "title": "Concepts | MoveIt"
     },
     {
       "path": "/install-moveit2/source/",
-      "views": 83,
+      "views": 82,
       "title": "MoveIt 2 Source Build - Linux | MoveIt"
     },
     {
@@ -289,5 +289,5 @@
       "title": "Robots | MoveIt"
     }
   ],
-  "updatedAt": "2026-08-01T13:13:35.749975+00:00"
+  "updatedAt": "2026-08-02T13:14:47.140251+00:00"
 }

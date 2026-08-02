@@ -1,5 +1,12 @@
 {
-  "leadTypes": [],
+  "leadTypes": [
+    {
+      "key": "Website Inbound",
+      "label": "Website Inbound",
+      "goal": null,
+      "count": 1
+    }
+  ],
   "dealStages": [
     {
       "label": "1. Qualifying",
@@ -24,7 +31,7 @@
   ],
   "dealOrigins": {
     "since": "2026-05-01",
-    "totalDeals": 154,
+    "totalDeals": 155,
     "counts": [
       {
         "name": "Conferences / Events",
@@ -32,7 +39,7 @@
       },
       {
         "name": "Website Inbound",
-        "count": 47
+        "count": 48
       },
       {
         "name": "Upsell",
@@ -71,6 +78,6 @@
       "license": 118000.0
     }
   },
-  "updatedAt": "2026-08-01T13:12:00.210064+00:00",
+  "updatedAt": "2026-08-02T13:13:09.605127+00:00",
   "period": "August 2026"
 }
