@@ -1,9 +1,9 @@
 {
-  "identifiedCompanies": 985,
+  "identifiedCompanies": 986,
   "topCompanies": [
     {
       "name": "PickNik Robotics",
-      "visits": 120,
+      "visits": 119,
       "industry": null
     },
     {
@@ -13,7 +13,7 @@
     },
     {
       "name": "ELSA Japan",
-      "visits": 26,
+      "visits": 25,
       "industry": null
     },
     {
@@ -73,15 +73,11 @@
     },
     {
       "name": "Asahi Europe & International",
-      "visits": 11,
+      "visits": 10,
       "industry": null
     }
   ],
   "dailyVisits": [
-    {
-      "date": "2026-07-03",
-      "visits": 0
-    },
     {
       "date": "2026-07-04",
       "visits": 0
@@ -96,7 +92,7 @@
     },
     {
       "date": "2026-07-07",
-      "visits": 194
+      "visits": 175
     },
     {
       "date": "2026-07-08",
@@ -200,17 +196,21 @@
     },
     {
       "date": "2026-08-02",
-      "visits": 1
+      "visits": 5
+    },
+    {
+      "date": "2026-08-03",
+      "visits": 15
     }
   ],
   "sources": [
     {
       "name": "google / organic",
-      "visits": 895
+      "visits": 896
     },
     {
       "name": "direct",
-      "visits": 772
+      "visits": 773
     },
     {
       "name": "github.com / referral",
@@ -218,54 +218,54 @@
     },
     {
       "name": "bing / organic",
-      "visits": 62
+      "visits": 61
     },
     {
       "name": "chatgpt.com / referral",
-      "visits": 24
-    },
-    {
-      "name": "linkedin / social",
-      "visits": 19
+      "visits": 23
     },
     {
       "name": "docs.ros.org / referral",
-      "visits": 19
+      "visits": 20
+    },
+    {
+      "name": "linkedin / social",
+      "visits": 17
     },
     {
       "name": "duckduckgo / organic",
-      "visits": 18
+      "visits": 17
     }
   ],
   "topPages": [
     {
       "path": "/",
-      "views": 1041,
+      "views": 1049,
       "title": "Robotics Solutions Company | Robotics Software | PickNik"
     },
     {
       "path": "/install-moveit2/binary/",
-      "views": 260,
+      "views": 262,
       "title": "MoveIt 2 Binary Install | MoveIt"
     },
     {
       "path": "/careers/",
-      "views": 187,
+      "views": 186,
       "title": "Careers | PickNik"
     },
     {
       "path": "/pro/",
-      "views": 158,
+      "views": 153,
       "title": "MoveIt Pro Runtime & Developer Robotics Software | PickNik"
     },
     {
       "path": "/hardware-ecosystem/",
-      "views": 140,
+      "views": 135,
       "title": "ROS 2 Compatible Hardware - Comprehensive Database | PickNik"
     },
     {
       "path": "/licensing",
-      "views": 108,
+      "views": 106,
       "title": "MoveIt Pro Plans & Pricing | PickNik"
     },
     {
@@ -280,7 +280,7 @@
     },
     {
       "path": "/team/",
-      "views": 65,
+      "views": 64,
       "title": "Team | PickNik"
     },
     {
@@ -289,5 +289,5 @@
       "title": "Robots | MoveIt"
     }
   ],
-  "updatedAt": "2026-08-02T13:14:47.140251+00:00"
+  "updatedAt": "2026-08-03T14:32:55.823263+00:00"
 }
