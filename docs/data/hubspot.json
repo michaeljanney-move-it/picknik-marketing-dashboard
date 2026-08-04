@@ -11,12 +11,12 @@
     {
       "label": "1. Qualifying",
       "goal": 50,
-      "count": 57
+      "count": 60
     },
     {
       "label": "2. Qualified (BANT)",
       "goal": 20,
-      "count": 24
+      "count": 22
     },
     {
       "label": "3. Proposing & Negotiating",
@@ -78,6 +78,6 @@
       "license": 118000.0
     }
   },
-  "updatedAt": "2026-08-03T14:31:16.312553+00:00",
+  "updatedAt": "2026-08-04T14:02:45.921430+00:00",
   "period": "August 2026"
 }
