@@ -55,11 +55,11 @@
       },
       {
         "name": "Upsell",
-        "count": 22
+        "count": 23
       },
       {
         "name": "(not set)",
-        "count": 18
+        "count": 17
       },
       {
         "name": "Networking / Referral",
@@ -90,6 +90,6 @@
       "license": 118000.0
     }
   },
-  "updatedAt": "2026-08-12T13:00:05.775330+00:00",
+  "updatedAt": "2026-08-13T13:01:12.689668+00:00",
   "period": "August 2026"
 }
