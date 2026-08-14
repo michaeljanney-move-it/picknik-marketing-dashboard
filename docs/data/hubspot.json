@@ -17,13 +17,19 @@
       "label": "Conferences / Events",
       "goal": null,
       "count": 1
+    },
+    {
+      "key": "Networking / Referral",
+      "label": "Networking / Referral",
+      "goal": null,
+      "count": 1
     }
   ],
   "dealStages": [
     {
       "label": "1. Qualifying",
       "goal": 50,
-      "count": 58
+      "count": 60
     },
     {
       "label": "2. Qualified (BANT)",
@@ -43,7 +49,7 @@
   ],
   "dealOrigins": {
     "since": "2026-05-01",
-    "totalDeals": 170,
+    "totalDeals": 171,
     "counts": [
       {
         "name": "Website Inbound",
@@ -63,7 +69,7 @@
       },
       {
         "name": "Networking / Referral",
-        "count": 8
+        "count": 9
       },
       {
         "name": "Outbound",
@@ -90,6 +96,6 @@
       "license": 118000.0
     }
   },
-  "updatedAt": "2026-08-13T13:01:12.689668+00:00",
+  "updatedAt": "2026-08-14T12:57:46.580702+00:00",
   "period": "August 2026"
 }

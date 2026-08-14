@@ -1,19 +1,19 @@
 {
-  "identifiedCompanies": 649,
+  "identifiedCompanies": 598,
   "topCompanies": [
     {
       "name": "PickNik Robotics",
-      "visits": 97,
+      "visits": 91,
       "industry": null
     },
     {
       "name": "ELSA Japan",
-      "visits": 24,
+      "visits": 23,
       "industry": null
     },
     {
       "name": "Pontificia Universidad Cat\u00f3lica del Ecuador Sede Santo Domingo",
-      "visits": 23,
+      "visits": 17,
       "industry": null
     },
     {
@@ -27,11 +27,6 @@
       "industry": null
     },
     {
-      "name": "Lockheed Martin Corporation",
-      "visits": 11,
-      "industry": null
-    },
-    {
       "name": "Inecobank CJSC",
       "visits": 11,
       "industry": null
@@ -42,17 +37,22 @@
       "industry": null
     },
     {
-      "name": "HostDZire Web Services Pvt. Ltd.",
-      "visits": 10,
-      "industry": null
-    },
-    {
       "name": "Wind River",
       "visits": 10,
       "industry": null
     },
     {
+      "name": "HostDZire Web Services Pvt. Ltd.",
+      "visits": 9,
+      "industry": null
+    },
+    {
       "name": "Expedia Group",
+      "visits": 8,
+      "industry": null
+    },
+    {
+      "name": "Lockheed Martin Corporation",
       "visits": 8,
       "industry": null
     },
@@ -62,29 +62,25 @@
       "industry": null
     },
     {
-      "name": "ARM Holdings plc",
-      "visits": 7,
-      "industry": null
-    },
-    {
       "name": "University of Cambridge",
       "visits": 7,
       "industry": null
     },
     {
-      "name": "insensiv GmbH",
+      "name": "meteuropcbang",
+      "visits": 7,
+      "industry": null
+    },
+    {
+      "name": "Freudenberg SE",
       "visits": 7,
       "industry": null
     }
   ],
   "dailyVisits": [
     {
-      "date": "2026-07-14",
-      "visits": 118
-    },
-    {
       "date": "2026-07-15",
-      "visits": 121
+      "visits": 104
     },
     {
       "date": "2026-07-16",
@@ -200,25 +196,29 @@
     },
     {
       "date": "2026-08-13",
-      "visits": 17
+      "visits": 35
+    },
+    {
+      "date": "2026-08-14",
+      "visits": 8
     }
   ],
   "sources": [
     {
       "name": "direct",
-      "visits": 546
+      "visits": 515
     },
     {
       "name": "google / organic",
-      "visits": 533
+      "visits": 484
     },
     {
       "name": "github.com / referral",
-      "visits": 55
+      "visits": 42
     },
     {
       "name": "bing / organic",
-      "visits": 38
+      "visits": 31
     },
     {
       "name": "linkedin / social",
@@ -234,38 +234,38 @@
     },
     {
       "name": "chatgpt.com",
-      "visits": 7
+      "visits": 6
     }
   ],
   "topPages": [
     {
       "path": "/",
-      "views": 697,
-      "title": "Robotics Solutions Company | Robotics Software | PickNik"
+      "views": 625,
+      "title": "MoveIt Motion Planning Framework"
     },
     {
       "path": "/install-moveit2/binary/",
-      "views": 166,
+      "views": 154,
       "title": "MoveIt 2 Binary Install | MoveIt"
     },
     {
-      "path": "/pro/",
-      "views": 105,
-      "title": "MoveIt Pro Runtime & Developer Robotics Software | PickNik"
-    },
-    {
       "path": "/careers/",
-      "views": 104,
+      "views": 90,
       "title": "Careers | PickNik"
     },
     {
+      "path": "/pro/",
+      "views": 87,
+      "title": "MoveIt Pro Runtime & Developer Robotics Software | PickNik"
+    },
+    {
       "path": "/hardware-ecosystem/",
-      "views": 84,
+      "views": 80,
       "title": "ROS 2 Compatible Hardware - Comprehensive Database | PickNik"
     },
     {
       "path": "/licensing",
-      "views": 82,
+      "views": 74,
       "title": "MoveIt Pro Plans & Pricing | PickNik"
     },
     {
@@ -275,19 +275,19 @@
     },
     {
       "path": "/install-moveit2/source/",
-      "views": 44,
+      "views": 37,
       "title": "MoveIt 2 Source Build - Linux | MoveIt"
     },
     {
-      "path": "/robots/",
-      "views": 41,
-      "title": "Robots | MoveIt"
+      "path": "/team/",
+      "views": 36,
+      "title": "Team | PickNik"
     },
     {
-      "path": "/team/",
-      "views": 41,
-      "title": "Team | PickNik"
+      "path": "/robots/",
+      "views": 36,
+      "title": "Robots | MoveIt"
     }
   ],
-  "updatedAt": "2026-08-13T13:02:27.506486+00:00"
+  "updatedAt": "2026-08-14T12:59:04.927819+00:00"
 }
