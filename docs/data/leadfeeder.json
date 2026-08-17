@@ -1,5 +1,5 @@
 {
-  "identifiedCompanies": 480,
+  "identifiedCompanies": 442,
   "topCompanies": [
     {
       "name": "PickNik Robotics",
@@ -8,7 +8,7 @@
     },
     {
       "name": "ELSA Japan",
-      "visits": 20,
+      "visits": 19,
       "industry": null
     },
     {
@@ -18,12 +18,7 @@
     },
     {
       "name": "Facteon",
-      "visits": 13,
-      "industry": null
-    },
-    {
-      "name": "Pontificia Universidad Cat\u00f3lica del Ecuador Sede Santo Domingo",
-      "visits": 13,
+      "visits": 12,
       "industry": null
     },
     {
@@ -33,6 +28,11 @@
     },
     {
       "name": "Inecobank CJSC",
+      "visits": 11,
+      "industry": null
+    },
+    {
+      "name": "Pontificia Universidad Cat\u00f3lica del Ecuador Sede Santo Domingo",
       "visits": 11,
       "industry": null
     },
@@ -72,19 +72,15 @@
       "industry": null
     },
     {
-      "name": "Qualcomm Incorporated",
+      "name": "Mirai Technologies",
       "visits": 6,
       "industry": null
     }
   ],
   "dailyVisits": [
     {
-      "date": "2026-07-17",
-      "visits": 54
-    },
-    {
       "date": "2026-07-18",
-      "visits": 26
+      "visits": 17
     },
     {
       "date": "2026-07-19",
@@ -200,21 +196,25 @@
     },
     {
       "date": "2026-08-16",
-      "visits": 3
+      "visits": 8
+    },
+    {
+      "date": "2026-08-17",
+      "visits": 10
     }
   ],
   "sources": [
     {
       "name": "direct",
-      "visits": 433
+      "visits": 418
     },
     {
       "name": "google / organic",
-      "visits": 362
+      "visits": 342
     },
     {
       "name": "github.com / referral",
-      "visits": 34
+      "visits": 27
     },
     {
       "name": "bing / organic",
@@ -222,11 +222,11 @@
     },
     {
       "name": "linkedin / social",
-      "visits": 13
+      "visits": 12
     },
     {
       "name": "docs.ros.org / referral",
-      "visits": 12
+      "visits": 11
     },
     {
       "name": "chatgpt.com / referral",
@@ -240,22 +240,22 @@
   "topPages": [
     {
       "path": "/",
-      "views": 492,
-      "title": "MoveIt Motion Planning Framework"
+      "views": 469,
+      "title": "Robotics Solutions Company | Robotics Software | PickNik"
     },
     {
       "path": "/install-moveit2/binary/",
-      "views": 101,
-      "title": "MoveIt 2 Binary Install | MoveIt"
+      "views": 91,
+      "title": "MoveIt 2 \u4e8c\u8fdb\u5236\u5b89\u88c5 |MoveIt\uff08\u79fb\u52a8\u884c\u52a8\uff09"
     },
     {
       "path": "/pro/",
-      "views": 77,
+      "views": 74,
       "title": "MoveIt Pro Runtime & Developer Robotics Software | PickNik"
     },
     {
       "path": "/careers/",
-      "views": 74,
+      "views": 71,
       "title": "Careers | PickNik"
     },
     {
@@ -265,7 +265,7 @@
     },
     {
       "path": "/licensing",
-      "views": 59,
+      "views": 60,
       "title": "MoveIt Pro Plans & Pricing | PickNik"
     },
     {
@@ -280,7 +280,7 @@
     },
     {
       "path": "/documentation/concepts/",
-      "views": 33,
+      "views": 29,
       "title": "Concepts | MoveIt"
     },
     {
@@ -289,5 +289,5 @@
       "title": "MoveIt 2 vs MoveIt Pro | PickNik"
     }
   ],
-  "updatedAt": "2026-08-16T12:32:48.696147+00:00"
+  "updatedAt": "2026-08-17T12:37:08.429788+00:00"
 }
