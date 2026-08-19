@@ -23,13 +23,19 @@
       "label": "Conferences / Events",
       "goal": null,
       "count": 1
+    },
+    {
+      "key": "Upsell",
+      "label": "Upsell",
+      "goal": null,
+      "count": 1
     }
   ],
   "dealStages": [
     {
       "label": "1. Qualifying",
       "goal": 50,
-      "count": 62
+      "count": 63
     },
     {
       "label": "2. Qualified (BANT)",
@@ -39,17 +45,17 @@
     {
       "label": "3. Proposing & Negotiating",
       "goal": 10,
-      "count": 9
+      "count": 8
     },
     {
       "label": "4. Closing & Contracting",
       "goal": 3,
-      "count": 2
+      "count": 3
     }
   ],
   "dealOrigins": {
     "since": "2026-05-01",
-    "totalDeals": 173,
+    "totalDeals": 174,
     "counts": [
       {
         "name": "Website Inbound",
@@ -61,7 +67,7 @@
       },
       {
         "name": "Upsell",
-        "count": 23
+        "count": 24
       },
       {
         "name": "(not set)",
@@ -96,6 +102,6 @@
       "license": 118000.0
     }
   },
-  "updatedAt": "2026-08-18T12:38:05.199194+00:00",
+  "updatedAt": "2026-08-19T12:38:13.673441+00:00",
   "period": "August 2026"
 }

@@ -1,9 +1,9 @@
 {
-  "identifiedCompanies": 446,
+  "identifiedCompanies": 432,
   "topCompanies": [
     {
       "name": "PickNik Robotics",
-      "visits": 86,
+      "visits": 88,
       "industry": null
     },
     {
@@ -18,7 +18,7 @@
     },
     {
       "name": "Wind River",
-      "visits": 12,
+      "visits": 14,
       "industry": null
     },
     {
@@ -42,17 +42,22 @@
       "industry": null
     },
     {
-      "name": "HostDZire Web Services Pvt. Ltd.",
-      "visits": 8,
-      "industry": null
-    },
-    {
       "name": "Expedia Group",
-      "visits": 8,
+      "visits": 9,
       "industry": null
     },
     {
       "name": "University of Cambridge",
+      "visits": 8,
+      "industry": null
+    },
+    {
+      "name": "Qualcomm Incorporated",
+      "visits": 7,
+      "industry": null
+    },
+    {
+      "name": "HostDZire Web Services Pvt. Ltd.",
       "visits": 7,
       "industry": null
     },
@@ -70,21 +75,12 @@
       "name": "SABANCI UNIVERSITESI",
       "visits": 7,
       "industry": null
-    },
-    {
-      "name": "Mirai Technologies",
-      "visits": 6,
-      "industry": null
     }
   ],
   "dailyVisits": [
     {
-      "date": "2026-07-19",
-      "visits": 15
-    },
-    {
       "date": "2026-07-20",
-      "visits": 125
+      "visits": 103
     },
     {
       "date": "2026-07-21",
@@ -200,25 +196,29 @@
     },
     {
       "date": "2026-08-18",
-      "visits": 15
+      "visits": 28
+    },
+    {
+      "date": "2026-08-19",
+      "visits": 11
     }
   ],
   "sources": [
     {
       "name": "direct",
-      "visits": 425
+      "visits": 427
     },
     {
       "name": "google / organic",
-      "visits": 341
+      "visits": 328
     },
     {
       "name": "github.com / referral",
-      "visits": 25
+      "visits": 24
     },
     {
       "name": "bing / organic",
-      "visits": 21
+      "visits": 19
     },
     {
       "name": "linkedin / social",
@@ -230,22 +230,22 @@
     },
     {
       "name": "chatgpt.com / referral",
-      "visits": 7
+      "visits": 8
     },
     {
       "name": "chatgpt.com",
-      "visits": 5
+      "visits": 6
     }
   ],
   "topPages": [
     {
       "path": "/",
-      "views": 465,
-      "title": "MoveIt Motion Planning Framework"
+      "views": 447,
+      "title": "Robotics Solutions Company | Robotics Software | PickNik"
     },
     {
       "path": "/install-moveit2/binary/",
-      "views": 93,
+      "views": 87,
       "title": "MoveIt 2 Binary Install | MoveIt"
     },
     {
@@ -260,7 +260,7 @@
     },
     {
       "path": "/hardware-ecosystem/",
-      "views": 69,
+      "views": 72,
       "title": "ROS 2 Compatible Hardware - Comprehensive Database | PickNik"
     },
     {
@@ -275,19 +275,19 @@
     },
     {
       "path": "/team/",
-      "views": 35,
+      "views": 39,
       "title": "Team | PickNik"
     },
     {
       "path": "/documentation/concepts/",
-      "views": 31,
+      "views": 32,
       "title": "Concepts | MoveIt"
     },
     {
-      "path": "/install-moveit2/source/",
+      "path": "/moveit-2-vs-moveit-pro/",
       "views": 27,
-      "title": "MoveIt 2 Source Build - Linux | MoveIt"
+      "title": "MoveIt 2 vs MoveIt Pro | PickNik"
     }
   ],
-  "updatedAt": "2026-08-18T12:39:00.410205+00:00"
+  "updatedAt": "2026-08-19T12:38:58.517920+00:00"
 }
