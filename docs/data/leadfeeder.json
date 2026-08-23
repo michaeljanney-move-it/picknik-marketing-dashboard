@@ -1,14 +1,14 @@
 {
-  "identifiedCompanies": 321,
+  "identifiedCompanies": 317,
   "topCompanies": [
     {
       "name": "PickNik Robotics",
-      "visits": 74,
+      "visits": 70,
       "industry": null
     },
     {
       "name": "ELSA Japan",
-      "visits": 19,
+      "visits": 17,
       "industry": null
     },
     {
@@ -17,33 +17,13 @@
       "industry": null
     },
     {
-      "name": "Beijing E-motion Control Equipment",
-      "visits": 13,
-      "industry": null
-    },
-    {
-      "name": "Facteon",
-      "visits": 12,
-      "industry": null
-    },
-    {
       "name": "Expedia Group",
       "visits": 11,
       "industry": null
     },
     {
-      "name": "Inecobank CJSC",
-      "visits": 8,
-      "industry": null
-    },
-    {
-      "name": "University of Cambridge",
-      "visits": 7,
-      "industry": null
-    },
-    {
-      "name": "Qualcomm Incorporated",
-      "visits": 7,
+      "name": "Facteon",
+      "visits": 11,
       "industry": null
     },
     {
@@ -67,6 +47,21 @@
       "industry": null
     },
     {
+      "name": "University of Cambridge",
+      "visits": 6,
+      "industry": null
+    },
+    {
+      "name": "Inecobank CJSC",
+      "visits": 6,
+      "industry": null
+    },
+    {
+      "name": "Qualcomm Incorporated",
+      "visits": 5,
+      "industry": null
+    },
+    {
       "name": "ARM Holdings plc",
       "visits": 5,
       "industry": null
@@ -75,16 +70,17 @@
       "name": "enftracer.ai",
       "visits": 5,
       "industry": null
+    },
+    {
+      "name": "creasquare",
+      "visits": 5,
+      "industry": null
     }
   ],
   "dailyVisits": [
     {
-      "date": "2026-07-23",
-      "visits": 27
-    },
-    {
       "date": "2026-07-24",
-      "visits": 28
+      "visits": 21
     },
     {
       "date": "2026-07-25",
@@ -200,32 +196,36 @@
     },
     {
       "date": "2026-08-22",
-      "visits": 5
+      "visits": 9
+    },
+    {
+      "date": "2026-08-23",
+      "visits": 0
     }
   ],
   "sources": [
     {
       "name": "direct",
-      "visits": 350
+      "visits": 341
     },
     {
       "name": "google / organic",
-      "visits": 229
+      "visits": 212
     },
     {
       "name": "bing / organic",
-      "visits": 13
+      "visits": 12
     },
     {
       "name": "linkedin / social",
       "visits": 11
     },
     {
-      "name": "github.com / referral",
-      "visits": 9
+      "name": "chatgpt.com / referral",
+      "visits": 7
     },
     {
-      "name": "chatgpt.com / referral",
+      "name": "github.com / referral",
       "visits": 7
     },
     {
@@ -240,23 +240,13 @@
   "topPages": [
     {
       "path": "/",
-      "views": 340,
-      "title": "Robotics Solutions Company | Robotics Software | PickNik"
+      "views": 327,
+      "title": "MoveIt Motion Planning Framework"
     },
     {
       "path": "/pro/",
-      "views": 83,
+      "views": 74,
       "title": "MoveIt Pro Runtime & Developer Robotics Software | PickNik"
-    },
-    {
-      "path": "/licensing",
-      "views": 69,
-      "title": "MoveIt Pro Plans & Pricing | PickNik"
-    },
-    {
-      "path": "/hardware-ecosystem/",
-      "views": 68,
-      "title": "ROS 2 Compatible Hardware - Comprehensive Database | PickNik"
     },
     {
       "path": "/careers/",
@@ -264,8 +254,18 @@
       "title": "Careers | PickNik"
     },
     {
+      "path": "/hardware-ecosystem/",
+      "views": 65,
+      "title": "ROS 2 Compatible Hardware - Comprehensive Database | PickNik"
+    },
+    {
+      "path": "/licensing",
+      "views": 63,
+      "title": "MoveIt Pro Plans & Pricing | PickNik"
+    },
+    {
       "path": "/install-moveit2/binary/",
-      "views": 48,
+      "views": 45,
       "title": "MoveIt 2 Binary Install | MoveIt"
     },
     {
@@ -275,7 +275,7 @@
     },
     {
       "path": "/team/",
-      "views": 38,
+      "views": 37,
       "title": "Team | PickNik"
     },
     {
@@ -285,9 +285,9 @@
     },
     {
       "path": "/moveit-2-vs-moveit-pro/",
-      "views": 27,
+      "views": 25,
       "title": "MoveIt 2 vs MoveIt Pro | PickNik"
     }
   ],
-  "updatedAt": "2026-08-22T12:31:56.092909+00:00"
+  "updatedAt": "2026-08-23T12:32:51.910819+00:00"
 }
