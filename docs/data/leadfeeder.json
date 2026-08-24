@@ -1,14 +1,9 @@
 {
-  "identifiedCompanies": 317,
+  "identifiedCompanies": 313,
   "topCompanies": [
     {
       "name": "PickNik Robotics",
-      "visits": 70,
-      "industry": null
-    },
-    {
-      "name": "ELSA Japan",
-      "visits": 17,
+      "visits": 69,
       "industry": null
     },
     {
@@ -17,13 +12,23 @@
       "industry": null
     },
     {
+      "name": "ELSA Japan",
+      "visits": 16,
+      "industry": null
+    },
+    {
       "name": "Expedia Group",
-      "visits": 11,
+      "visits": 10,
       "industry": null
     },
     {
       "name": "Facteon",
-      "visits": 11,
+      "visits": 10,
+      "industry": null
+    },
+    {
+      "name": "GSL Networks Pty Ltd",
+      "visits": 9,
       "industry": null
     },
     {
@@ -42,17 +47,7 @@
       "industry": null
     },
     {
-      "name": "GSL Networks Pty Ltd",
-      "visits": 6,
-      "industry": null
-    },
-    {
       "name": "University of Cambridge",
-      "visits": 6,
-      "industry": null
-    },
-    {
-      "name": "Inecobank CJSC",
       "visits": 6,
       "industry": null
     },
@@ -75,16 +70,17 @@
       "name": "creasquare",
       "visits": 5,
       "industry": null
+    },
+    {
+      "name": "Inecobank CJSC",
+      "visits": 5,
+      "industry": null
     }
   ],
   "dailyVisits": [
     {
-      "date": "2026-07-24",
-      "visits": 21
-    },
-    {
       "date": "2026-07-25",
-      "visits": 11
+      "visits": 4
     },
     {
       "date": "2026-07-26",
@@ -200,32 +196,32 @@
     },
     {
       "date": "2026-08-23",
-      "visits": 0
+      "visits": 3
+    },
+    {
+      "date": "2026-08-24",
+      "visits": 16
     }
   ],
   "sources": [
     {
       "name": "direct",
-      "visits": 341
+      "visits": 340
     },
     {
       "name": "google / organic",
-      "visits": 212
+      "visits": 207
     },
     {
       "name": "bing / organic",
-      "visits": 12
+      "visits": 14
     },
     {
       "name": "linkedin / social",
-      "visits": 11
+      "visits": 8
     },
     {
       "name": "chatgpt.com / referral",
-      "visits": 7
-    },
-    {
-      "name": "github.com / referral",
       "visits": 7
     },
     {
@@ -233,14 +229,18 @@
       "visits": 6
     },
     {
+      "name": "github.com / referral",
+      "visits": 6
+    },
+    {
       "name": "docs.ros.org / referral",
-      "visits": 5
+      "visits": 4
     }
   ],
   "topPages": [
     {
       "path": "/",
-      "views": 327,
+      "views": 319,
       "title": "MoveIt Motion Planning Framework"
     },
     {
@@ -249,14 +249,14 @@
       "title": "MoveIt Pro Runtime & Developer Robotics Software | PickNik"
     },
     {
-      "path": "/careers/",
-      "views": 66,
-      "title": "Careers | PickNik"
+      "path": "/hardware-ecosystem/",
+      "views": 70,
+      "title": "ROS 2 Compatible Hardware - Comprehensive Database | PickNik"
     },
     {
-      "path": "/hardware-ecosystem/",
+      "path": "/careers/",
       "views": 65,
-      "title": "ROS 2 Compatible Hardware - Comprehensive Database | PickNik"
+      "title": "Careers | PickNik"
     },
     {
       "path": "/licensing",
@@ -265,12 +265,12 @@
     },
     {
       "path": "/install-moveit2/binary/",
-      "views": 45,
+      "views": 46,
       "title": "MoveIt 2 Binary Install | MoveIt"
     },
     {
       "path": "/webinars/Rocket_Lab.html",
-      "views": 43,
+      "views": 39,
       "title": "MoveIt Pro Works Here: Rocket Lab is ready for launch! | PickNik"
     },
     {
@@ -279,15 +279,15 @@
       "title": "Team | PickNik"
     },
     {
-      "path": "/webinars/",
-      "views": 29,
-      "title": "\u7f51\u7edc\u7814\u8ba8\u4f1a | PickNik"
+      "path": "/connect/",
+      "views": 28,
+      "title": "Contact Us | PickNik"
     },
     {
-      "path": "/moveit-2-vs-moveit-pro/",
-      "views": 25,
-      "title": "MoveIt 2 vs MoveIt Pro | PickNik"
+      "path": "/webinars/",
+      "views": 28,
+      "title": "\u7f51\u7edc\u7814\u8ba8\u4f1a | PickNik"
     }
   ],
-  "updatedAt": "2026-08-23T12:32:51.910819+00:00"
+  "updatedAt": "2026-08-24T12:41:45.879784+00:00"
 }
