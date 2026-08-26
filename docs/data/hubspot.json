@@ -4,7 +4,7 @@
       "key": "Website Inbound",
       "label": "Website Inbound",
       "goal": null,
-      "count": 20
+      "count": 18
     },
     {
       "key": "(not set)",
@@ -13,14 +13,20 @@
       "count": 4
     },
     {
-      "key": "Networking / Referral",
-      "label": "Networking / Referral",
+      "key": "Conferences / Events",
+      "label": "Conferences / Events",
       "goal": null,
-      "count": 2
+      "count": 3
     },
     {
       "key": "Upsell",
       "label": "Upsell",
+      "goal": null,
+      "count": 3
+    },
+    {
+      "key": "Networking / Referral",
+      "label": "Networking / Referral",
       "goal": null,
       "count": 2
     },
@@ -29,29 +35,23 @@
       "label": "Outbound",
       "goal": null,
       "count": 1
-    },
-    {
-      "key": "Conferences / Events",
-      "label": "Conferences / Events",
-      "goal": null,
-      "count": 1
     }
   ],
   "dealStages": [
     {
       "label": "1. Qualifying",
       "goal": 50,
-      "count": 88
+      "count": 92
     },
     {
       "label": "2. Qualified (BANT)",
       "goal": 20,
-      "count": 21
+      "count": 20
     },
     {
       "label": "3. Proposing & Negotiating",
       "goal": 10,
-      "count": 8
+      "count": 6
     },
     {
       "label": "4. Closing & Contracting",
@@ -61,19 +61,19 @@
   ],
   "dealOrigins": {
     "since": "2026-05-01",
-    "totalDeals": 181,
+    "totalDeals": 182,
     "counts": [
       {
         "name": "Website Inbound",
-        "count": 67
+        "count": 65
       },
       {
         "name": "Conferences / Events",
-        "count": 55
+        "count": 57
       },
       {
         "name": "Upsell",
-        "count": 25
+        "count": 26
       },
       {
         "name": "(not set)",
@@ -108,6 +108,6 @@
       "license": 118000.0
     }
   },
-  "updatedAt": "2026-08-25T12:39:57.061269+00:00",
+  "updatedAt": "2026-08-26T12:43:40.575314+00:00",
   "period": "August 2026"
 }

@@ -1,33 +1,33 @@
 {
-  "identifiedCompanies": 328,
+  "identifiedCompanies": 333,
   "topCompanies": [
     {
       "name": "PickNik Robotics",
-      "visits": 76,
+      "visits": 79,
       "industry": null
     },
     {
       "name": "Wind River",
-      "visits": 17,
-      "industry": null
-    },
-    {
-      "name": "ELSA Japan",
       "visits": 16,
       "industry": null
     },
     {
-      "name": "GSL Networks Pty Ltd",
-      "visits": 10,
+      "name": "ELSA Japan",
+      "visits": 15,
       "industry": null
     },
     {
       "name": "Expedia Group",
-      "visits": 10,
+      "visits": 11,
       "industry": null
     },
     {
       "name": "Facteon",
+      "visits": 10,
+      "industry": null
+    },
+    {
+      "name": "GSL Networks Pty Ltd",
       "visits": 10,
       "industry": null
     },
@@ -52,6 +52,16 @@
       "industry": null
     },
     {
+      "name": "arconati.us",
+      "visits": 5,
+      "industry": null
+    },
+    {
+      "name": "Bunch Projects",
+      "visits": 5,
+      "industry": null
+    },
+    {
       "name": "Lockheed Martin Corporation",
       "visits": 5,
       "industry": null
@@ -65,26 +75,12 @@
       "name": "ARM Holdings plc",
       "visits": 5,
       "industry": null
-    },
-    {
-      "name": "enftracer.ai",
-      "visits": 5,
-      "industry": null
-    },
-    {
-      "name": "creasquare",
-      "visits": 5,
-      "industry": null
     }
   ],
   "dailyVisits": [
     {
-      "date": "2026-07-26",
-      "visits": 6
-    },
-    {
       "date": "2026-07-27",
-      "visits": 30
+      "visits": 22
     },
     {
       "date": "2026-07-28",
@@ -200,17 +196,21 @@
     },
     {
       "date": "2026-08-25",
-      "visits": 20
+      "visits": 33
+    },
+    {
+      "date": "2026-08-26",
+      "visits": 16
     }
   ],
   "sources": [
     {
       "name": "direct",
-      "visits": 363
+      "visits": 364
     },
     {
       "name": "google / organic",
-      "visits": 216
+      "visits": 225
     },
     {
       "name": "bing / organic",
@@ -218,30 +218,30 @@
     },
     {
       "name": "linkedin / social",
-      "visits": 8
+      "visits": 10
     },
     {
       "name": "chatgpt.com / referral",
-      "visits": 7
+      "visits": 8
     },
     {
       "name": "chatgpt.com",
-      "visits": 6
+      "visits": 7
     },
     {
       "name": "github.com / referral",
       "visits": 6
     },
     {
-      "name": "docs.ros.org / referral",
+      "name": "twitter / social",
       "visits": 4
     }
   ],
   "topPages": [
     {
       "path": "/",
-      "views": 335,
-      "title": "MoveIt Motion Planning Framework"
+      "views": 343,
+      "title": "Robotics Solutions Company | Robotics Software | PickNik"
     },
     {
       "path": "/pro/",
@@ -250,27 +250,27 @@
     },
     {
       "path": "/hardware-ecosystem/",
-      "views": 72,
+      "views": 75,
       "title": "ROS 2 Compatible Hardware - Comprehensive Database | PickNik"
     },
     {
       "path": "/careers/",
-      "views": 70,
+      "views": 73,
       "title": "Careers | PickNik"
     },
     {
       "path": "/licensing",
-      "views": 65,
+      "views": 62,
       "title": "MoveIt Pro Plans & Pricing | PickNik"
     },
     {
       "path": "/install-moveit2/binary/",
-      "views": 49,
+      "views": 52,
       "title": "MoveIt 2 Binary Install | MoveIt"
     },
     {
       "path": "/webinars/Rocket_Lab.html",
-      "views": 41,
+      "views": 47,
       "title": "MoveIt Pro Works Here: Rocket Lab is ready for launch! | PickNik"
     },
     {
@@ -285,9 +285,9 @@
     },
     {
       "path": "/webinars/",
-      "views": 31,
+      "views": 32,
       "title": "Webinars | PickNik"
     }
   ],
-  "updatedAt": "2026-08-25T12:40:39.247097+00:00"
+  "updatedAt": "2026-08-26T12:44:22.175099+00:00"
 }
