@@ -1,24 +1,24 @@
 {
-  "identifiedCompanies": 333,
+  "identifiedCompanies": 342,
   "topCompanies": [
     {
       "name": "PickNik Robotics",
-      "visits": 79,
+      "visits": 83,
       "industry": null
     },
     {
       "name": "Wind River",
-      "visits": 16,
-      "industry": null
-    },
-    {
-      "name": "ELSA Japan",
       "visits": 15,
       "industry": null
     },
     {
       "name": "Expedia Group",
-      "visits": 11,
+      "visits": 12,
+      "industry": null
+    },
+    {
+      "name": "ELSA Japan",
+      "visits": 12,
       "industry": null
     },
     {
@@ -32,12 +32,12 @@
       "industry": null
     },
     {
-      "name": "meteuropcbang",
-      "visits": 7,
+      "name": "Freudenberg SE",
+      "visits": 8,
       "industry": null
     },
     {
-      "name": "Freudenberg SE",
+      "name": "meteuropcbang",
       "visits": 7,
       "industry": null
     },
@@ -47,8 +47,18 @@
       "industry": null
     },
     {
+      "name": "Bunch Projects",
+      "visits": 6,
+      "industry": null
+    },
+    {
       "name": "University of Cambridge",
       "visits": 6,
+      "industry": null
+    },
+    {
+      "name": "Wendy Wu Tours",
+      "visits": 5,
       "industry": null
     },
     {
@@ -57,17 +67,7 @@
       "industry": null
     },
     {
-      "name": "Bunch Projects",
-      "visits": 5,
-      "industry": null
-    },
-    {
       "name": "Lockheed Martin Corporation",
-      "visits": 5,
-      "industry": null
-    },
-    {
-      "name": "Qualcomm Incorporated",
       "visits": 5,
       "industry": null
     },
@@ -79,12 +79,8 @@
   ],
   "dailyVisits": [
     {
-      "date": "2026-07-27",
-      "visits": 22
-    },
-    {
       "date": "2026-07-28",
-      "visits": 30
+      "visits": 28
     },
     {
       "date": "2026-07-29",
@@ -200,72 +196,76 @@
     },
     {
       "date": "2026-08-26",
-      "visits": 16
+      "visits": 21
+    },
+    {
+      "date": "2026-08-27",
+      "visits": 37
     }
   ],
   "sources": [
     {
       "name": "direct",
-      "visits": 364
+      "visits": 370
     },
     {
       "name": "google / organic",
-      "visits": 225
+      "visits": 238
     },
     {
       "name": "bing / organic",
-      "visits": 16
+      "visits": 15
     },
     {
       "name": "linkedin / social",
-      "visits": 10
+      "visits": 9
+    },
+    {
+      "name": "chatgpt.com",
+      "visits": 8
     },
     {
       "name": "chatgpt.com / referral",
       "visits": 8
     },
     {
-      "name": "chatgpt.com",
-      "visits": 7
-    },
-    {
       "name": "github.com / referral",
       "visits": 6
     },
     {
-      "name": "twitter / social",
-      "visits": 4
+      "name": "docs.ros.org / referral",
+      "visits": 5
     }
   ],
   "topPages": [
     {
       "path": "/",
-      "views": 343,
+      "views": 353,
       "title": "Robotics Solutions Company | Robotics Software | PickNik"
     },
     {
+      "path": "/careers/",
+      "views": 78,
+      "title": "Careers | PickNik"
+    },
+    {
       "path": "/pro/",
-      "views": 79,
+      "views": 77,
       "title": "MoveIt Pro Runtime & Developer Robotics Software | PickNik"
     },
     {
       "path": "/hardware-ecosystem/",
-      "views": 75,
+      "views": 76,
       "title": "ROS 2 Compatible Hardware - Comprehensive Database | PickNik"
     },
     {
-      "path": "/careers/",
-      "views": 73,
-      "title": "Careers | PickNik"
-    },
-    {
       "path": "/licensing",
-      "views": 62,
+      "views": 65,
       "title": "MoveIt Pro Plans & Pricing | PickNik"
     },
     {
       "path": "/install-moveit2/binary/",
-      "views": 52,
+      "views": 60,
       "title": "MoveIt 2 Binary Install | MoveIt"
     },
     {
@@ -275,7 +275,7 @@
     },
     {
       "path": "/team/",
-      "views": 41,
+      "views": 42,
       "title": "Team | PickNik"
     },
     {
@@ -289,5 +289,5 @@
       "title": "Webinars | PickNik"
     }
   ],
-  "updatedAt": "2026-08-26T12:44:22.175099+00:00"
+  "updatedAt": "2026-08-27T21:42:01.519253+00:00"
 }
