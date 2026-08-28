@@ -4,31 +4,31 @@
       "key": "Website Inbound",
       "label": "Website Inbound",
       "goal": null,
-      "count": 18
-    },
-    {
-      "key": "Networking / Referral",
-      "label": "Networking / Referral",
-      "goal": null,
-      "count": 4
-    },
-    {
-      "key": "Upsell",
-      "label": "Upsell",
-      "goal": null,
-      "count": 4
+      "count": 20
     },
     {
       "key": "(not set)",
       "label": "(not set)",
       "goal": null,
-      "count": 4
+      "count": 7
+    },
+    {
+      "key": "Networking / Referral",
+      "label": "Networking / Referral",
+      "goal": null,
+      "count": 5
+    },
+    {
+      "key": "Upsell",
+      "label": "Upsell",
+      "goal": null,
+      "count": 5
     },
     {
       "key": "Conferences / Events",
       "label": "Conferences / Events",
       "goal": null,
-      "count": 3
+      "count": 4
     },
     {
       "key": "Outbound",
@@ -41,7 +41,7 @@
     {
       "label": "1. Qualifying",
       "goal": 50,
-      "count": 95
+      "count": 96
     },
     {
       "label": "2. Qualified (BANT)",
@@ -51,7 +51,7 @@
     {
       "label": "3. Proposing & Negotiating",
       "goal": 10,
-      "count": 7
+      "count": 9
     },
     {
       "label": "4. Closing & Contracting",
@@ -61,27 +61,27 @@
   ],
   "dealOrigins": {
     "since": "2026-05-01",
-    "totalDeals": 185,
+    "totalDeals": 193,
     "counts": [
       {
         "name": "Website Inbound",
-        "count": 65
+        "count": 67
       },
       {
         "name": "Conferences / Events",
-        "count": 57
+        "count": 58
       },
       {
         "name": "Upsell",
-        "count": 27
+        "count": 28
       },
       {
         "name": "(not set)",
-        "count": 18
+        "count": 21
       },
       {
         "name": "Networking / Referral",
-        "count": 12
+        "count": 13
       },
       {
         "name": "Outbound",
@@ -108,6 +108,6 @@
       "license": 118000.0
     }
   },
-  "updatedAt": "2026-08-27T21:41:21.446745+00:00",
+  "updatedAt": "2026-08-28T21:41:43.895036+00:00",
   "period": "August 2026"
 }
