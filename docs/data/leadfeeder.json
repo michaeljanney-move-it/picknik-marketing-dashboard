@@ -1,9 +1,9 @@
 {
-  "identifiedCompanies": 317,
+  "identifiedCompanies": 321,
   "topCompanies": [
     {
       "name": "PickNik Robotics",
-      "visits": 75,
+      "visits": 76,
       "industry": null
     },
     {
@@ -14,6 +14,11 @@
     {
       "name": "Wind River",
       "visits": 11,
+      "industry": null
+    },
+    {
+      "name": "Sercomm Corporation",
+      "visits": 10,
       "industry": null
     },
     {
@@ -37,16 +42,6 @@
       "industry": null
     },
     {
-      "name": "Freudenberg SE",
-      "visits": 8,
-      "industry": null
-    },
-    {
-      "name": "Sercomm Corporation",
-      "visits": 7,
-      "industry": null
-    },
-    {
       "name": "meteuropcbang",
       "visits": 7,
       "industry": null
@@ -57,31 +52,32 @@
       "industry": null
     },
     {
+      "name": "Lockheed Martin Corporation",
+      "visits": 6,
+      "industry": null
+    },
+    {
       "name": "Bunch Projects",
       "visits": 6,
       "industry": null
     },
     {
-      "name": "University of Cambridge",
+      "name": "University of Cambridge Museums",
       "visits": 6,
+      "industry": null
+    },
+    {
+      "name": "hajjar.com",
+      "visits": 5,
       "industry": null
     },
     {
       "name": "Autonomous Solutions, Inc. (ASI)",
       "visits": 5,
       "industry": null
-    },
-    {
-      "name": "Lockheed Martin Corporation",
-      "visits": 5,
-      "industry": null
     }
   ],
   "dailyVisits": [
-    {
-      "date": "2026-07-31",
-      "visits": 18
-    },
     {
       "date": "2026-08-01",
       "visits": 5
@@ -200,21 +196,25 @@
     },
     {
       "date": "2026-08-30",
-      "visits": 6
+      "visits": 8
+    },
+    {
+      "date": "2026-08-31",
+      "visits": 22
     }
   ],
   "sources": [
     {
       "name": "direct",
-      "visits": 346
+      "visits": 353
     },
     {
       "name": "google / organic",
-      "visits": 224
+      "visits": 223
     },
     {
       "name": "bing / organic",
-      "visits": 14
+      "visits": 15
     },
     {
       "name": "chatgpt.com",
@@ -222,50 +222,50 @@
     },
     {
       "name": "linkedin / social",
-      "visits": 8
+      "visits": 7
+    },
+    {
+      "name": "docs.ros.org / referral",
+      "visits": 6
     },
     {
       "name": "chatgpt.com / referral",
       "visits": 6
     },
     {
-      "name": "docs.ros.org / referral",
-      "visits": 5
-    },
-    {
-      "name": "github.com / referral",
-      "visits": 5
+      "name": "cn.bing.com / referral",
+      "visits": 4
     }
   ],
   "topPages": [
     {
       "path": "/",
-      "views": 324,
-      "title": "MoveIt Motion Planning Framework"
+      "views": 329,
+      "title": "Robotics Solutions Company | Robotics Software | PickNik"
     },
     {
       "path": "/hardware-ecosystem/",
-      "views": 72,
+      "views": 74,
       "title": "ROS 2 Compatible Hardware - Comprehensive Database | PickNik"
     },
     {
       "path": "/pro/",
-      "views": 70,
+      "views": 71,
       "title": "MoveIt Pro Runtime & Developer Robotics Software | PickNik"
     },
     {
       "path": "/careers/",
-      "views": 65,
+      "views": 67,
       "title": "Careers | PickNik"
     },
     {
       "path": "/install-moveit2/binary/",
-      "views": 64,
+      "views": 65,
       "title": "MoveIt 2 Binary Install | MoveIt"
     },
     {
       "path": "/licensing",
-      "views": 59,
+      "views": 58,
       "title": "MoveIt Pro Plans & Pricing | PickNik"
     },
     {
@@ -285,9 +285,9 @@
     },
     {
       "path": "/moveit-2-vs-moveit-pro/",
-      "views": 26,
+      "views": 27,
       "title": "MoveIt 2 vs MoveIt Pro | PickNik"
     }
   ],
-  "updatedAt": "2026-08-30T15:59:02.379489+00:00"
+  "updatedAt": "2026-08-31T18:43:10.165221+00:00"
 }
