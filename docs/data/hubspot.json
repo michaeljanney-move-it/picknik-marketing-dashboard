@@ -1,47 +1,10 @@
 {
-  "leadTypes": [
-    {
-      "key": "Website Inbound",
-      "label": "Website Inbound",
-      "goal": null,
-      "count": 22
-    },
-    {
-      "key": "(not set)",
-      "label": "(not set)",
-      "goal": null,
-      "count": 9
-    },
-    {
-      "key": "Networking / Referral",
-      "label": "Networking / Referral",
-      "goal": null,
-      "count": 5
-    },
-    {
-      "key": "Upsell",
-      "label": "Upsell",
-      "goal": null,
-      "count": 5
-    },
-    {
-      "key": "Conferences / Events",
-      "label": "Conferences / Events",
-      "goal": null,
-      "count": 4
-    },
-    {
-      "key": "Outbound",
-      "label": "Outbound",
-      "goal": null,
-      "count": 1
-    }
-  ],
+  "leadTypes": [],
   "dealStages": [
     {
       "label": "1. Qualifying",
       "goal": 50,
-      "count": 96
+      "count": 97
     },
     {
       "label": "2. Qualified (BANT)",
@@ -61,11 +24,11 @@
   ],
   "dealOrigins": {
     "since": "2026-05-01",
-    "totalDeals": 197,
+    "totalDeals": 196,
     "counts": [
       {
         "name": "Website Inbound",
-        "count": 69
+        "count": 68
       },
       {
         "name": "Conferences / Events",
@@ -77,7 +40,7 @@
       },
       {
         "name": "(not set)",
-        "count": 23
+        "count": 22
       },
       {
         "name": "Networking / Referral",
@@ -89,6 +52,10 @@
       },
       {
         "name": "RoboBusiness 2024",
+        "count": 1
+      },
+      {
+        "name": "Renewal",
         "count": 1
       }
     ]
@@ -114,6 +81,6 @@
       "license": 127800.0
     }
   },
-  "updatedAt": "2026-08-31T18:42:32.345180+00:00",
-  "period": "August 2026"
+  "updatedAt": "2026-09-01T16:00:37.105510+00:00",
+  "period": "September 2026"
 }
