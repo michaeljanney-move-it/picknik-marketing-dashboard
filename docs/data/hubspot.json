@@ -1,15 +1,28 @@
 {
-  "leadTypes": [],
+  "leadTypes": [
+    {
+      "key": "Website Inbound",
+      "label": "Website Inbound",
+      "goal": null,
+      "count": 3
+    },
+    {
+      "key": "Conferences / Events",
+      "label": "Conferences / Events",
+      "goal": null,
+      "count": 1
+    }
+  ],
   "dealStages": [
     {
       "label": "1. Qualifying",
       "goal": 50,
-      "count": 97
+      "count": 96
     },
     {
       "label": "2. Qualified (BANT)",
       "goal": 20,
-      "count": 20
+      "count": 22
     },
     {
       "label": "3. Proposing & Negotiating",
@@ -24,15 +37,15 @@
   ],
   "dealOrigins": {
     "since": "2026-05-01",
-    "totalDeals": 196,
+    "totalDeals": 200,
     "counts": [
       {
         "name": "Website Inbound",
-        "count": 68
+        "count": 71
       },
       {
         "name": "Conferences / Events",
-        "count": 58
+        "count": 59
       },
       {
         "name": "Upsell",
@@ -81,6 +94,6 @@
       "license": 127800.0
     }
   },
-  "updatedAt": "2026-09-01T16:00:37.105510+00:00",
+  "updatedAt": "2026-09-02T15:54:46.012083+00:00",
   "period": "September 2026"
 }
