@@ -4,7 +4,7 @@
       "key": "Website Inbound",
       "label": "Website Inbound",
       "goal": null,
-      "count": 3
+      "count": 4
     },
     {
       "key": "Conferences / Events",
@@ -17,12 +17,12 @@
     {
       "label": "1. Qualifying",
       "goal": 50,
-      "count": 96
+      "count": 97
     },
     {
       "label": "2. Qualified (BANT)",
       "goal": 20,
-      "count": 22
+      "count": 21
     },
     {
       "label": "3. Proposing & Negotiating",
@@ -32,16 +32,16 @@
     {
       "label": "4. Closing & Contracting",
       "goal": 3,
-      "count": 4
+      "count": 3
     }
   ],
   "dealOrigins": {
     "since": "2026-05-01",
-    "totalDeals": 200,
+    "totalDeals": 201,
     "counts": [
       {
         "name": "Website Inbound",
-        "count": 71
+        "count": 72
       },
       {
         "name": "Conferences / Events",
@@ -77,6 +77,12 @@
     "periodLabel": "Q3 2026",
     "deals": [
       {
+        "name": "AutoWash - Phase 3d Services ",
+        "amount": 200000.0,
+        "license": 0.0,
+        "closeDate": "2026-09-03T14:59:21.105Z"
+      },
+      {
         "name": "KBR - NRL (Naval Research Lab) - FFR Guest Roboticist License",
         "amount": 9800.0,
         "license": 9800.0,
@@ -90,10 +96,10 @@
       }
     ],
     "totals": {
-      "amount": 329200.0,
+      "amount": 529200.0,
       "license": 127800.0
     }
   },
-  "updatedAt": "2026-09-02T15:54:46.012083+00:00",
+  "updatedAt": "2026-09-03T15:43:41.441922+00:00",
   "period": "September 2026"
 }

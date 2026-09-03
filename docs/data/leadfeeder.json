@@ -1,9 +1,9 @@
 {
-  "identifiedCompanies": 330,
+  "identifiedCompanies": 323,
   "topCompanies": [
     {
       "name": "PickNik Robotics",
-      "visits": 87,
+      "visits": 82,
       "industry": null
     },
     {
@@ -12,13 +12,13 @@
       "industry": null
     },
     {
-      "name": "Expedia Group",
+      "name": "Sercomm Corporation",
       "visits": 11,
       "industry": null
     },
     {
-      "name": "Sercomm Corporation",
-      "visits": 10,
+      "name": "Expedia Group",
+      "visits": 11,
       "industry": null
     },
     {
@@ -34,6 +34,11 @@
     {
       "name": "ELSA Japan",
       "visits": 9,
+      "industry": null
+    },
+    {
+      "name": "NHN Corporation",
+      "visits": 8,
       "industry": null
     },
     {
@@ -70,21 +75,12 @@
       "name": "Glasgow Caledonian University",
       "visits": 6,
       "industry": null
-    },
-    {
-      "name": "NHN Corporation",
-      "visits": 6,
-      "industry": null
     }
   ],
   "dailyVisits": [
     {
-      "date": "2026-08-03",
-      "visits": 20
-    },
-    {
       "date": "2026-08-04",
-      "visits": 33
+      "visits": 29
     },
     {
       "date": "2026-08-05",
@@ -200,17 +196,21 @@
     },
     {
       "date": "2026-09-02",
-      "visits": 16
+      "visits": 19
+    },
+    {
+      "date": "2026-09-03",
+      "visits": 10
     }
   ],
   "sources": [
     {
       "name": "direct",
-      "visits": 381
+      "visits": 376
     },
     {
       "name": "google / organic",
-      "visits": 239
+      "visits": 233
     },
     {
       "name": "bing / organic",
@@ -240,17 +240,17 @@
   "topPages": [
     {
       "path": "/",
-      "views": 354,
+      "views": 345,
       "title": "MoveIt Motion Planning Framework"
     },
     {
       "path": "/pro/",
-      "views": 82,
+      "views": 84,
       "title": "MoveIt Pro Runtime & Developer Robotics Software | PickNik"
     },
     {
       "path": "/hardware-ecosystem/",
-      "views": 80,
+      "views": 78,
       "title": "ROS 2 Compatible Hardware - Comprehensive Database | PickNik"
     },
     {
@@ -259,35 +259,35 @@
       "title": "Careers | PickNik"
     },
     {
-      "path": "/licensing",
-      "views": 69,
-      "title": "MoveIt Pro Plans & Pricing | PickNik"
-    },
-    {
       "path": "/install-moveit2/binary/",
-      "views": 67,
+      "views": 70,
       "title": "MoveIt 2 Binary Install | MoveIt"
     },
     {
+      "path": "/licensing",
+      "views": 70,
+      "title": "MoveIt Pro Plans & Pricing | PickNik"
+    },
+    {
       "path": "/team/",
-      "views": 39,
+      "views": 37,
       "title": "Team | PickNik"
     },
     {
       "path": "/webinars/Rocket_Lab.html",
-      "views": 39,
+      "views": 35,
       "title": "MoveIt Pro Works Here: Rocket Lab is ready for launch! | PickNik"
     },
     {
       "path": "/connect/",
-      "views": 35,
+      "views": 34,
       "title": "Contact Us | PickNik"
     },
     {
-      "path": "/webinars/",
-      "views": 29,
-      "title": "Webinars | PickNik"
+      "path": "/moveit-2-vs-moveit-pro/",
+      "views": 28,
+      "title": "MoveIt 2 vs MoveIt Pro | PickNik"
     }
   ],
-  "updatedAt": "2026-09-02T15:55:26.804217+00:00"
+  "updatedAt": "2026-09-03T15:44:13.519755+00:00"
 }
