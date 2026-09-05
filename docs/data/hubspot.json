@@ -4,7 +4,7 @@
       "key": "Website Inbound",
       "label": "Website Inbound",
       "goal": null,
-      "count": 5
+      "count": 8
     },
     {
       "key": "Conferences / Events",
@@ -23,12 +23,12 @@
     {
       "label": "1. Qualifying",
       "goal": 50,
-      "count": 96
+      "count": 97
     },
     {
       "label": "2. Qualified (BANT)",
       "goal": 20,
-      "count": 21
+      "count": 20
     },
     {
       "label": "3. Proposing & Negotiating",
@@ -38,16 +38,16 @@
     {
       "label": "4. Closing & Contracting",
       "goal": 3,
-      "count": 3
+      "count": 2
     }
   ],
   "dealOrigins": {
     "since": "2026-05-01",
-    "totalDeals": 203,
+    "totalDeals": 205,
     "counts": [
       {
         "name": "Website Inbound",
-        "count": 73
+        "count": 75
       },
       {
         "name": "Conferences / Events",
@@ -83,6 +83,12 @@
     "periodLabel": "Q3 2026",
     "deals": [
       {
+        "name": "Journey - Runtime License",
+        "amount": 5000.0,
+        "license": 5000.0,
+        "closeDate": "2026-09-04T20:48:04.580Z"
+      },
+      {
         "name": "AutoWash - Phase 3d Services ",
         "amount": 200000.0,
         "license": 0.0,
@@ -102,10 +108,10 @@
       }
     ],
     "totals": {
-      "amount": 529200.0,
-      "license": 127800.0
+      "amount": 534200.0,
+      "license": 132800.0
     }
   },
-  "updatedAt": "2026-09-04T15:42:19.978908+00:00",
+  "updatedAt": "2026-09-05T14:30:46.083434+00:00",
   "period": "September 2026"
 }
