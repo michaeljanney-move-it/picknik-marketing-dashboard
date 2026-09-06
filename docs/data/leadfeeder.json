@@ -1,9 +1,9 @@
 {
-  "identifiedCompanies": 327,
+  "identifiedCompanies": 319,
   "topCompanies": [
     {
       "name": "PickNik Robotics",
-      "visits": 87,
+      "visits": 84,
       "industry": null
     },
     {
@@ -22,17 +22,12 @@
       "industry": null
     },
     {
-      "name": "Wind River",
-      "visits": 9,
-      "industry": null
-    },
-    {
-      "name": "Facteon",
+      "name": "NHN Corporation",
       "visits": 8,
       "industry": null
     },
     {
-      "name": "NHN Corporation",
+      "name": "Wind River",
       "visits": 8,
       "industry": null
     },
@@ -52,8 +47,13 @@
       "industry": null
     },
     {
-      "name": "Autonomous Solutions, Inc. (ASI)",
-      "visits": 7,
+      "name": "City of Pella, Iowa - Government",
+      "visits": 6,
+      "industry": null
+    },
+    {
+      "name": "Facteon",
+      "visits": 6,
       "industry": null
     },
     {
@@ -67,24 +67,20 @@
       "industry": null
     },
     {
-      "name": "meteuropcbang",
-      "visits": 6,
+      "name": "SEW-EURODRIVE Verwaltungs-GmbH",
+      "visits": 5,
       "industry": null
     },
     {
-      "name": "SEW-EURODRIVE Verwaltungs-GmbH",
+      "name": "Autonomous Solutions, Inc. (ASI)",
       "visits": 5,
       "industry": null
     }
   ],
   "dailyVisits": [
     {
-      "date": "2026-08-06",
-      "visits": 22
-    },
-    {
       "date": "2026-08-07",
-      "visits": 32
+      "visits": 27
     },
     {
       "date": "2026-08-08",
@@ -200,17 +196,21 @@
     },
     {
       "date": "2026-09-05",
-      "visits": 7
+      "visits": 13
+    },
+    {
+      "date": "2026-09-06",
+      "visits": 5
     }
   ],
   "sources": [
     {
       "name": "direct",
-      "visits": 361
+      "visits": 352
     },
     {
       "name": "google / organic",
-      "visits": 228
+      "visits": 222
     },
     {
       "name": "bing / organic",
@@ -229,19 +229,19 @@
       "visits": 6
     },
     {
-      "name": "docs.ros.org / referral",
-      "visits": 5
+      "name": "github.com / referral",
+      "visits": 4
     },
     {
-      "name": "github.com / referral",
+      "name": "cn.bing.com / referral",
       "visits": 4
     }
   ],
   "topPages": [
     {
       "path": "/",
-      "views": 333,
-      "title": "Robotics Solutions Company | Robotics Software | PickNik"
+      "views": 323,
+      "title": "MoveIt Motion Planning Framework"
     },
     {
       "path": "/pro/",
@@ -250,13 +250,8 @@
     },
     {
       "path": "/careers/",
-      "views": 76,
+      "views": 71,
       "title": "Careers | PickNik"
-    },
-    {
-      "path": "/licensing",
-      "views": 72,
-      "title": "MoveIt Pro Plans & Pricing | PickNik"
     },
     {
       "path": "/hardware-ecosystem/",
@@ -267,6 +262,11 @@
       "path": "/install-moveit2/binary/",
       "views": 65,
       "title": "MoveIt 2 Binary Install | MoveIt"
+    },
+    {
+      "path": "/licensing",
+      "views": 65,
+      "title": "MoveIt Pro Plans & Pricing | PickNik"
     },
     {
       "path": "/connect/",
@@ -280,14 +280,14 @@
     },
     {
       "path": "/team/",
-      "views": 30,
+      "views": 29,
       "title": "Team | PickNik"
     },
     {
       "path": "/webinars/",
-      "views": 28,
+      "views": 26,
       "title": "Webinars | PickNik"
     }
   ],
-  "updatedAt": "2026-09-05T14:31:23.033598+00:00"
+  "updatedAt": "2026-09-06T14:53:11.643602+00:00"
 }
