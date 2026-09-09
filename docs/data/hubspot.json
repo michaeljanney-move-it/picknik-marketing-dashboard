@@ -4,7 +4,7 @@
       "key": "Website Inbound",
       "label": "Website Inbound",
       "goal": null,
-      "count": 10
+      "count": 12
     },
     {
       "key": "Conferences / Events",
@@ -33,7 +33,7 @@
     {
       "label": "3. Proposing & Negotiating",
       "goal": 10,
-      "count": 10
+      "count": 11
     },
     {
       "label": "4. Closing & Contracting",
@@ -43,11 +43,11 @@
   ],
   "dealOrigins": {
     "since": "2026-05-01",
-    "totalDeals": 207,
+    "totalDeals": 209,
     "counts": [
       {
         "name": "Website Inbound",
-        "count": 77
+        "count": 79
       },
       {
         "name": "Conferences / Events",
@@ -112,6 +112,6 @@
       "license": 132800.0
     }
   },
-  "updatedAt": "2026-09-08T15:55:56.119545+00:00",
+  "updatedAt": "2026-09-09T15:51:54.497294+00:00",
   "period": "September 2026"
 }
