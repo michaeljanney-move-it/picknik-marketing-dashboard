@@ -1,9 +1,9 @@
 {
-  "identifiedCompanies": 342,
+  "identifiedCompanies": 343,
   "topCompanies": [
     {
       "name": "PickNik Robotics",
-      "visits": 88,
+      "visits": 80,
       "industry": null
     },
     {
@@ -12,18 +12,18 @@
       "industry": null
     },
     {
-      "name": "Lockheed Martin Corporation",
-      "visits": 10,
-      "industry": null
-    },
-    {
       "name": "GSL Networks Pty Ltd",
       "visits": 10,
       "industry": null
     },
     {
-      "name": "Expedia Group",
+      "name": "Lockheed Martin Corporation",
       "visits": 9,
+      "industry": null
+    },
+    {
+      "name": "Autonomous Solutions, Inc. (ASI)",
+      "visits": 8,
       "industry": null
     },
     {
@@ -57,6 +57,11 @@
       "industry": null
     },
     {
+      "name": "Stryker Corporation",
+      "visits": 6,
+      "industry": null
+    },
+    {
       "name": "City of Pella, Iowa - Government",
       "visits": 6,
       "industry": null
@@ -67,24 +72,15 @@
       "industry": null
     },
     {
-      "name": "Blum",
-      "visits": 5,
-      "industry": null
-    },
-    {
-      "name": "Telstra Group Limited",
-      "visits": 5,
+      "name": "Expedia Group",
+      "visits": 6,
       "industry": null
     }
   ],
   "dailyVisits": [
     {
-      "date": "2026-08-10",
-      "visits": 32
-    },
-    {
       "date": "2026-08-11",
-      "visits": 27
+      "visits": 19
     },
     {
       "date": "2026-08-12",
@@ -200,21 +196,25 @@
     },
     {
       "date": "2026-09-09",
-      "visits": 27
+      "visits": 40
+    },
+    {
+      "date": "2026-09-10",
+      "visits": 26
     }
   ],
   "sources": [
     {
       "name": "direct",
-      "visits": 379
+      "visits": 365
     },
     {
       "name": "google / organic",
-      "visits": 235
+      "visits": 244
     },
     {
       "name": "bing / organic",
-      "visits": 17
+      "visits": 16
     },
     {
       "name": "linkedin / social",
@@ -222,19 +222,19 @@
     },
     {
       "name": "hs email / email",
+      "visits": 8
+    },
+    {
+      "name": "github.com / referral",
+      "visits": 7
+    },
+    {
+      "name": "docs.ros.org / referral",
       "visits": 7
     },
     {
       "name": "chatgpt.com / referral",
       "visits": 7
-    },
-    {
-      "name": "chatgpt.com",
-      "visits": 7
-    },
-    {
-      "name": "docs.ros.org / referral",
-      "visits": 6
     }
   ],
   "topPages": [
@@ -244,50 +244,50 @@
       "title": "MoveIt Motion Planning Framework"
     },
     {
-      "path": "/pro/",
-      "views": 87,
-      "title": "MoveIt Pro Runtime & Developer Robotics Software | PickNik"
-    },
-    {
       "path": "/careers/",
       "views": 84,
       "title": "Careers | PickNik"
     },
     {
+      "path": "/pro/",
+      "views": 82,
+      "title": "MoveIt Pro Runtime & Developer Robotics Software | PickNik"
+    },
+    {
       "path": "/install-moveit2/binary/",
-      "views": 73,
+      "views": 79,
       "title": "MoveIt 2 Binary Install | MoveIt"
     },
     {
-      "path": "/hardware-ecosystem/",
-      "views": 66,
-      "title": "ROS 2 Compatible Hardware - Comprehensive Database | PickNik"
-    },
-    {
       "path": "/licensing",
-      "views": 63,
+      "views": 68,
       "title": "MoveIt Pro Plans & Pricing | PickNik"
     },
     {
-      "path": "/webinars/Rocket_Lab.html",
-      "views": 39,
-      "title": "MoveIt Pro Works Here: Rocket Lab is ready for launch! | PickNik"
+      "path": "/hardware-ecosystem/",
+      "views": 65,
+      "title": "ROS 2 Compatible Hardware - Comprehensive Database | PickNik"
     },
     {
       "path": "/connect/",
-      "views": 38,
+      "views": 37,
       "title": "Contact Us | PickNik"
     },
     {
+      "path": "/webinars/Rocket_Lab.html",
+      "views": 37,
+      "title": "MoveIt Pro Works Here: Rocket Lab is ready for launch! | PickNik"
+    },
+    {
       "path": "/webinars/",
-      "views": 36,
+      "views": 31,
       "title": "Webinars | PickNik"
     },
     {
       "path": "/documentation/concepts/",
-      "views": 28,
+      "views": 29,
       "title": "Concepts | MoveIt"
     }
   ],
-  "updatedAt": "2026-09-09T15:52:32.795160+00:00"
+  "updatedAt": "2026-09-10T15:47:01.919808+00:00"
 }
