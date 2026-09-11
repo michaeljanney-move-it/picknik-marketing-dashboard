@@ -1,9 +1,9 @@
 {
-  "identifiedCompanies": 343,
+  "identifiedCompanies": 349,
   "topCompanies": [
     {
       "name": "PickNik Robotics",
-      "visits": 80,
+      "visits": 79,
       "industry": null
     },
     {
@@ -12,8 +12,23 @@
       "industry": null
     },
     {
+      "name": "Wind River",
+      "visits": 11,
+      "industry": null
+    },
+    {
+      "name": "Autonomous Solutions, Inc. (ASI)",
+      "visits": 10,
+      "industry": null
+    },
+    {
       "name": "GSL Networks Pty Ltd",
       "visits": 10,
+      "industry": null
+    },
+    {
+      "name": "Bunch Projects",
+      "visits": 9,
       "industry": null
     },
     {
@@ -22,7 +37,12 @@
       "industry": null
     },
     {
-      "name": "Autonomous Solutions, Inc. (ASI)",
+      "name": "Stryker Corporation",
+      "visits": 8,
+      "industry": null
+    },
+    {
+      "name": "hajjar.com",
       "visits": 8,
       "industry": null
     },
@@ -32,18 +52,8 @@
       "industry": null
     },
     {
-      "name": "Bunch Projects",
-      "visits": 8,
-      "industry": null
-    },
-    {
-      "name": "NHN Corporation",
-      "visits": 8,
-      "industry": null
-    },
-    {
-      "name": "Wind River",
-      "visits": 8,
+      "name": "Spartan Host Ltd.",
+      "visits": 7,
       "industry": null
     },
     {
@@ -52,17 +62,12 @@
       "industry": null
     },
     {
-      "name": "hajjar.com",
-      "visits": 7,
-      "industry": null
-    },
-    {
-      "name": "Stryker Corporation",
+      "name": "City of Pella, Iowa - Government",
       "visits": 6,
       "industry": null
     },
     {
-      "name": "City of Pella, Iowa - Government",
+      "name": "NHN Corporation",
       "visits": 6,
       "industry": null
     },
@@ -70,21 +75,12 @@
       "name": "Glasgow Caledonian University",
       "visits": 6,
       "industry": null
-    },
-    {
-      "name": "Expedia Group",
-      "visits": 6,
-      "industry": null
     }
   ],
   "dailyVisits": [
     {
-      "date": "2026-08-11",
-      "visits": 19
-    },
-    {
       "date": "2026-08-12",
-      "visits": 30
+      "visits": 25
     },
     {
       "date": "2026-08-13",
@@ -200,25 +196,33 @@
     },
     {
       "date": "2026-09-10",
-      "visits": 26
+      "visits": 39
+    },
+    {
+      "date": "2026-09-11",
+      "visits": 24
     }
   ],
   "sources": [
     {
       "name": "direct",
-      "visits": 365
+      "visits": 368
     },
     {
       "name": "google / organic",
-      "visits": 244
+      "visits": 251
     },
     {
       "name": "bing / organic",
-      "visits": 16
+      "visits": 18
     },
     {
       "name": "linkedin / social",
-      "visits": 11
+      "visits": 13
+    },
+    {
+      "name": "chatgpt.com / referral",
+      "visits": 8
     },
     {
       "name": "hs email / email",
@@ -231,16 +235,12 @@
     {
       "name": "docs.ros.org / referral",
       "visits": 7
-    },
-    {
-      "name": "chatgpt.com / referral",
-      "visits": 7
     }
   ],
   "topPages": [
     {
       "path": "/",
-      "views": 355,
+      "views": 358,
       "title": "MoveIt Motion Planning Framework"
     },
     {
@@ -249,18 +249,18 @@
       "title": "Careers | PickNik"
     },
     {
-      "path": "/pro/",
-      "views": 82,
-      "title": "MoveIt Pro Runtime & Developer Robotics Software | PickNik"
-    },
-    {
       "path": "/install-moveit2/binary/",
-      "views": 79,
+      "views": 82,
       "title": "MoveIt 2 Binary Install | MoveIt"
     },
     {
+      "path": "/pro/",
+      "views": 78,
+      "title": "MoveIt Pro Runtime & Developer Robotics Software | PickNik"
+    },
+    {
       "path": "/licensing",
-      "views": 68,
+      "views": 71,
       "title": "MoveIt Pro Plans & Pricing | PickNik"
     },
     {
@@ -269,14 +269,14 @@
       "title": "ROS 2 Compatible Hardware - Comprehensive Database | PickNik"
     },
     {
-      "path": "/connect/",
-      "views": 37,
-      "title": "Contact Us | PickNik"
+      "path": "/webinars/Rocket_Lab.html",
+      "views": 39,
+      "title": "MoveIt Pro Works Here: Rocket Lab is ready for launch! | PickNik"
     },
     {
-      "path": "/webinars/Rocket_Lab.html",
-      "views": 37,
-      "title": "MoveIt Pro Works Here: Rocket Lab is ready for launch! | PickNik"
+      "path": "/connect/",
+      "views": 36,
+      "title": "Contact Us | PickNik"
     },
     {
       "path": "/webinars/",
@@ -284,10 +284,10 @@
       "title": "Webinars | PickNik"
     },
     {
-      "path": "/documentation/concepts/",
-      "views": 29,
-      "title": "Concepts | MoveIt"
+      "path": "/team/",
+      "views": 30,
+      "title": "Team | PickNik"
     }
   ],
-  "updatedAt": "2026-09-10T15:47:01.919808+00:00"
+  "updatedAt": "2026-09-11T15:49:18.869240+00:00"
 }
