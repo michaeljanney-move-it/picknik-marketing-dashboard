@@ -1,9 +1,14 @@
 {
-  "identifiedCompanies": 325,
+  "identifiedCompanies": 342,
   "topCompanies": [
     {
       "name": "PickNik Robotics",
-      "visits": 67,
+      "visits": 70,
+      "industry": null
+    },
+    {
+      "name": "Autonomous Solutions, Inc. (ASI)",
+      "visits": 12,
       "industry": null
     },
     {
@@ -12,13 +17,8 @@
       "industry": null
     },
     {
-      "name": "Autonomous Solutions, Inc. (ASI)",
-      "visits": 11,
-      "industry": null
-    },
-    {
       "name": "Sercomm Corporation",
-      "visits": 11,
+      "visits": 10,
       "industry": null
     },
     {
@@ -62,6 +62,11 @@
       "industry": null
     },
     {
+      "name": "Blum",
+      "visits": 6,
+      "industry": null
+    },
+    {
       "name": "City of Pella, Iowa - Government",
       "visits": 6,
       "industry": null
@@ -70,18 +75,9 @@
       "name": "NHN Corporation",
       "visits": 6,
       "industry": null
-    },
-    {
-      "name": "Glasgow Caledonian University",
-      "visits": 6,
-      "industry": null
     }
   ],
   "dailyVisits": [
-    {
-      "date": "2026-08-15",
-      "visits": 5
-    },
     {
       "date": "2026-08-16",
       "visits": 8
@@ -200,17 +196,21 @@
     },
     {
       "date": "2026-09-14",
-      "visits": 23
+      "visits": 27
+    },
+    {
+      "date": "2026-09-15",
+      "visits": 28
     }
   ],
   "sources": [
     {
       "name": "direct",
-      "visits": 353
+      "visits": 368
     },
     {
       "name": "google / organic",
-      "visits": 230
+      "visits": 242
     },
     {
       "name": "bing / organic",
@@ -229,33 +229,33 @@
       "visits": 7
     },
     {
-      "name": "chatgpt.com",
+      "name": "chatgpt.com / referral",
       "visits": 6
     },
     {
-      "name": "chatgpt.com / referral",
-      "visits": 5
+      "name": "chatgpt.com",
+      "visits": 6
     }
   ],
   "topPages": [
     {
       "path": "/",
-      "views": 325,
-      "title": "MoveIt Motion Planning Framework"
-    },
-    {
-      "path": "/pro/",
-      "views": 77,
-      "title": "MoveIt Pro Runtime & Developer Robotics Software | PickNik"
+      "views": 340,
+      "title": "Robotics Solutions Company | Robotics Software | PickNik"
     },
     {
       "path": "/careers/",
-      "views": 77,
+      "views": 81,
       "title": "Careers | PickNik"
     },
     {
+      "path": "/pro/",
+      "views": 78,
+      "title": "MoveIt Pro Runtime & Developer Robotics Software | PickNik"
+    },
+    {
       "path": "/install-moveit2/binary/",
-      "views": 73,
+      "views": 76,
       "title": "MoveIt 2 Binary Install | MoveIt"
     },
     {
@@ -265,7 +265,7 @@
     },
     {
       "path": "/hardware-ecosystem/",
-      "views": 59,
+      "views": 60,
       "title": "ROS 2 Compatible Hardware - Comprehensive Database | PickNik"
     },
     {
@@ -275,19 +275,19 @@
     },
     {
       "path": "/connect/",
-      "views": 30,
+      "views": 31,
       "title": "Contact Us | PickNik"
     },
     {
       "path": "/team/",
-      "views": 29,
+      "views": 30,
       "title": "Team | PickNik"
     },
     {
       "path": "/webinars/",
-      "views": 28,
+      "views": 29,
       "title": "Webinars | PickNik"
     }
   ],
-  "updatedAt": "2026-09-14T17:36:59.304722+00:00"
+  "updatedAt": "2026-09-15T16:11:01.321768+00:00"
 }
