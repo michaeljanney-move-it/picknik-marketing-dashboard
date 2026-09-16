@@ -1,9 +1,14 @@
 {
-  "identifiedCompanies": 342,
+  "identifiedCompanies": 354,
   "topCompanies": [
     {
       "name": "PickNik Robotics",
-      "visits": 70,
+      "visits": 74,
+      "industry": null
+    },
+    {
+      "name": "Wind River",
+      "visits": 13,
       "industry": null
     },
     {
@@ -12,12 +17,7 @@
       "industry": null
     },
     {
-      "name": "Wind River",
-      "visits": 12,
-      "industry": null
-    },
-    {
-      "name": "Sercomm Corporation",
+      "name": "Bunch Projects",
       "visits": 10,
       "industry": null
     },
@@ -27,12 +27,17 @@
       "industry": null
     },
     {
-      "name": "Bunch Projects",
+      "name": "WS ATKINS (SERVICES) LIMITED",
       "visits": 9,
       "industry": null
     },
     {
       "name": "Lockheed Martin Corporation",
+      "visits": 9,
+      "industry": null
+    },
+    {
+      "name": "Sercomm Corporation",
       "visits": 9,
       "industry": null
     },
@@ -48,11 +53,6 @@
     },
     {
       "name": "hajjar.com",
-      "visits": 8,
-      "industry": null
-    },
-    {
-      "name": "WS ATKINS (SERVICES) LIMITED",
       "visits": 8,
       "industry": null
     },
@@ -79,12 +79,8 @@
   ],
   "dailyVisits": [
     {
-      "date": "2026-08-16",
-      "visits": 8
-    },
-    {
       "date": "2026-08-17",
-      "visits": 23
+      "visits": 18
     },
     {
       "date": "2026-08-18",
@@ -200,21 +196,25 @@
     },
     {
       "date": "2026-09-15",
-      "visits": 28
+      "visits": 44
+    },
+    {
+      "date": "2026-09-16",
+      "visits": 24
     }
   ],
   "sources": [
     {
       "name": "direct",
-      "visits": 368
+      "visits": 381
     },
     {
       "name": "google / organic",
-      "visits": 242
+      "visits": 251
     },
     {
       "name": "bing / organic",
-      "visits": 18
+      "visits": 21
     },
     {
       "name": "linkedin / social",
@@ -225,42 +225,42 @@
       "visits": 8
     },
     {
-      "name": "docs.ros.org / referral",
+      "name": "github.com / referral",
       "visits": 7
     },
     {
       "name": "chatgpt.com / referral",
-      "visits": 6
+      "visits": 7
     },
     {
-      "name": "chatgpt.com",
-      "visits": 6
+      "name": "docs.ros.org / referral",
+      "visits": 7
     }
   ],
   "topPages": [
     {
       "path": "/",
-      "views": 340,
-      "title": "Robotics Solutions Company | Robotics Software | PickNik"
+      "views": 360,
+      "title": "MoveIt Motion Planning Framework"
     },
     {
       "path": "/careers/",
-      "views": 81,
+      "views": 92,
       "title": "Careers | PickNik"
     },
     {
       "path": "/pro/",
-      "views": 78,
+      "views": 83,
       "title": "MoveIt Pro Runtime & Developer Robotics Software | PickNik"
     },
     {
       "path": "/install-moveit2/binary/",
-      "views": 76,
+      "views": 77,
       "title": "MoveIt 2 Binary Install | MoveIt"
     },
     {
       "path": "/licensing",
-      "views": 68,
+      "views": 69,
       "title": "MoveIt Pro Plans & Pricing | PickNik"
     },
     {
@@ -270,24 +270,24 @@
     },
     {
       "path": "/webinars/Rocket_Lab.html",
-      "views": 32,
+      "views": 33,
       "title": "MoveIt Pro Works Here: Rocket Lab is ready for launch! | PickNik"
+    },
+    {
+      "path": "/documentation/concepts/",
+      "views": 32,
+      "title": "Concepts | MoveIt"
+    },
+    {
+      "path": "/team/",
+      "views": 31,
+      "title": "Team | PickNik"
     },
     {
       "path": "/connect/",
       "views": 31,
       "title": "Contact Us | PickNik"
-    },
-    {
-      "path": "/team/",
-      "views": 30,
-      "title": "Team | PickNik"
-    },
-    {
-      "path": "/webinars/",
-      "views": 29,
-      "title": "Webinars | PickNik"
     }
   ],
-  "updatedAt": "2026-09-15T16:11:01.321768+00:00"
+  "updatedAt": "2026-09-16T16:04:25.815537+00:00"
 }
