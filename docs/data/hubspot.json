@@ -4,7 +4,7 @@
       "key": "Website Inbound",
       "label": "Website Inbound",
       "goal": null,
-      "count": 13
+      "count": 14
     },
     {
       "key": "Upsell",
@@ -23,17 +23,17 @@
     {
       "label": "1. Qualifying",
       "goal": 50,
-      "count": 93
+      "count": 95
     },
     {
       "label": "2. Qualified (BANT)",
       "goal": 20,
-      "count": 18
+      "count": 16
     },
     {
       "label": "3. Proposing & Negotiating",
       "goal": 10,
-      "count": 12
+      "count": 9
     },
     {
       "label": "4. Closing & Contracting",
@@ -43,11 +43,11 @@
   ],
   "dealOrigins": {
     "since": "2026-05-01",
-    "totalDeals": 208,
+    "totalDeals": 209,
     "counts": [
       {
         "name": "Website Inbound",
-        "count": 78
+        "count": 79
       },
       {
         "name": "Conferences / Events",
@@ -83,6 +83,12 @@
     "periodLabel": "Q3 2026",
     "deals": [
       {
+        "name": "Prehensio GmbH - runtime upsell",
+        "amount": 2500.0,
+        "license": 2500.0,
+        "closeDate": "2026-09-16T19:04:39.110Z"
+      },
+      {
         "name": "Journey - Runtime License",
         "amount": 5000.0,
         "license": 5000.0,
@@ -108,10 +114,10 @@
       }
     ],
     "totals": {
-      "amount": 534200.0,
-      "license": 132800.0
+      "amount": 536700.0,
+      "license": 135300.0
     }
   },
-  "updatedAt": "2026-09-16T16:03:38.034883+00:00",
+  "updatedAt": "2026-09-17T16:09:57.740483+00:00",
   "period": "September 2026"
 }
