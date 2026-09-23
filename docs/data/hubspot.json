@@ -4,7 +4,7 @@
       "key": "Website Inbound",
       "label": "Website Inbound",
       "goal": null,
-      "count": 13
+      "count": 14
     },
     {
       "key": "Upsell",
@@ -39,7 +39,7 @@
     {
       "label": "3. Proposing & Negotiating",
       "goal": 10,
-      "count": 9
+      "count": 7
     },
     {
       "label": "4. Closing & Contracting",
@@ -49,11 +49,11 @@
   ],
   "dealOrigins": {
     "since": "2026-05-01",
-    "totalDeals": 209,
+    "totalDeals": 210,
     "counts": [
       {
         "name": "Website Inbound",
-        "count": 78
+        "count": 79
       },
       {
         "name": "Conferences / Events",
@@ -89,6 +89,18 @@
     "periodLabel": "Q3 2026",
     "deals": [
       {
+        "name": "RLR (Motiv) - SOW 13 - T&M",
+        "amount": 18800.0,
+        "license": 0.0,
+        "closeDate": "2026-09-22T21:21:20.182Z"
+      },
+      {
+        "name": "RLR (Motiv) - SOW 12 - T&M incl onsite",
+        "amount": 40600.0,
+        "license": 0.0,
+        "closeDate": "2026-09-22T21:20:59.123Z"
+      },
+      {
         "name": "Prehensio GmbH - runtime upsell",
         "amount": 2500.0,
         "license": 2500.0,
@@ -120,10 +132,10 @@
       }
     ],
     "totals": {
-      "amount": 536700.0,
+      "amount": 596100.0,
       "license": 135300.0
     }
   },
-  "updatedAt": "2026-09-22T16:12:35.446459+00:00",
+  "updatedAt": "2026-09-23T16:01:46.167586+00:00",
   "period": "September 2026"
 }

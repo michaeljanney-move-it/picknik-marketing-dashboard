@@ -1,9 +1,9 @@
 {
-  "identifiedCompanies": 370,
+  "identifiedCompanies": 401,
   "topCompanies": [
     {
       "name": "PickNik Robotics",
-      "visits": 83,
+      "visits": 92,
       "industry": null
     },
     {
@@ -12,12 +12,17 @@
       "industry": null
     },
     {
+      "name": "WS ATKINS (SERVICES) LIMITED",
+      "visits": 12,
+      "industry": null
+    },
+    {
       "name": "Autonomous Solutions, Inc. (ASI)",
       "visits": 12,
       "industry": null
     },
     {
-      "name": "WS ATKINS (SERVICES) LIMITED",
+      "name": "dTest: Nez\u00e1visl\u00e9 testy, v\u00edc ne\u017e jen recenze",
       "visits": 11,
       "industry": null
     },
@@ -32,16 +37,6 @@
       "industry": null
     },
     {
-      "name": "Sercomm Corporation",
-      "visits": 9,
-      "industry": null
-    },
-    {
-      "name": "dTest: Nez\u00e1visl\u00e9 testy, v\u00edc ne\u017e jen recenze",
-      "visits": 8,
-      "industry": null
-    },
-    {
       "name": "Facteon",
       "visits": 8,
       "industry": null
@@ -53,6 +48,11 @@
     },
     {
       "name": "hajjar.com",
+      "visits": 8,
+      "industry": null
+    },
+    {
+      "name": "Sercomm Corporation",
       "visits": 8,
       "industry": null
     },
@@ -79,12 +79,8 @@
   ],
   "dailyVisits": [
     {
-      "date": "2026-08-23",
-      "visits": 3
-    },
-    {
       "date": "2026-08-24",
-      "visits": 35
+      "visits": 27
     },
     {
       "date": "2026-08-25",
@@ -200,33 +196,37 @@
     },
     {
       "date": "2026-09-22",
-      "visits": 38
+      "visits": 49
+    },
+    {
+      "date": "2026-09-23",
+      "visits": 65
     }
   ],
   "sources": [
     {
       "name": "direct",
-      "visits": 426
+      "visits": 456
     },
     {
       "name": "google / organic",
-      "visits": 254
+      "visits": 279
     },
     {
       "name": "bing / organic",
       "visits": 24
     },
     {
+      "name": "linkedin / social",
+      "visits": 16
+    },
+    {
       "name": "github.com / referral",
       "visits": 15
     },
     {
-      "name": "linkedin / social",
-      "visits": 11
-    },
-    {
       "name": "chatgpt.com / referral",
-      "visits": 9
+      "visits": 10
     },
     {
       "name": "hs email / email",
@@ -234,33 +234,33 @@
     },
     {
       "name": "chatgpt.com",
-      "visits": 6
+      "visits": 7
     }
   ],
   "topPages": [
     {
       "path": "/",
-      "views": 424,
+      "views": 488,
       "title": "Robotics Solutions Company | Robotics Software | PickNik"
     },
     {
       "path": "/careers/",
-      "views": 103,
+      "views": 111,
       "title": "Careers | PickNik"
     },
     {
       "path": "/install-moveit2/binary/",
-      "views": 84,
+      "views": 86,
       "title": "MoveIt 2 Binary Install | MoveIt"
     },
     {
       "path": "/pro/",
-      "views": 78,
+      "views": 80,
       "title": "MoveIt Pro Runtime & Developer Robotics Software | PickNik"
     },
     {
       "path": "/licensing",
-      "views": 62,
+      "views": 66,
       "title": "MoveIt Pro Plans & Pricing | PickNik"
     },
     {
@@ -270,24 +270,24 @@
     },
     {
       "path": "/connect/",
-      "views": 36,
+      "views": 37,
       "title": "Contact Us | PickNik"
     },
     {
       "path": "/academic/",
-      "views": 35,
+      "views": 36,
       "title": "Free License for Academic Use | PickNik"
     },
     {
-      "path": "/webinars/Cellular_Origins_Cell_Therapy.html",
-      "views": 32,
-      "title": "MoveIt Pro Works Here: Cell Therapy Manufacturing with Cellu | PickNik"
+      "path": "/team/",
+      "views": 34,
+      "title": "Team | PickNik"
     },
     {
-      "path": "/documentation/concepts/",
-      "views": 30,
-      "title": "Concepts | MoveIt"
+      "path": "/webinars/Cellular_Origins_Cell_Therapy.html",
+      "views": 34,
+      "title": "MoveIt Pro Works Here: Cell Therapy Manufacturing with Cellu | PickNik"
     }
   ],
-  "updatedAt": "2026-09-22T16:13:18.446175+00:00"
+  "updatedAt": "2026-09-23T16:02:29.762125+00:00"
 }
