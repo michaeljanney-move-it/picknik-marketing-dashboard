@@ -1,13 +1,13 @@
 {
-  "identifiedCompanies": 401,
+  "identifiedCompanies": 460,
   "topCompanies": [
     {
       "name": "PickNik Robotics",
-      "visits": 92,
+      "visits": 90,
       "industry": null
     },
     {
-      "name": "Wind River",
+      "name": "dTest: Nez\u00e1visl\u00e9 testy, v\u00edc ne\u017e jen recenze",
       "visits": 13,
       "industry": null
     },
@@ -17,18 +17,18 @@
       "industry": null
     },
     {
+      "name": "Wind River",
+      "visits": 12,
+      "industry": null
+    },
+    {
       "name": "Autonomous Solutions, Inc. (ASI)",
       "visits": 12,
       "industry": null
     },
     {
-      "name": "dTest: Nez\u00e1visl\u00e9 testy, v\u00edc ne\u017e jen recenze",
-      "visits": 11,
-      "industry": null
-    },
-    {
-      "name": "Bunch Projects",
-      "visits": 10,
+      "name": "Spartan Host Ltd.",
+      "visits": 9,
       "industry": null
     },
     {
@@ -42,49 +42,45 @@
       "industry": null
     },
     {
-      "name": "Spartan Host Ltd.",
-      "visits": 8,
-      "industry": null
-    },
-    {
-      "name": "hajjar.com",
-      "visits": 8,
-      "industry": null
-    },
-    {
       "name": "Sercomm Corporation",
       "visits": 8,
       "industry": null
     },
     {
-      "name": "Lockheed Martin Corporation",
+      "name": "Expedia Group",
       "visits": 7,
       "industry": null
     },
     {
-      "name": "NHN Corporation",
+      "name": "Meiwa Securities Co Ltd",
       "visits": 7,
       "industry": null
     },
     {
-      "name": "nib",
+      "name": "hajjar.com",
+      "visits": 7,
+      "industry": null
+    },
+    {
+      "name": "XELA Robotics Co., Ltd.",
       "visits": 6,
       "industry": null
     },
     {
-      "name": "Li Fa",
+      "name": "DSSE IDEAS Program IIT Bombay",
+      "visits": 6,
+      "industry": null
+    },
+    {
+      "name": "Qualcomm Inc.",
       "visits": 6,
       "industry": null
     }
   ],
   "dailyVisits": [
     {
-      "date": "2026-08-24",
-      "visits": 27
-    },
-    {
       "date": "2026-08-25",
-      "visits": 33
+      "visits": 23
     },
     {
       "date": "2026-08-26",
@@ -200,29 +196,33 @@
     },
     {
       "date": "2026-09-23",
-      "visits": 65
+      "visits": 119
+    },
+    {
+      "date": "2026-09-24",
+      "visits": 67
     }
   ],
   "sources": [
     {
       "name": "direct",
-      "visits": 456
+      "visits": 473
     },
     {
       "name": "google / organic",
-      "visits": 279
-    },
-    {
-      "name": "bing / organic",
-      "visits": 24
+      "visits": 322
     },
     {
       "name": "linkedin / social",
-      "visits": 16
+      "visits": 32
+    },
+    {
+      "name": "bing / organic",
+      "visits": 26
     },
     {
       "name": "github.com / referral",
-      "visits": 15
+      "visits": 16
     },
     {
       "name": "chatgpt.com / referral",
@@ -240,48 +240,48 @@
   "topPages": [
     {
       "path": "/",
-      "views": 488,
+      "views": 566,
       "title": "Robotics Solutions Company | Robotics Software | PickNik"
     },
     {
       "path": "/careers/",
-      "views": 111,
+      "views": 129,
       "title": "Careers | PickNik"
     },
     {
-      "path": "/install-moveit2/binary/",
-      "views": 86,
-      "title": "MoveIt 2 Binary Install | MoveIt"
-    },
-    {
       "path": "/pro/",
-      "views": 80,
+      "views": 92,
       "title": "MoveIt Pro Runtime & Developer Robotics Software | PickNik"
     },
     {
+      "path": "/install-moveit2/binary/",
+      "views": 84,
+      "title": "MoveIt 2 Binary Install | MoveIt"
+    },
+    {
       "path": "/licensing",
-      "views": 66,
+      "views": 67,
       "title": "MoveIt Pro Plans & Pricing | PickNik"
     },
     {
       "path": "/hardware-ecosystem/",
-      "views": 52,
+      "views": 59,
       "title": "ROS 2 Compatible Hardware - Comprehensive Database | PickNik"
     },
     {
-      "path": "/connect/",
-      "views": 37,
-      "title": "Contact Us | PickNik"
-    },
-    {
       "path": "/academic/",
-      "views": 36,
+      "views": 46,
       "title": "Free License for Academic Use | PickNik"
     },
     {
       "path": "/team/",
-      "views": 34,
+      "views": 40,
       "title": "Team | PickNik"
+    },
+    {
+      "path": "/connect/",
+      "views": 38,
+      "title": "Contact Us | PickNik"
     },
     {
       "path": "/webinars/Cellular_Origins_Cell_Therapy.html",
@@ -289,5 +289,5 @@
       "title": "MoveIt Pro Works Here: Cell Therapy Manufacturing with Cellu | PickNik"
     }
   ],
-  "updatedAt": "2026-09-23T16:02:29.762125+00:00"
+  "updatedAt": "2026-09-24T16:27:15.099603+00:00"
 }
