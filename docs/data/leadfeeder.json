@@ -1,19 +1,14 @@
 {
-  "identifiedCompanies": 460,
+  "identifiedCompanies": 468,
   "topCompanies": [
     {
       "name": "PickNik Robotics",
-      "visits": 90,
+      "visits": 89,
       "industry": null
     },
     {
       "name": "dTest: Nez\u00e1visl\u00e9 testy, v\u00edc ne\u017e jen recenze",
       "visits": 13,
-      "industry": null
-    },
-    {
-      "name": "WS ATKINS (SERVICES) LIMITED",
-      "visits": 12,
       "industry": null
     },
     {
@@ -27,6 +22,11 @@
       "industry": null
     },
     {
+      "name": "WS ATKINS (SERVICES) LIMITED",
+      "visits": 11,
+      "industry": null
+    },
+    {
       "name": "Spartan Host Ltd.",
       "visits": 9,
       "industry": null
@@ -37,18 +37,8 @@
       "industry": null
     },
     {
-      "name": "Facteon",
-      "visits": 8,
-      "industry": null
-    },
-    {
       "name": "Sercomm Corporation",
       "visits": 8,
-      "industry": null
-    },
-    {
-      "name": "Expedia Group",
-      "visits": 7,
       "industry": null
     },
     {
@@ -57,8 +47,18 @@
       "industry": null
     },
     {
+      "name": "Facteon",
+      "visits": 7,
+      "industry": null
+    },
+    {
       "name": "hajjar.com",
       "visits": 7,
+      "industry": null
+    },
+    {
+      "name": "Expedia Group",
+      "visits": 6,
       "industry": null
     },
     {
@@ -79,12 +79,8 @@
   ],
   "dailyVisits": [
     {
-      "date": "2026-08-25",
-      "visits": 23
-    },
-    {
       "date": "2026-08-26",
-      "visits": 20
+      "visits": 15
     },
     {
       "date": "2026-08-27",
@@ -200,25 +196,29 @@
     },
     {
       "date": "2026-09-24",
-      "visits": 67
+      "visits": 79
+    },
+    {
+      "date": "2026-09-25",
+      "visits": 20
     }
   ],
   "sources": [
     {
       "name": "direct",
-      "visits": 473
+      "visits": 472
     },
     {
       "name": "google / organic",
-      "visits": 322
+      "visits": 330
     },
     {
       "name": "linkedin / social",
-      "visits": 32
+      "visits": 31
     },
     {
       "name": "bing / organic",
-      "visits": 26
+      "visits": 27
     },
     {
       "name": "github.com / referral",
@@ -226,36 +226,36 @@
     },
     {
       "name": "chatgpt.com / referral",
-      "visits": 10
+      "visits": 9
     },
     {
       "name": "hs email / email",
       "visits": 8
     },
     {
-      "name": "chatgpt.com",
+      "name": "docs.ros.org / referral",
       "visits": 7
     }
   ],
   "topPages": [
     {
       "path": "/",
-      "views": 566,
+      "views": 579,
       "title": "Robotics Solutions Company | Robotics Software | PickNik"
     },
     {
       "path": "/careers/",
-      "views": 129,
+      "views": 127,
       "title": "Careers | PickNik"
     },
     {
       "path": "/pro/",
-      "views": 92,
+      "views": 94,
       "title": "MoveIt Pro Runtime & Developer Robotics Software | PickNik"
     },
     {
       "path": "/install-moveit2/binary/",
-      "views": 84,
+      "views": 85,
       "title": "MoveIt 2 Binary Install | MoveIt"
     },
     {
@@ -265,7 +265,7 @@
     },
     {
       "path": "/hardware-ecosystem/",
-      "views": 59,
+      "views": 58,
       "title": "ROS 2 Compatible Hardware - Comprehensive Database | PickNik"
     },
     {
@@ -275,19 +275,19 @@
     },
     {
       "path": "/team/",
-      "views": 40,
+      "views": 43,
       "title": "Team | PickNik"
     },
     {
       "path": "/connect/",
-      "views": 38,
+      "views": 36,
       "title": "Contact Us | PickNik"
     },
     {
       "path": "/webinars/Cellular_Origins_Cell_Therapy.html",
-      "views": 34,
+      "views": 33,
       "title": "MoveIt Pro Works Here: Cell Therapy Manufacturing with Cellu | PickNik"
     }
   ],
-  "updatedAt": "2026-09-24T16:27:15.099603+00:00"
+  "updatedAt": "2026-09-25T16:27:55.875822+00:00"
 }
