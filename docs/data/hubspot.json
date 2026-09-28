@@ -4,19 +4,19 @@
       "key": "Website Inbound",
       "label": "Website Inbound",
       "goal": null,
-      "count": 19
+      "count": 16
+    },
+    {
+      "key": "Conferences / Events",
+      "label": "Conferences / Events",
+      "goal": null,
+      "count": 2
     },
     {
       "key": "Upsell",
       "label": "Upsell",
       "goal": null,
       "count": 2
-    },
-    {
-      "key": "Conferences / Events",
-      "label": "Conferences / Events",
-      "goal": null,
-      "count": 1
     },
     {
       "key": "(not set)",
@@ -34,7 +34,7 @@
     {
       "label": "2. Qualified (BANT)",
       "goal": 20,
-      "count": 14
+      "count": 15
     },
     {
       "label": "3. Proposing & Negotiating",
@@ -49,15 +49,15 @@
   ],
   "dealOrigins": {
     "since": "2026-05-01",
-    "totalDeals": 215,
+    "totalDeals": 213,
     "counts": [
       {
         "name": "Website Inbound",
-        "count": 84
+        "count": 81
       },
       {
         "name": "Conferences / Events",
-        "count": 59
+        "count": 60
       },
       {
         "name": "Upsell",
@@ -142,6 +142,6 @@
       "license": 135300.0
     }
   },
-  "updatedAt": "2026-09-27T16:20:01.924799+00:00",
+  "updatedAt": "2026-09-28T19:11:39.904793+00:00",
   "period": "September 2026"
 }

@@ -1,9 +1,9 @@
 {
-  "identifiedCompanies": 467,
+  "identifiedCompanies": 472,
   "topCompanies": [
     {
       "name": "PickNik Robotics",
-      "visits": 85,
+      "visits": 84,
       "industry": null
     },
     {
@@ -17,12 +17,12 @@
       "industry": null
     },
     {
-      "name": "Autonomous Solutions, Inc. (ASI)",
-      "visits": 11,
+      "name": "WS ATKINS (SERVICES) LIMITED",
+      "visits": 10,
       "industry": null
     },
     {
-      "name": "WS ATKINS (SERVICES) LIMITED",
+      "name": "Autonomous Solutions, Inc. (ASI)",
       "visits": 10,
       "industry": null
     },
@@ -37,6 +37,11 @@
       "industry": null
     },
     {
+      "name": "XELA Robotics Co., Ltd.",
+      "visits": 7,
+      "industry": null
+    },
+    {
       "name": "Qualcomm Inc.",
       "visits": 7,
       "industry": null
@@ -44,16 +49,6 @@
     {
       "name": "Meiwa Securities Co Ltd",
       "visits": 7,
-      "industry": null
-    },
-    {
-      "name": "Sercomm Corporation",
-      "visits": 7,
-      "industry": null
-    },
-    {
-      "name": "XELA Robotics Co., Ltd.",
-      "visits": 6,
       "industry": null
     },
     {
@@ -75,16 +70,17 @@
       "name": "nib",
       "visits": 6,
       "industry": null
+    },
+    {
+      "name": "Facteon",
+      "visits": 6,
+      "industry": null
     }
   ],
   "dailyVisits": [
     {
-      "date": "2026-08-28",
-      "visits": 26
-    },
-    {
       "date": "2026-08-29",
-      "visits": 12
+      "visits": 11
     },
     {
       "date": "2026-08-30",
@@ -200,17 +196,21 @@
     },
     {
       "date": "2026-09-27",
-      "visits": 9
+      "visits": 10
+    },
+    {
+      "date": "2026-09-28",
+      "visits": 29
     }
   ],
   "sources": [
     {
       "name": "direct",
-      "visits": 463
+      "visits": 460
     },
     {
       "name": "google / organic",
-      "visits": 323
+      "visits": 331
     },
     {
       "name": "linkedin / social",
@@ -218,11 +218,11 @@
     },
     {
       "name": "bing / organic",
-      "visits": 27
+      "visits": 28
     },
     {
       "name": "github.com / referral",
-      "visits": 16
+      "visits": 17
     },
     {
       "name": "chatgpt.com / referral",
@@ -240,7 +240,7 @@
   "topPages": [
     {
       "path": "/",
-      "views": 566,
+      "views": 570,
       "title": "Robotics Solutions Company | Robotics Software | PickNik"
     },
     {
@@ -255,7 +255,7 @@
     },
     {
       "path": "/install-moveit2/binary/",
-      "views": 75,
+      "views": 72,
       "title": "MoveIt 2 Binary Install | MoveIt"
     },
     {
@@ -265,7 +265,7 @@
     },
     {
       "path": "/hardware-ecosystem/",
-      "views": 52,
+      "views": 51,
       "title": "ROS 2 Compatible Hardware - Comprehensive Database | PickNik"
     },
     {
@@ -280,14 +280,14 @@
     },
     {
       "path": "/connect/",
-      "views": 35,
+      "views": 36,
       "title": "Contact Us | PickNik"
     },
     {
       "path": "/webinars/Cellular_Origins_Cell_Therapy.html",
-      "views": 33,
+      "views": 34,
       "title": "MoveIt Pro Works Here: Cell Therapy Manufacturing with Cellu | PickNik"
     }
   ],
-  "updatedAt": "2026-09-27T16:20:52.818330+00:00"
+  "updatedAt": "2026-09-28T19:12:26.521083+00:00"
 }
