@@ -1,19 +1,19 @@
 {
-  "identifiedCompanies": 491,
+  "identifiedCompanies": 507,
   "topCompanies": [
     {
       "name": "PickNik Robotics",
-      "visits": 86,
+      "visits": 90,
+      "industry": null
+    },
+    {
+      "name": "Wind River",
+      "visits": 13,
       "industry": null
     },
     {
       "name": "dTest: Nez\u00e1visl\u00e9 testy, v\u00edc ne\u017e jen recenze",
       "visits": 13,
-      "industry": null
-    },
-    {
-      "name": "Wind River",
-      "visits": 12,
       "industry": null
     },
     {
@@ -24,6 +24,11 @@
     {
       "name": "Autonomous Solutions, Inc. (ASI)",
       "visits": 10,
+      "industry": null
+    },
+    {
+      "name": "Qualcomm Inc.",
+      "visits": 9,
       "industry": null
     },
     {
@@ -42,8 +47,8 @@
       "industry": null
     },
     {
-      "name": "Qualcomm Inc.",
-      "visits": 8,
+      "name": "nib",
+      "visits": 7,
       "industry": null
     },
     {
@@ -70,21 +75,12 @@
       "name": "Sparks",
       "visits": 6,
       "industry": null
-    },
-    {
-      "name": "nib",
-      "visits": 6,
-      "industry": null
     }
   ],
   "dailyVisits": [
     {
-      "date": "2026-08-30",
-      "visits": 5
-    },
-    {
       "date": "2026-08-31",
-      "visits": 30
+      "visits": 24
     },
     {
       "date": "2026-09-01",
@@ -200,21 +196,25 @@
     },
     {
       "date": "2026-09-29",
-      "visits": 39
+      "visits": 54
+    },
+    {
+      "date": "2026-09-30",
+      "visits": 25
     }
   ],
   "sources": [
     {
       "name": "direct",
-      "visits": 480
+      "visits": 496
     },
     {
       "name": "google / organic",
-      "visits": 337
+      "visits": 345
     },
     {
       "name": "linkedin / social",
-      "visits": 31
+      "visits": 34
     },
     {
       "name": "bing / organic",
@@ -226,7 +226,7 @@
     },
     {
       "name": "chatgpt.com / referral",
-      "visits": 9
+      "visits": 10
     },
     {
       "name": "hs email / email",
@@ -240,22 +240,22 @@
   "topPages": [
     {
       "path": "/",
-      "views": 598,
+      "views": 615,
       "title": "Robotics Solutions Company | Robotics Software | PickNik"
     },
     {
       "path": "/careers/",
-      "views": 118,
+      "views": 123,
       "title": "Careers | PickNik"
     },
     {
       "path": "/pro/",
-      "views": 108,
+      "views": 110,
       "title": "MoveIt Pro Runtime & Developer Robotics Software | PickNik"
     },
     {
       "path": "/install-moveit2/binary/",
-      "views": 70,
+      "views": 72,
       "title": "MoveIt 2 Binary Install | MoveIt"
     },
     {
@@ -265,12 +265,12 @@
     },
     {
       "path": "/hardware-ecosystem/",
-      "views": 53,
+      "views": 57,
       "title": "ROS 2 Compatible Hardware - Comprehensive Database | PickNik"
     },
     {
       "path": "/academic/",
-      "views": 46,
+      "views": 47,
       "title": "Free License for Academic Use | PickNik"
     },
     {
@@ -289,5 +289,5 @@
       "title": "MoveIt Pro Works Here: Cell Therapy Manufacturing with Cellu | PickNik"
     }
   ],
-  "updatedAt": "2026-09-29T17:34:53.154719+00:00"
+  "updatedAt": "2026-09-30T17:33:53.636531+00:00"
 }
