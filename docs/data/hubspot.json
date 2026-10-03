@@ -1,5 +1,12 @@
 {
-  "leadTypes": [],
+  "leadTypes": [
+    {
+      "key": "Website Inbound",
+      "label": "Website Inbound",
+      "goal": null,
+      "count": 2
+    }
+  ],
   "dealStages": [
     {
       "label": "1. Qualifying",
@@ -24,11 +31,11 @@
   ],
   "dealOrigins": {
     "since": "2026-05-01",
-    "totalDeals": 216,
+    "totalDeals": 218,
     "counts": [
       {
         "name": "Website Inbound",
-        "count": 82
+        "count": 84
       },
       {
         "name": "Conferences / Events",
@@ -68,6 +75,6 @@
       "license": 0
     }
   },
-  "updatedAt": "2026-10-02T17:23:31.362467+00:00",
+  "updatedAt": "2026-10-03T15:39:59.389256+00:00",
   "period": "October 2026"
 }
