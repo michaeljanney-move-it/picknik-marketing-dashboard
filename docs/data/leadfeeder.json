@@ -1,9 +1,9 @@
 {
-  "identifiedCompanies": 499,
+  "identifiedCompanies": 505,
   "topCompanies": [
     {
       "name": "PickNik Robotics",
-      "visits": 76,
+      "visits": 73,
       "industry": null
     },
     {
@@ -18,7 +18,7 @@
     },
     {
       "name": "Qualcomm Inc.",
-      "visits": 12,
+      "visits": 13,
       "industry": null
     },
     {
@@ -38,11 +38,6 @@
     },
     {
       "name": "Spartan Host Ltd.",
-      "visits": 8,
-      "industry": null
-    },
-    {
-      "name": "WS ATKINS (SERVICES) LIMITED",
       "visits": 8,
       "industry": null
     },
@@ -75,16 +70,17 @@
       "name": "Sparks",
       "visits": 6,
       "industry": null
+    },
+    {
+      "name": "Li Fa",
+      "visits": 6,
+      "industry": null
     }
   ],
   "dailyVisits": [
     {
-      "date": "2026-09-04",
-      "visits": 24
-    },
-    {
       "date": "2026-09-05",
-      "visits": 13
+      "visits": 10
     },
     {
       "date": "2026-09-06",
@@ -200,17 +196,21 @@
     },
     {
       "date": "2026-10-04",
-      "visits": 8
+      "visits": 10
+    },
+    {
+      "date": "2026-10-05",
+      "visits": 30
     }
   ],
   "sources": [
     {
       "name": "direct",
-      "visits": 472
+      "visits": 467
     },
     {
       "name": "google / organic",
-      "visits": 346
+      "visits": 354
     },
     {
       "name": "linkedin / social",
@@ -229,38 +229,38 @@
       "visits": 12
     },
     {
-      "name": "hs email / email",
-      "visits": 7
+      "name": "docs.ros.org / referral",
+      "visits": 6
     },
     {
-      "name": "docs.ros.org / referral",
+      "name": "hs email / email",
       "visits": 6
     }
   ],
   "topPages": [
     {
       "path": "/",
-      "views": 601,
+      "views": 612,
       "title": "Robotics Solutions Company | Robotics Software | PickNik"
     },
     {
       "path": "/careers/",
-      "views": 115,
+      "views": 110,
       "title": "Careers | PickNik"
     },
     {
       "path": "/pro/",
-      "views": 100,
+      "views": 101,
       "title": "MoveIt Pro Runtime & Developer Robotics Software | PickNik"
     },
     {
       "path": "/install-moveit2/binary/",
-      "views": 66,
+      "views": 65,
       "title": "MoveIt 2 Binary Install | MoveIt"
     },
     {
       "path": "/hardware-ecosystem/",
-      "views": 56,
+      "views": 59,
       "title": "ROS 2 Compatible Hardware - Comprehensive Database | PickNik"
     },
     {
@@ -275,19 +275,19 @@
     },
     {
       "path": "/licensing",
-      "views": 42,
+      "views": 43,
       "title": "MoveIt Pro Plans & Pricing | PickNik"
     },
     {
-      "path": "/connect/",
-      "views": 36,
-      "title": "Contact Us | PickNik"
+      "path": "/documentation/concepts/",
+      "views": 35,
+      "title": "Concepts | MoveIt"
     },
     {
-      "path": "/documentation/concepts/",
+      "path": "/connect/",
       "views": 33,
-      "title": "Concepts | MoveIt"
+      "title": "Contact Us | PickNik"
     }
   ],
-  "updatedAt": "2026-10-04T16:25:23.999049+00:00"
+  "updatedAt": "2026-10-05T20:10:58.235872+00:00"
 }
