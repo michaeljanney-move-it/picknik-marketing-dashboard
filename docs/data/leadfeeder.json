@@ -1,9 +1,9 @@
 {
-  "identifiedCompanies": 505,
+  "identifiedCompanies": 516,
   "topCompanies": [
     {
       "name": "PickNik Robotics",
-      "visits": 73,
+      "visits": 74,
       "industry": null
     },
     {
@@ -79,12 +79,8 @@
   ],
   "dailyVisits": [
     {
-      "date": "2026-09-05",
-      "visits": 10
-    },
-    {
       "date": "2026-09-06",
-      "visits": 8
+      "visits": 7
     },
     {
       "date": "2026-09-07",
@@ -200,17 +196,21 @@
     },
     {
       "date": "2026-10-05",
-      "visits": 30
+      "visits": 34
+    },
+    {
+      "date": "2026-10-06",
+      "visits": 22
     }
   ],
   "sources": [
     {
       "name": "direct",
-      "visits": 467
+      "visits": 472
     },
     {
       "name": "google / organic",
-      "visits": 354
+      "visits": 368
     },
     {
       "name": "linkedin / social",
@@ -218,11 +218,11 @@
     },
     {
       "name": "bing / organic",
-      "visits": 30
+      "visits": 29
     },
     {
       "name": "github.com / referral",
-      "visits": 17
+      "visits": 16
     },
     {
       "name": "chatgpt.com / referral",
@@ -240,7 +240,7 @@
   "topPages": [
     {
       "path": "/",
-      "views": 612,
+      "views": 622,
       "title": "Robotics Solutions Company | Robotics Software | PickNik"
     },
     {
@@ -255,7 +255,7 @@
     },
     {
       "path": "/install-moveit2/binary/",
-      "views": 65,
+      "views": 68,
       "title": "MoveIt 2 Binary Install | MoveIt"
     },
     {
@@ -285,9 +285,9 @@
     },
     {
       "path": "/connect/",
-      "views": 33,
+      "views": 30,
       "title": "Contact Us | PickNik"
     }
   ],
-  "updatedAt": "2026-10-05T20:10:58.235872+00:00"
+  "updatedAt": "2026-10-06T17:52:51.345716+00:00"
 }
