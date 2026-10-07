@@ -1,9 +1,9 @@
 {
-  "identifiedCompanies": 516,
+  "identifiedCompanies": 526,
   "topCompanies": [
     {
       "name": "PickNik Robotics",
-      "visits": 74,
+      "visits": 79,
       "industry": null
     },
     {
@@ -57,6 +57,11 @@
       "industry": null
     },
     {
+      "name": "PROMUS",
+      "visits": 6,
+      "industry": null
+    },
+    {
       "name": "DSSE IDEAS Program IIT Bombay",
       "visits": 6,
       "industry": null
@@ -70,21 +75,12 @@
       "name": "Sparks",
       "visits": 6,
       "industry": null
-    },
-    {
-      "name": "Li Fa",
-      "visits": 6,
-      "industry": null
     }
   ],
   "dailyVisits": [
     {
-      "date": "2026-09-06",
-      "visits": 7
-    },
-    {
       "date": "2026-09-07",
-      "visits": 29
+      "visits": 22
     },
     {
       "date": "2026-09-08",
@@ -200,25 +196,29 @@
     },
     {
       "date": "2026-10-06",
-      "visits": 22
+      "visits": 32
+    },
+    {
+      "date": "2026-10-07",
+      "visits": 34
     }
   ],
   "sources": [
     {
       "name": "direct",
-      "visits": 472
+      "visits": 491
     },
     {
       "name": "google / organic",
-      "visits": 368
+      "visits": 378
     },
     {
       "name": "linkedin / social",
-      "visits": 33
+      "visits": 32
     },
     {
       "name": "bing / organic",
-      "visits": 29
+      "visits": 30
     },
     {
       "name": "github.com / referral",
@@ -240,22 +240,22 @@
   "topPages": [
     {
       "path": "/",
-      "views": 622,
+      "views": 641,
       "title": "Robotics Solutions Company | Robotics Software | PickNik"
     },
     {
       "path": "/careers/",
-      "views": 110,
+      "views": 116,
       "title": "Careers | PickNik"
     },
     {
       "path": "/pro/",
-      "views": 101,
+      "views": 106,
       "title": "MoveIt Pro Runtime & Developer Robotics Software | PickNik"
     },
     {
       "path": "/install-moveit2/binary/",
-      "views": 68,
+      "views": 66,
       "title": "MoveIt 2 Binary Install | MoveIt"
     },
     {
@@ -265,29 +265,29 @@
     },
     {
       "path": "/academic/",
-      "views": 49,
+      "views": 53,
       "title": "Free License for Academic Use | PickNik"
     },
     {
-      "path": "/team/",
-      "views": 46,
-      "title": "Team | PickNik"
-    },
-    {
       "path": "/licensing",
-      "views": 43,
+      "views": 51,
       "title": "MoveIt Pro Plans & Pricing | PickNik"
     },
     {
+      "path": "/team/",
+      "views": 49,
+      "title": "Team | PickNik"
+    },
+    {
       "path": "/documentation/concepts/",
-      "views": 35,
+      "views": 34,
       "title": "Concepts | MoveIt"
     },
     {
       "path": "/connect/",
-      "views": 30,
+      "views": 31,
       "title": "Contact Us | PickNik"
     }
   ],
-  "updatedAt": "2026-10-06T17:52:51.345716+00:00"
+  "updatedAt": "2026-10-07T18:23:52.902079+00:00"
 }
