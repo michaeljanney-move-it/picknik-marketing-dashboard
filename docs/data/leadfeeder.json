@@ -1,19 +1,19 @@
 {
-  "identifiedCompanies": 532,
+  "identifiedCompanies": 531,
   "topCompanies": [
     {
       "name": "PickNik Robotics",
-      "visits": 83,
+      "visits": 80,
       "industry": null
     },
     {
       "name": "Qualcomm Inc.",
-      "visits": 19,
+      "visits": 26,
       "industry": null
     },
     {
       "name": "Wind River",
-      "visits": 17,
+      "visits": 18,
       "industry": null
     },
     {
@@ -22,17 +22,7 @@
       "industry": null
     },
     {
-      "name": "Stryker Corporation",
-      "visits": 9,
-      "industry": null
-    },
-    {
       "name": "XELA Robotics Co., Ltd.",
-      "visits": 8,
-      "industry": null
-    },
-    {
-      "name": "Autonomous Solutions, Inc. (ASI)",
       "visits": 8,
       "industry": null
     },
@@ -57,12 +47,12 @@
       "industry": null
     },
     {
-      "name": "Facteon",
+      "name": "Instituto Tecnologico y de Estudios Superiores de Monterrey",
       "visits": 6,
       "industry": null
     },
     {
-      "name": "WS ATKINS (SERVICES) LIMITED",
+      "name": "Facteon",
       "visits": 6,
       "industry": null
     },
@@ -75,16 +65,22 @@
       "name": "DSSE IDEAS Program IIT Bombay",
       "visits": 6,
       "industry": null
+    },
+    {
+      "name": "Mattr",
+      "visits": 6,
+      "industry": null
+    },
+    {
+      "name": "Sparks",
+      "visits": 6,
+      "industry": null
     }
   ],
   "dailyVisits": [
     {
-      "date": "2026-09-09",
-      "visits": 35
-    },
-    {
       "date": "2026-09-10",
-      "visits": 39
+      "visits": 31
     },
     {
       "date": "2026-09-11",
@@ -112,7 +108,7 @@
     },
     {
       "date": "2026-09-17",
-      "visits": 33
+      "visits": 34
     },
     {
       "date": "2026-09-18",
@@ -200,17 +196,21 @@
     },
     {
       "date": "2026-10-09",
-      "visits": 22
+      "visits": 34
+    },
+    {
+      "date": "2026-10-10",
+      "visits": 16
     }
   ],
   "sources": [
     {
       "name": "direct",
-      "visits": 497
+      "visits": 496
     },
     {
       "name": "google / organic",
-      "visits": 388
+      "visits": 381
     },
     {
       "name": "linkedin / social",
@@ -218,7 +218,7 @@
     },
     {
       "name": "bing / organic",
-      "visits": 26
+      "visits": 28
     },
     {
       "name": "github.com / referral",
@@ -226,41 +226,41 @@
     },
     {
       "name": "chatgpt.com / referral",
-      "visits": 12
-    },
-    {
-      "name": "teams.public.onecdn.static.microsoft / referral",
-      "visits": 5
+      "visits": 11
     },
     {
       "name": "docs.ros.org / referral",
-      "visits": 5
+      "visits": 4
+    },
+    {
+      "name": "chatgpt.com",
+      "visits": 4
     }
   ],
   "topPages": [
     {
       "path": "/",
-      "views": 654,
+      "views": 651,
       "title": "MoveIt Motion Planning Framework"
     },
     {
       "path": "/careers/",
-      "views": 116,
+      "views": 112,
       "title": "Careers | PickNik"
     },
     {
       "path": "/pro/",
-      "views": 110,
+      "views": 107,
       "title": "MoveIt Pro Robotics Application Platform | PickNik"
     },
     {
       "path": "/install-moveit2/binary/",
-      "views": 61,
+      "views": 60,
       "title": "MoveIt 2 Binary Install | MoveIt"
     },
     {
       "path": "/licensing",
-      "views": 57,
+      "views": 59,
       "title": "MoveIt Pro Plans & Pricing | PickNik"
     },
     {
@@ -270,7 +270,7 @@
     },
     {
       "path": "/hardware-ecosystem/",
-      "views": 54,
+      "views": 53,
       "title": "ROS 2 Compatible Hardware - Comprehensive Database | PickNik"
     },
     {
@@ -279,15 +279,15 @@
       "title": "Free License for Academic Use | PickNik"
     },
     {
-      "path": "/behaviors/?categories=all&exclude=conversions",
-      "views": 30,
-      "title": "Behaviors Hub | PickNik"
+      "path": "/moveit-2-vs-moveit-pro/",
+      "views": 32,
+      "title": "MoveIt 2 vs MoveIt Pro | PickNik"
     },
     {
-      "path": "/moveit-2-vs-moveit-pro/",
-      "views": 29,
-      "title": "MoveIt 2 vs MoveIt Pro | PickNik"
+      "path": "/behaviors/?categories=all&exclude=conversions",
+      "views": 31,
+      "title": "Behaviors Hub | PickNik"
     }
   ],
-  "updatedAt": "2026-10-09T17:56:32.160552+00:00"
+  "updatedAt": "2026-10-10T16:55:13.682430+00:00"
 }
