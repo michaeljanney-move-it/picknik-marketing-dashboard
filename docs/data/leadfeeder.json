@@ -1,14 +1,19 @@
 {
-  "identifiedCompanies": 542,
+  "identifiedCompanies": 550,
   "topCompanies": [
     {
       "name": "PickNik Robotics",
-      "visits": 85,
+      "visits": 89,
       "industry": null
     },
     {
       "name": "Qualcomm Inc.",
-      "visits": 32,
+      "visits": 40,
+      "industry": null
+    },
+    {
+      "name": "Wind River",
+      "visits": 16,
       "industry": null
     },
     {
@@ -17,8 +22,8 @@
       "industry": null
     },
     {
-      "name": "Wind River",
-      "visits": 15,
+      "name": "Samsung",
+      "visits": 10,
       "industry": null
     },
     {
@@ -37,11 +42,6 @@
       "industry": null
     },
     {
-      "name": "Samsung",
-      "visits": 7,
-      "industry": null
-    },
-    {
       "name": "Tofu",
       "visits": 7,
       "industry": null
@@ -52,17 +52,17 @@
       "industry": null
     },
     {
+      "name": "nib",
+      "visits": 6,
+      "industry": null
+    },
+    {
       "name": "DeepEdge",
       "visits": 6,
       "industry": null
     },
     {
       "name": "Facteon",
-      "visits": 6,
-      "industry": null
-    },
-    {
-      "name": "nib",
       "visits": 6,
       "industry": null
     },
@@ -79,12 +79,8 @@
   ],
   "dailyVisits": [
     {
-      "date": "2026-09-13",
-      "visits": 5
-    },
-    {
       "date": "2026-09-14",
-      "visits": 27
+      "visits": 18
     },
     {
       "date": "2026-09-15",
@@ -200,17 +196,21 @@
     },
     {
       "date": "2026-10-13",
-      "visits": 50
+      "visits": 70
+    },
+    {
+      "date": "2026-10-14",
+      "visits": 26
     }
   ],
   "sources": [
     {
       "name": "direct",
-      "visits": 520
+      "visits": 539
     },
     {
       "name": "google / organic",
-      "visits": 387
+      "visits": 398
     },
     {
       "name": "linkedin / social",
@@ -218,7 +218,7 @@
     },
     {
       "name": "bing / organic",
-      "visits": 29
+      "visits": 30
     },
     {
       "name": "github.com / referral",
@@ -229,23 +229,23 @@
       "visits": 10
     },
     {
-      "name": "chatgpt.com",
+      "name": "usc-excel.officeapps.live.com / referral",
       "visits": 5
     },
     {
-      "name": "usc-excel.officeapps.live.com / referral",
-      "visits": 4
+      "name": "chatgpt.com",
+      "visits": 5
     }
   ],
   "topPages": [
     {
       "path": "/",
-      "views": 672,
-      "title": "MoveIt Motion Planning Framework"
+      "views": 687,
+      "title": "Robotics Solutions Company | Robotics Software | PickNik"
     },
     {
       "path": "/pro/",
-      "views": 125,
+      "views": 130,
       "title": "MoveIt Pro Robotics Application Platform | PickNik"
     },
     {
@@ -255,17 +255,17 @@
     },
     {
       "path": "/install-moveit2/binary/",
-      "views": 62,
+      "views": 67,
       "title": "MoveIt 2 Binary Install | MoveIt"
     },
     {
       "path": "/hardware-ecosystem/",
-      "views": 56,
+      "views": 59,
       "title": "ROS 2 Compatible Hardware - Comprehensive Database | PickNik"
     },
     {
       "path": "/licensing",
-      "views": 56,
+      "views": 59,
       "title": "MoveIt Pro Plans & Pricing | PickNik"
     },
     {
@@ -280,14 +280,14 @@
     },
     {
       "path": "/moveit-2-vs-moveit-pro/",
-      "views": 42,
+      "views": 45,
       "title": "MoveIt 2 vs MoveIt Pro | PickNik"
     },
     {
-      "path": "/news/",
+      "path": "/connect/",
       "views": 37,
-      "title": "News | PickNik"
+      "title": "Contact Us | PickNik"
     }
   ],
-  "updatedAt": "2026-10-13T18:50:26.494999+00:00"
+  "updatedAt": "2026-10-14T16:28:28.968464+00:00"
 }
