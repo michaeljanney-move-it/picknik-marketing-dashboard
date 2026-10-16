@@ -4,7 +4,7 @@
       "key": "Website Inbound",
       "label": "Website Inbound",
       "goal": null,
-      "count": 7
+      "count": 9
     }
   ],
   "dealStages": [
@@ -31,11 +31,11 @@
   ],
   "dealOrigins": {
     "since": "2026-05-01",
-    "totalDeals": 223,
+    "totalDeals": 225,
     "counts": [
       {
         "name": "Website Inbound",
-        "count": 89
+        "count": 91
       },
       {
         "name": "Conferences / Events",
@@ -75,6 +75,6 @@
       "license": 0
     }
   },
-  "updatedAt": "2026-10-15T16:14:43.134757+00:00",
+  "updatedAt": "2026-10-16T16:00:54.511583+00:00",
   "period": "October 2026"
 }
