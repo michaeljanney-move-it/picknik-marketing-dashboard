@@ -1,9 +1,9 @@
 {
-  "identifiedCompanies": 527,
+  "identifiedCompanies": 523,
   "topCompanies": [
     {
       "name": "PickNik Robotics",
-      "visits": 84,
+      "visits": 83,
       "industry": null
     },
     {
@@ -13,17 +13,17 @@
     },
     {
       "name": "dTest: Nez\u00e1visl\u00e9 testy, v\u00edc ne\u017e jen recenze",
-      "visits": 23,
-      "industry": null
-    },
-    {
-      "name": "Wind River",
-      "visits": 13,
+      "visits": 21,
       "industry": null
     },
     {
       "name": "Samsung",
       "visits": 12,
+      "industry": null
+    },
+    {
+      "name": "Wind River",
+      "visits": 11,
       "industry": null
     },
     {
@@ -47,17 +47,22 @@
       "industry": null
     },
     {
-      "name": "Expedia Group",
-      "visits": 7,
+      "name": "STMicroelectronics N.V.",
+      "visits": 6,
       "industry": null
     },
     {
-      "name": "Meiwa Securities Co Ltd",
+      "name": "Grapevine M\u00fcnchen GmbH",
       "visits": 6,
       "industry": null
     },
     {
       "name": "DeepEdge",
+      "visits": 6,
+      "industry": null
+    },
+    {
+      "name": "Expedia Group",
       "visits": 6,
       "industry": null
     },
@@ -70,21 +75,12 @@
       "name": "Mattr",
       "visits": 6,
       "industry": null
-    },
-    {
-      "name": "Sparks",
-      "visits": 6,
-      "industry": null
     }
   ],
   "dailyVisits": [
     {
-      "date": "2026-09-18",
-      "visits": 21
-    },
-    {
       "date": "2026-09-19",
-      "visits": 11
+      "visits": 8
     },
     {
       "date": "2026-09-20",
@@ -200,17 +196,21 @@
     },
     {
       "date": "2026-10-18",
-      "visits": 2
+      "visits": 5
+    },
+    {
+      "date": "2026-10-19",
+      "visits": 4
     }
   ],
   "sources": [
     {
       "name": "direct",
-      "visits": 509
+      "visits": 501
     },
     {
       "name": "google / organic",
-      "visits": 372
+      "visits": 365
     },
     {
       "name": "linkedin / social",
@@ -218,11 +218,11 @@
     },
     {
       "name": "bing / organic",
-      "visits": 25
+      "visits": 24
     },
     {
       "name": "github.com / referral",
-      "visits": 17
+      "visits": 16
     },
     {
       "name": "chatgpt.com",
@@ -240,22 +240,22 @@
   "topPages": [
     {
       "path": "/",
-      "views": 695,
+      "views": 683,
       "title": "Robotics Solutions Company | Robotics Software | PickNik"
     },
     {
       "path": "/pro/",
-      "views": 127,
+      "views": 125,
       "title": "MoveIt Pro Robotics Application Platform | PickNik"
     },
     {
       "path": "/careers/",
-      "views": 103,
+      "views": 100,
       "title": "Careers | PickNik"
     },
     {
       "path": "/licensing",
-      "views": 63,
+      "views": 61,
       "title": "MoveIt Pro Plans & Pricing | PickNik"
     },
     {
@@ -284,10 +284,10 @@
       "title": "MoveIt 2 vs MoveIt Pro | PickNik"
     },
     {
-      "path": "/connect/",
-      "views": 36,
-      "title": "Contact Us | PickNik"
+      "path": "/news/",
+      "views": 35,
+      "title": "News | PickNik"
     }
   ],
-  "updatedAt": "2026-10-18T15:20:41.142545+00:00"
+  "updatedAt": "2026-10-19T18:17:59.851309+00:00"
 }
