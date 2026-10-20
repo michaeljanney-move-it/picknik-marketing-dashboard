@@ -1,9 +1,9 @@
 {
-  "identifiedCompanies": 523,
+  "identifiedCompanies": 520,
   "topCompanies": [
     {
       "name": "PickNik Robotics",
-      "visits": 83,
+      "visits": 82,
       "industry": null
     },
     {
@@ -13,7 +13,12 @@
     },
     {
       "name": "dTest: Nez\u00e1visl\u00e9 testy, v\u00edc ne\u017e jen recenze",
-      "visits": 21,
+      "visits": 18,
+      "industry": null
+    },
+    {
+      "name": "Wind River",
+      "visits": 12,
       "industry": null
     },
     {
@@ -22,8 +27,8 @@
       "industry": null
     },
     {
-      "name": "Wind River",
-      "visits": 11,
+      "name": "Grapevine M\u00fcnchen GmbH",
+      "visits": 8,
       "industry": null
     },
     {
@@ -52,11 +57,6 @@
       "industry": null
     },
     {
-      "name": "Grapevine M\u00fcnchen GmbH",
-      "visits": 6,
-      "industry": null
-    },
-    {
       "name": "DeepEdge",
       "visits": 6,
       "industry": null
@@ -79,12 +79,8 @@
   ],
   "dailyVisits": [
     {
-      "date": "2026-09-19",
-      "visits": 8
-    },
-    {
       "date": "2026-09-20",
-      "visits": 19
+      "visits": 16
     },
     {
       "date": "2026-09-21",
@@ -200,17 +196,21 @@
     },
     {
       "date": "2026-10-19",
-      "visits": 4
+      "visits": 5
+    },
+    {
+      "date": "2026-10-20",
+      "visits": 5
     }
   ],
   "sources": [
     {
       "name": "direct",
-      "visits": 501
+      "visits": 495
     },
     {
       "name": "google / organic",
-      "visits": 365
+      "visits": 366
     },
     {
       "name": "linkedin / social",
@@ -240,17 +240,17 @@
   "topPages": [
     {
       "path": "/",
-      "views": 683,
+      "views": 668,
       "title": "Robotics Solutions Company | Robotics Software | PickNik"
     },
     {
       "path": "/pro/",
-      "views": 125,
+      "views": 124,
       "title": "MoveIt Pro Robotics Application Platform | PickNik"
     },
     {
       "path": "/careers/",
-      "views": 100,
+      "views": 95,
       "title": "Careers | PickNik"
     },
     {
@@ -265,7 +265,7 @@
     },
     {
       "path": "/install-moveit2/binary/",
-      "views": 58,
+      "views": 54,
       "title": "MoveIt 2 Binary Install | MoveIt"
     },
     {
@@ -275,7 +275,7 @@
     },
     {
       "path": "/team/",
-      "views": 51,
+      "views": 50,
       "title": "Team | PickNik"
     },
     {
@@ -289,5 +289,5 @@
       "title": "News | PickNik"
     }
   ],
-  "updatedAt": "2026-10-19T18:17:59.851309+00:00"
+  "updatedAt": "2026-10-20T16:18:50.714994+00:00"
 }
