@@ -1,19 +1,19 @@
 {
-  "identifiedCompanies": 508,
+  "identifiedCompanies": 494,
   "topCompanies": [
     {
       "name": "PickNik Robotics",
-      "visits": 81,
+      "visits": 72,
       "industry": null
     },
     {
       "name": "Qualcomm Inc.",
-      "visits": 51,
+      "visits": 50,
       "industry": null
     },
     {
       "name": "dTest: Nez\u00e1visl\u00e9 testy, v\u00edc ne\u017e jen recenze",
-      "visits": 17,
+      "visits": 16,
       "industry": null
     },
     {
@@ -28,11 +28,11 @@
     },
     {
       "name": "Grapevine M\u00fcnchen GmbH",
-      "visits": 9,
+      "visits": 10,
       "industry": null
     },
     {
-      "name": "Facteon",
+      "name": "OneRobotics (Shenzhen) Co., Ltd.",
       "visits": 8,
       "industry": null
     },
@@ -47,13 +47,13 @@
       "industry": null
     },
     {
-      "name": "Tofu",
+      "name": "Facteon",
       "visits": 7,
       "industry": null
     },
     {
-      "name": "OneRobotics (Shenzhen) Co., Ltd.",
-      "visits": 6,
+      "name": "Tofu",
+      "visits": 7,
       "industry": null
     },
     {
@@ -72,19 +72,15 @@
       "industry": null
     },
     {
-      "name": "XELA Robotics Co., Ltd.",
+      "name": "Mattr",
       "visits": 6,
       "industry": null
     }
   ],
   "dailyVisits": [
     {
-      "date": "2026-09-21",
-      "visits": 31
-    },
-    {
       "date": "2026-09-22",
-      "visits": 49
+      "visits": 35
     },
     {
       "date": "2026-09-23",
@@ -201,36 +197,40 @@
     {
       "date": "2026-10-21",
       "visits": 4
+    },
+    {
+      "date": "2026-10-22",
+      "visits": 3
     }
   ],
   "sources": [
     {
       "name": "direct",
-      "visits": 487
+      "visits": 463
     },
     {
       "name": "google / organic",
-      "visits": 361
+      "visits": 352
     },
     {
       "name": "linkedin / social",
-      "visits": 31
+      "visits": 30
     },
     {
       "name": "bing / organic",
-      "visits": 24
+      "visits": 22
     },
     {
       "name": "github.com / referral",
-      "visits": 13
-    },
-    {
-      "name": "chatgpt.com",
-      "visits": 7
+      "visits": 10
     },
     {
       "name": "chatgpt.com / referral",
       "visits": 7
+    },
+    {
+      "name": "chatgpt.com",
+      "visits": 5
     },
     {
       "name": "usc-excel.officeapps.live.com / referral",
@@ -240,17 +240,17 @@
   "topPages": [
     {
       "path": "/",
-      "views": 655,
+      "views": 630,
       "title": "Robotics Solutions Company | Robotics Software | PickNik"
     },
     {
       "path": "/pro/",
-      "views": 123,
+      "views": 121,
       "title": "MoveIt Pro Robotics Application Platform | PickNik"
     },
     {
       "path": "/careers/",
-      "views": 95,
+      "views": 88,
       "title": "Careers | PickNik"
     },
     {
@@ -260,34 +260,34 @@
     },
     {
       "path": "/licensing",
-      "views": 59,
+      "views": 56,
       "title": "MoveIt Pro Plans & Pricing | PickNik"
     },
     {
-      "path": "/academic/",
-      "views": 54,
-      "title": "Free License for Academic Use | PickNik"
-    },
-    {
       "path": "/install-moveit2/binary/",
-      "views": 53,
+      "views": 52,
       "title": "MoveIt 2 Binary Install | MoveIt"
     },
     {
-      "path": "/team/",
-      "views": 50,
-      "title": "Team | PickNik"
+      "path": "/moveit-2-vs-moveit-pro/",
+      "views": 48,
+      "title": "MoveIt 2 vs MoveIt Pro | PickNik"
     },
     {
-      "path": "/moveit-2-vs-moveit-pro/",
-      "views": 49,
-      "title": "MoveIt 2 vs MoveIt Pro | PickNik"
+      "path": "/team/",
+      "views": 47,
+      "title": "Team | PickNik"
     },
     {
       "path": "/news/",
       "views": 35,
       "title": "News | PickNik"
+    },
+    {
+      "path": "/connect/",
+      "views": 34,
+      "title": "Contact Us | PickNik"
     }
   ],
-  "updatedAt": "2026-10-21T16:33:44.885829+00:00"
+  "updatedAt": "2026-10-22T16:35:19.155221+00:00"
 }
