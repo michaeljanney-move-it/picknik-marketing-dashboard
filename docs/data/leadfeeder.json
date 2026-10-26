@@ -1,19 +1,19 @@
 {
-  "identifiedCompanies": 358,
+  "identifiedCompanies": 340,
   "topCompanies": [
     {
       "name": "PickNik Robotics",
-      "visits": 55,
+      "visits": 50,
       "industry": null
     },
     {
       "name": "Qualcomm Inc.",
-      "visits": 46,
+      "visits": 45,
       "industry": null
     },
     {
       "name": "Grapevine M\u00fcnchen GmbH",
-      "visits": 18,
+      "visits": 19,
       "industry": null
     },
     {
@@ -72,19 +72,15 @@
       "industry": null
     },
     {
-      "name": "Wendy Wu Tours",
+      "name": "NXP Semiconductors N.V.",
       "visits": 5,
       "industry": null
     }
   ],
   "dailyVisits": [
     {
-      "date": "2026-09-25",
-      "visits": 29
-    },
-    {
       "date": "2026-09-26",
-      "visits": 12
+      "visits": 10
     },
     {
       "date": "2026-09-27",
@@ -201,16 +197,20 @@
     {
       "date": "2026-10-25",
       "visits": 1
+    },
+    {
+      "date": "2026-10-26",
+      "visits": 1
     }
   ],
   "sources": [
     {
       "name": "direct",
-      "visits": 374
+      "visits": 361
     },
     {
       "name": "google / organic",
-      "visits": 261
+      "visits": 245
     },
     {
       "name": "bing / organic",
@@ -233,34 +233,34 @@
       "visits": 4
     },
     {
-      "name": "chatgpt.com / referral",
-      "visits": 4
+      "name": "hs email / email",
+      "visits": 3
     }
   ],
   "topPages": [
     {
       "path": "/",
-      "views": 429,
+      "views": 414,
       "title": "Robotics Solutions Company | Robotics Software | PickNik"
     },
     {
       "path": "/pro/",
-      "views": 97,
+      "views": 95,
       "title": "MoveIt Pro Robotics Application Platform | PickNik"
     },
     {
       "path": "/install-moveit2/binary/",
-      "views": 57,
+      "views": 56,
       "title": "MoveIt 2 Binary Install | MoveIt"
     },
     {
       "path": "/careers/",
-      "views": 55,
+      "views": 52,
       "title": "Careers | PickNik"
     },
     {
       "path": "/hardware-ecosystem/",
-      "views": 47,
+      "views": 46,
       "title": "ROS 2 Compatible Hardware - Comprehensive Database | PickNik"
     },
     {
@@ -275,19 +275,19 @@
     },
     {
       "path": "/robots/",
-      "views": 31,
+      "views": 30,
       "title": "Robots | MoveIt"
     },
     {
       "path": "/team/",
-      "views": 29,
+      "views": 28,
       "title": "Team | PickNik"
     },
     {
       "path": "/documentation/concepts/",
-      "views": 26,
+      "views": 25,
       "title": "Concepts | MoveIt"
     }
   ],
-  "updatedAt": "2026-10-25T15:30:25.123137+00:00"
+  "updatedAt": "2026-10-26T18:11:57.365532+00:00"
 }
