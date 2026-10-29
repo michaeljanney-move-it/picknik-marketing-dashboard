@@ -1,19 +1,19 @@
 {
-  "identifiedCompanies": 319,
+  "identifiedCompanies": 301,
   "topCompanies": [
     {
       "name": "PickNik Robotics",
-      "visits": 49,
+      "visits": 47,
       "industry": null
     },
     {
       "name": "Qualcomm Inc.",
-      "visits": 45,
+      "visits": 44,
       "industry": null
     },
     {
       "name": "Grapevine M\u00fcnchen GmbH",
-      "visits": 21,
+      "visits": 24,
       "industry": null
     },
     {
@@ -72,19 +72,15 @@
       "industry": null
     },
     {
-      "name": "NXP Semiconductors N.V.",
-      "visits": 5,
+      "name": "Cyberverse, Inc.",
+      "visits": 4,
       "industry": null
     }
   ],
   "dailyVisits": [
     {
-      "date": "2026-09-28",
-      "visits": 24
-    },
-    {
       "date": "2026-09-29",
-      "visits": 54
+      "visits": 46
     },
     {
       "date": "2026-09-30",
@@ -200,21 +196,25 @@
     },
     {
       "date": "2026-10-28",
-      "visits": 3
+      "visits": 4
+    },
+    {
+      "date": "2026-10-29",
+      "visits": 2
     }
   ],
   "sources": [
     {
       "name": "direct",
-      "visits": 354
+      "visits": 342
     },
     {
       "name": "google / organic",
-      "visits": 231
+      "visits": 216
     },
     {
       "name": "bing / organic",
-      "visits": 13
+      "visits": 12
     },
     {
       "name": "github.com / referral",
@@ -240,27 +240,27 @@
   "topPages": [
     {
       "path": "/",
-      "views": 401,
+      "views": 381,
       "title": "Robotics Solutions Company | Robotics Software | PickNik"
     },
     {
       "path": "/pro/",
-      "views": 90,
+      "views": 83,
       "title": "MoveIt Pro Robotics Application Platform | PickNik"
     },
     {
       "path": "/install-moveit2/binary/",
-      "views": 56,
+      "views": 59,
       "title": "MoveIt 2 Binary Install | MoveIt"
     },
     {
       "path": "/hardware-ecosystem/",
-      "views": 46,
+      "views": 44,
       "title": "ROS 2 Compatible Hardware - Comprehensive Database | PickNik"
     },
     {
       "path": "/careers/",
-      "views": 46,
+      "views": 44,
       "title": "Careers | PickNik"
     },
     {
@@ -270,7 +270,7 @@
     },
     {
       "path": "/moveit-2-vs-moveit-pro/",
-      "views": 40,
+      "views": 38,
       "title": "MoveIt 2 vs MoveIt Pro | PickNik"
     },
     {
@@ -285,9 +285,9 @@
     },
     {
       "path": "/documentation/concepts/",
-      "views": 24,
+      "views": 23,
       "title": "Concepts | MoveIt"
     }
   ],
-  "updatedAt": "2026-10-28T17:51:50.949147+00:00"
+  "updatedAt": "2026-10-29T17:59:37.761597+00:00"
 }
