@@ -1,18 +1,5 @@
 {
-  "leadTypes": [
-    {
-      "key": "Website Inbound",
-      "label": "Website Inbound",
-      "goal": null,
-      "count": 6
-    },
-    {
-      "key": "Upsell",
-      "label": "Upsell",
-      "goal": null,
-      "count": 1
-    }
-  ],
+  "leadTypes": [],
   "dealStages": [
     {
       "label": "1. Qualifying",
@@ -81,6 +68,6 @@
       "license": 0
     }
   },
-  "updatedAt": "2026-10-31T16:45:46.162923+00:00",
-  "period": "October 2026"
+  "updatedAt": "2026-11-01T17:35:26.400639+00:00",
+  "period": "November 2026"
 }
