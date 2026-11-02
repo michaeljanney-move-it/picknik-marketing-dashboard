@@ -1,14 +1,14 @@
 {
-  "identifiedCompanies": 245,
+  "identifiedCompanies": 234,
   "topCompanies": [
     {
       "name": "Qualcomm Inc.",
-      "visits": 41,
+      "visits": 40,
       "industry": null
     },
     {
       "name": "PickNik Robotics",
-      "visits": 39,
+      "visits": 37,
       "industry": null
     },
     {
@@ -18,12 +18,12 @@
     },
     {
       "name": "Wind River",
-      "visits": 11,
+      "visits": 13,
       "industry": null
     },
     {
       "name": "OneRobotics (Shenzhen) Co., Ltd.",
-      "visits": 11,
+      "visits": 12,
       "industry": null
     },
     {
@@ -33,7 +33,7 @@
     },
     {
       "name": "dTest: Nez\u00e1visl\u00e9 testy, v\u00edc ne\u017e jen recenze",
-      "visits": 10,
+      "visits": 9,
       "industry": null
     },
     {
@@ -79,12 +79,8 @@
   ],
   "dailyVisits": [
     {
-      "date": "2026-10-02",
-      "visits": 17
-    },
-    {
       "date": "2026-10-03",
-      "visits": 10
+      "visits": 8
     },
     {
       "date": "2026-10-04",
@@ -200,17 +196,21 @@
     },
     {
       "date": "2026-11-01",
-      "visits": 0
+      "visits": 1
+    },
+    {
+      "date": "2026-11-02",
+      "visits": 2
     }
   ],
   "sources": [
     {
       "name": "direct",
-      "visits": 290
+      "visits": 282
     },
     {
       "name": "google / organic",
-      "visits": 169
+      "visits": 163
     },
     {
       "name": "bing / organic",
@@ -240,7 +240,7 @@
   "topPages": [
     {
       "path": "/",
-      "views": 313,
+      "views": 298,
       "title": "Robotics Solutions Company | Robotics Software | PickNik"
     },
     {
@@ -264,14 +264,14 @@
       "title": "MoveIt 2 vs MoveIt Pro | PickNik"
     },
     {
-      "path": "/hardware-ecosystem/",
-      "views": 32,
-      "title": "ROS 2 Compatible Hardware - Comprehensive Database | PickNik"
+      "path": "/robots/",
+      "views": 33,
+      "title": "Robots | MoveIt"
     },
     {
-      "path": "/robots/",
+      "path": "/hardware-ecosystem/",
       "views": 31,
-      "title": "Robots | MoveIt"
+      "title": "ROS 2 Compatible Hardware - Comprehensive Database | PickNik"
     },
     {
       "path": "/careers/",
@@ -280,14 +280,14 @@
     },
     {
       "path": "/documentation/concepts/",
-      "views": 22,
+      "views": 21,
       "title": "Concepts | MoveIt"
     },
     {
       "path": "/team/",
-      "views": 22,
+      "views": 21,
       "title": "Team | PickNik"
     }
   ],
-  "updatedAt": "2026-11-01T17:35:53.044714+00:00"
+  "updatedAt": "2026-11-02T21:22:08.386763+00:00"
 }
