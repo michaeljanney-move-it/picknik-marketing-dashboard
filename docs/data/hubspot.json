@@ -1,5 +1,12 @@
 {
-  "leadTypes": [],
+  "leadTypes": [
+    {
+      "key": "(not set)",
+      "label": "(not set)",
+      "goal": null,
+      "count": 1
+    }
+  ],
   "dealStages": [
     {
       "label": "1. Qualifying",
@@ -9,7 +16,7 @@
     {
       "label": "2. Qualified (BANT)",
       "goal": 20,
-      "count": 14
+      "count": 15
     },
     {
       "label": "3. Proposing & Negotiating",
@@ -24,7 +31,7 @@
   ],
   "dealOrigins": {
     "since": "2026-05-01",
-    "totalDeals": 223,
+    "totalDeals": 224,
     "counts": [
       {
         "name": "Website Inbound",
@@ -40,7 +47,7 @@
       },
       {
         "name": "(not set)",
-        "count": 22
+        "count": 23
       },
       {
         "name": "Networking / Referral",
@@ -68,6 +75,6 @@
       "license": 0
     }
   },
-  "updatedAt": "2026-11-04T19:17:54.528190+00:00",
+  "updatedAt": "2026-11-05T19:26:56.893679+00:00",
   "period": "November 2026"
 }

@@ -1,14 +1,14 @@
 {
-  "identifiedCompanies": 226,
+  "identifiedCompanies": 206,
   "topCompanies": [
     {
       "name": "Qualcomm Inc.",
-      "visits": 39,
+      "visits": 38,
       "industry": null
     },
     {
       "name": "PickNik Robotics",
-      "visits": 37,
+      "visits": 36,
       "industry": null
     },
     {
@@ -42,17 +42,17 @@
       "industry": null
     },
     {
-      "name": "PROMUS",
-      "visits": 8,
-      "industry": null
-    },
-    {
       "name": "Facteon",
-      "visits": 7,
+      "visits": 6,
       "industry": null
     },
     {
       "name": "Ye Wang",
+      "visits": 5,
+      "industry": null
+    },
+    {
+      "name": "PROMUS",
       "visits": 5,
       "industry": null
     },
@@ -79,12 +79,8 @@
   ],
   "dailyVisits": [
     {
-      "date": "2026-10-05",
-      "visits": 29
-    },
-    {
       "date": "2026-10-06",
-      "visits": 32
+      "visits": 26
     },
     {
       "date": "2026-10-07",
@@ -201,16 +197,20 @@
     {
       "date": "2026-11-04",
       "visits": 2
+    },
+    {
+      "date": "2026-11-05",
+      "visits": 0
     }
   ],
   "sources": [
     {
       "name": "direct",
-      "visits": 271
+      "visits": 260
     },
     {
       "name": "google / organic",
-      "visits": 157
+      "visits": 135
     },
     {
       "name": "bing / organic",
@@ -240,22 +240,22 @@
   "topPages": [
     {
       "path": "/",
-      "views": 285,
+      "views": 263,
       "title": "Robotics Solutions Company | Robotics Software | PickNik"
     },
     {
       "path": "/pro/",
-      "views": 60,
+      "views": 56,
       "title": "MoveIt Pro Robotics Application Platform | PickNik"
     },
     {
       "path": "/install-moveit2/binary/",
-      "views": 52,
+      "views": 50,
       "title": "MoveIt 2 Binary Install | MoveIt"
     },
     {
       "path": "/licensing",
-      "views": 38,
+      "views": 37,
       "title": "MoveIt Pro Plans & Pricing | PickNik"
     },
     {
@@ -265,12 +265,12 @@
     },
     {
       "path": "/moveit-2-vs-moveit-pro/",
-      "views": 34,
+      "views": 33,
       "title": "MoveIt 2 vs MoveIt Pro | PickNik"
     },
     {
       "path": "/hardware-ecosystem/",
-      "views": 30,
+      "views": 27,
       "title": "ROS 2 Compatible Hardware - Comprehensive Database | PickNik"
     },
     {
@@ -284,10 +284,10 @@
       "title": "Team | PickNik"
     },
     {
-      "path": "/documentation/concepts/",
-      "views": 18,
-      "title": "Concepts | MoveIt"
+      "path": "/connect/",
+      "views": 17,
+      "title": "Contact Us | PickNik"
     }
   ],
-  "updatedAt": "2026-11-04T19:18:21.004698+00:00"
+  "updatedAt": "2026-11-05T19:27:22.766651+00:00"
 }
