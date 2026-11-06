@@ -11,12 +11,12 @@
     {
       "label": "1. Qualifying",
       "goal": 50,
-      "count": 100
+      "count": 101
     },
     {
       "label": "2. Qualified (BANT)",
       "goal": 20,
-      "count": 15
+      "count": 12
     },
     {
       "label": "3. Proposing & Negotiating",
@@ -26,7 +26,7 @@
     {
       "label": "4. Closing & Contracting",
       "goal": 3,
-      "count": 4
+      "count": 5
     }
   ],
   "dealOrigins": {
@@ -75,6 +75,6 @@
       "license": 0
     }
   },
-  "updatedAt": "2026-11-05T19:26:56.893679+00:00",
+  "updatedAt": "2026-11-06T18:50:30.320964+00:00",
   "period": "November 2026"
 }
