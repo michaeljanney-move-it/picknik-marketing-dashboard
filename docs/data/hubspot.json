@@ -11,7 +11,7 @@
     {
       "label": "1. Qualifying",
       "goal": 50,
-      "count": 101
+      "count": 102
     },
     {
       "label": "2. Qualified (BANT)",
@@ -75,6 +75,6 @@
       "license": 0
     }
   },
-  "updatedAt": "2026-11-08T17:34:21.898131+00:00",
+  "updatedAt": "2026-11-09T21:53:45.283897+00:00",
   "period": "November 2026"
 }

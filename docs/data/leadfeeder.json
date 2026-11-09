@@ -1,9 +1,9 @@
 {
-  "identifiedCompanies": 153,
+  "identifiedCompanies": 137,
   "topCompanies": [
     {
       "name": "Qualcomm Inc.",
-      "visits": 32,
+      "visits": 25,
       "industry": null
     },
     {
@@ -13,7 +13,7 @@
     },
     {
       "name": "PickNik Robotics",
-      "visits": 19,
+      "visits": 18,
       "industry": null
     },
     {
@@ -47,11 +47,6 @@
       "industry": null
     },
     {
-      "name": "Cyberverse, Inc.",
-      "visits": 4,
-      "industry": null
-    },
-    {
       "name": "Facteon",
       "visits": 4,
       "industry": null
@@ -67,24 +62,25 @@
       "industry": null
     },
     {
-      "name": "LiaSail Global Hongkong Limited",
-      "visits": 4,
+      "name": "Cyberverse, Inc.",
+      "visits": 3,
       "industry": null
     },
     {
       "name": "internationalfabricmachines.com",
       "visits": 3,
       "industry": null
+    },
+    {
+      "name": "Beta Fund",
+      "visits": 3,
+      "industry": null
     }
   ],
   "dailyVisits": [
     {
-      "date": "2026-10-09",
-      "visits": 25
-    },
-    {
       "date": "2026-10-10",
-      "visits": 17
+      "visits": 10
     },
     {
       "date": "2026-10-11",
@@ -201,31 +197,35 @@
     {
       "date": "2026-11-08",
       "visits": 0
+    },
+    {
+      "date": "2026-11-09",
+      "visits": 0
     }
   ],
   "sources": [
     {
       "name": "direct",
-      "visits": 191
+      "visits": 171
     },
     {
       "name": "google / organic",
-      "visits": 91
-    },
-    {
-      "name": "bing / organic",
-      "visits": 8
+      "visits": 83
     },
     {
       "name": "github.com / referral",
       "visits": 7
     },
     {
-      "name": "usc-excel.officeapps.live.com / referral",
-      "visits": 4
+      "name": "bing / organic",
+      "visits": 6
     },
     {
       "name": "chatgpt.com",
+      "visits": 3
+    },
+    {
+      "name": "usc-excel.officeapps.live.com / referral",
       "visits": 3
     },
     {
@@ -240,17 +240,17 @@
   "topPages": [
     {
       "path": "/",
-      "views": 186,
+      "views": 167,
       "title": "Robotics Solutions Company | Robotics Software | PickNik"
     },
     {
       "path": "/install-moveit2/binary/",
-      "views": 46,
+      "views": 45,
       "title": "MoveIt 2 Binary Install | MoveIt"
     },
     {
       "path": "/pro/",
-      "views": 38,
+      "views": 37,
       "title": "MoveIt Pro Robotics Application Platform | PickNik"
     },
     {
@@ -259,18 +259,18 @@
       "title": "Robots | MoveIt"
     },
     {
-      "path": "/hardware-ecosystem/",
-      "views": 27,
-      "title": "ROS 2 Compatible Hardware - Comprehensive Database | PickNik"
-    },
-    {
       "path": "/moveit-2-vs-moveit-pro/",
-      "views": 27,
+      "views": 24,
       "title": "MoveIt 2 vs MoveIt Pro | PickNik"
     },
     {
+      "path": "/hardware-ecosystem/",
+      "views": 23,
+      "title": "ROS 2 Compatible Hardware - Comprehensive Database | PickNik"
+    },
+    {
       "path": "/licensing",
-      "views": 22,
+      "views": 20,
       "title": "MoveIt Pro Plans & Pricing | PickNik"
     },
     {
@@ -280,14 +280,14 @@
     },
     {
       "path": "/connect/",
-      "views": 13,
+      "views": 12,
       "title": "Contact Us | PickNik"
     },
     {
-      "path": "/news/",
-      "views": 11,
-      "title": "News | PickNik"
+      "path": "/install-moveit2/source/",
+      "views": 10,
+      "title": "MoveIt 2 Source Build - Linux | MoveIt"
     }
   ],
-  "updatedAt": "2026-11-08T17:34:41.333207+00:00"
+  "updatedAt": "2026-11-09T21:54:04.384850+00:00"
 }
