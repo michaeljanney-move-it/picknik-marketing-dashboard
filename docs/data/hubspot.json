@@ -4,6 +4,12 @@
       "key": "(not set)",
       "label": "(not set)",
       "goal": null,
+      "count": 2
+    },
+    {
+      "key": "Website Inbound",
+      "label": "Website Inbound",
+      "goal": null,
       "count": 1
     }
   ],
@@ -11,12 +17,12 @@
     {
       "label": "1. Qualifying",
       "goal": 50,
-      "count": 102
+      "count": 103
     },
     {
       "label": "2. Qualified (BANT)",
       "goal": 20,
-      "count": 12
+      "count": 13
     },
     {
       "label": "3. Proposing & Negotiating",
@@ -31,11 +37,11 @@
   ],
   "dealOrigins": {
     "since": "2026-05-01",
-    "totalDeals": 224,
+    "totalDeals": 226,
     "counts": [
       {
         "name": "Website Inbound",
-        "count": 88
+        "count": 89
       },
       {
         "name": "Conferences / Events",
@@ -47,7 +53,7 @@
       },
       {
         "name": "(not set)",
-        "count": 23
+        "count": 24
       },
       {
         "name": "Networking / Referral",
@@ -75,6 +81,6 @@
       "license": 0
     }
   },
-  "updatedAt": "2026-11-09T21:53:45.283897+00:00",
+  "updatedAt": "2026-11-10T19:15:45.158968+00:00",
   "period": "November 2026"
 }

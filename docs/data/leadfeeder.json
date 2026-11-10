@@ -1,5 +1,5 @@
 {
-  "identifiedCompanies": 137,
+  "identifiedCompanies": 127,
   "topCompanies": [
     {
       "name": "Qualcomm Inc.",
@@ -18,7 +18,7 @@
     },
     {
       "name": "OneRobotics (Shenzhen) Co., Ltd.",
-      "visits": 13,
+      "visits": 14,
       "industry": null
     },
     {
@@ -79,12 +79,8 @@
   ],
   "dailyVisits": [
     {
-      "date": "2026-10-10",
-      "visits": 10
-    },
-    {
       "date": "2026-10-11",
-      "visits": 3
+      "visits": 2
     },
     {
       "date": "2026-10-12",
@@ -201,16 +197,20 @@
     {
       "date": "2026-11-09",
       "visits": 0
+    },
+    {
+      "date": "2026-11-10",
+      "visits": 1
     }
   ],
   "sources": [
     {
       "name": "direct",
-      "visits": 171
+      "visits": 172
     },
     {
       "name": "google / organic",
-      "visits": 83
+      "visits": 75
     },
     {
       "name": "github.com / referral",
@@ -218,7 +218,7 @@
     },
     {
       "name": "bing / organic",
-      "visits": 6
+      "visits": 4
     },
     {
       "name": "chatgpt.com",
@@ -240,12 +240,12 @@
   "topPages": [
     {
       "path": "/",
-      "views": 167,
+      "views": 159,
       "title": "Robotics Solutions Company | Robotics Software | PickNik"
     },
     {
       "path": "/install-moveit2/binary/",
-      "views": 45,
+      "views": 43,
       "title": "MoveIt 2 Binary Install | MoveIt"
     },
     {
@@ -255,18 +255,18 @@
     },
     {
       "path": "/robots/",
-      "views": 29,
+      "views": 31,
       "title": "Robots | MoveIt"
-    },
-    {
-      "path": "/moveit-2-vs-moveit-pro/",
-      "views": 24,
-      "title": "MoveIt 2 vs MoveIt Pro | PickNik"
     },
     {
       "path": "/hardware-ecosystem/",
       "views": 23,
       "title": "ROS 2 Compatible Hardware - Comprehensive Database | PickNik"
+    },
+    {
+      "path": "/moveit-2-vs-moveit-pro/",
+      "views": 23,
+      "title": "MoveIt 2 vs MoveIt Pro | PickNik"
     },
     {
       "path": "/licensing",
@@ -289,5 +289,5 @@
       "title": "MoveIt 2 Source Build - Linux | MoveIt"
     }
   ],
-  "updatedAt": "2026-11-09T21:54:04.384850+00:00"
+  "updatedAt": "2026-11-10T19:16:02.687362+00:00"
 }
