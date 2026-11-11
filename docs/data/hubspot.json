@@ -11,6 +11,12 @@
       "label": "Website Inbound",
       "goal": null,
       "count": 1
+    },
+    {
+      "key": "Networking / Referral",
+      "label": "Networking / Referral",
+      "goal": null,
+      "count": 1
     }
   ],
   "dealStages": [
@@ -37,7 +43,7 @@
   ],
   "dealOrigins": {
     "since": "2026-05-01",
-    "totalDeals": 226,
+    "totalDeals": 227,
     "counts": [
       {
         "name": "Website Inbound",
@@ -57,7 +63,7 @@
       },
       {
         "name": "Networking / Referral",
-        "count": 14
+        "count": 15
       },
       {
         "name": "Outbound",
@@ -81,6 +87,6 @@
       "license": 0
     }
   },
-  "updatedAt": "2026-11-10T19:15:45.158968+00:00",
+  "updatedAt": "2026-11-11T19:12:36.761510+00:00",
   "period": "November 2026"
 }
