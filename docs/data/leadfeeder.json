@@ -69,10 +69,6 @@
   ],
   "dailyVisits": [
     {
-      "date": "2026-10-17",
-      "visits": 0
-    },
-    {
       "date": "2026-10-18",
       "visits": 5
     },
@@ -191,6 +187,10 @@
     {
       "date": "2026-11-16",
       "visits": 2
+    },
+    {
+      "date": "2026-11-17",
+      "visits": 0
     }
   ],
   "sources": [
@@ -263,5 +263,5 @@
       "title": "Introducing MoveIt Servo in ROS 2 | MoveIt"
     }
   ],
-  "updatedAt": "2026-11-16T21:35:58.299574+00:00"
+  "updatedAt": "2026-11-17T20:25:56.594800+00:00"
 }
