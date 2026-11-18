@@ -1,14 +1,14 @@
 {
   "leadTypes": [
     {
-      "key": "(not set)",
-      "label": "(not set)",
+      "key": "Website Inbound",
+      "label": "Website Inbound",
       "goal": null,
       "count": 2
     },
     {
-      "key": "Website Inbound",
-      "label": "Website Inbound",
+      "key": "(not set)",
+      "label": "(not set)",
       "goal": null,
       "count": 1
     },
@@ -29,12 +29,12 @@
     {
       "label": "1. Qualifying",
       "goal": 50,
-      "count": 102
+      "count": 104
     },
     {
       "label": "2. Qualified (BANT)",
       "goal": 20,
-      "count": 13
+      "count": 10
     },
     {
       "label": "3. Proposing & Negotiating",
@@ -53,7 +53,7 @@
     "counts": [
       {
         "name": "Website Inbound",
-        "count": 89
+        "count": 90
       },
       {
         "name": "Conferences / Events",
@@ -65,7 +65,7 @@
       },
       {
         "name": "(not set)",
-        "count": 24
+        "count": 23
       },
       {
         "name": "Networking / Referral",
@@ -93,6 +93,6 @@
       "license": 0
     }
   },
-  "updatedAt": "2026-11-17T20:25:51.787037+00:00",
+  "updatedAt": "2026-11-18T19:55:14.211345+00:00",
   "period": "November 2026"
 }

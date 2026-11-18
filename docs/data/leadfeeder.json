@@ -1,14 +1,14 @@
 {
-  "identifiedCompanies": 15,
+  "identifiedCompanies": 12,
   "topCompanies": [
     {
       "name": "Grapevine M\u00fcnchen GmbH",
-      "visits": 20,
+      "visits": 19,
       "industry": null
     },
     {
       "name": "OneRobotics (Shenzhen) Co., Ltd.",
-      "visits": 11,
+      "visits": 10,
       "industry": null
     },
     {
@@ -32,11 +32,6 @@
       "industry": null
     },
     {
-      "name": "PrintMedia Group",
-      "visits": 2,
-      "industry": null
-    },
-    {
       "name": "IIITDM Kancheepuram",
       "visits": 1,
       "industry": null
@@ -55,26 +50,12 @@
       "name": "STMicroelectronics N.V.",
       "visits": 1,
       "industry": null
-    },
-    {
-      "name": "Facteon",
-      "visits": 1,
-      "industry": null
-    },
-    {
-      "name": "Bazoom Group",
-      "visits": 1,
-      "industry": null
     }
   ],
   "dailyVisits": [
     {
-      "date": "2026-10-18",
-      "visits": 5
-    },
-    {
       "date": "2026-10-19",
-      "visits": 5
+      "visits": 4
     },
     {
       "date": "2026-10-20",
@@ -191,20 +172,20 @@
     {
       "date": "2026-11-17",
       "visits": 0
+    },
+    {
+      "date": "2026-11-18",
+      "visits": 0
     }
   ],
   "sources": [
     {
       "name": "direct",
-      "visits": 45
+      "visits": 42
     },
     {
       "name": "google / organic",
-      "visits": 7
-    },
-    {
-      "name": "uk.search.yahoo.com / referral",
-      "visits": 2
+      "visits": 6
     },
     {
       "name": "github.com / referral",
@@ -214,12 +195,12 @@
   "topPages": [
     {
       "path": "/install-moveit2/binary/",
-      "views": 24,
+      "views": 23,
       "title": "MoveIt 2 Binary Install | MoveIt"
     },
     {
       "path": "/robots/",
-      "views": 14,
+      "views": 13,
       "title": "Robots | MoveIt"
     },
     {
@@ -248,20 +229,20 @@
       "title": "Hybrid Planning - Welding with the UR10e | PickNik"
     },
     {
-      "path": "/",
-      "views": 2,
-      "title": "Robotics Solutions Company | Robotics Software | PickNik"
-    },
-    {
-      "path": "/slam/localization/state%20estimation/mars%20helicopter/2021/05/10/Ingenuity.html",
-      "views": 2,
-      "title": "How Ingenuity Knows Where It Is And Where It's Going | PickNik"
-    },
-    {
       "path": "/moveit/ros2/servo/jog/2020/09/09/moveit2-servo.html",
       "views": 1,
       "title": "Introducing MoveIt Servo in ROS 2 | MoveIt"
+    },
+    {
+      "path": "/services/solution-studies/",
+      "views": 1,
+      "title": "Robotics Solution Study | Feasibility & Risk Assessment | PickNik"
+    },
+    {
+      "path": "/",
+      "views": 1,
+      "title": "Robotics Solutions Company | Robotics Software | PickNik"
     }
   ],
-  "updatedAt": "2026-11-17T20:25:56.594800+00:00"
+  "updatedAt": "2026-11-18T19:55:20.012755+00:00"
 }
