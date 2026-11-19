@@ -1,19 +1,19 @@
 {
-  "identifiedCompanies": 12,
+  "identifiedCompanies": 9,
   "topCompanies": [
     {
       "name": "Grapevine M\u00fcnchen GmbH",
-      "visits": 19,
+      "visits": 17,
       "industry": null
     },
     {
       "name": "OneRobotics (Shenzhen) Co., Ltd.",
-      "visits": 10,
+      "visits": 9,
       "industry": null
     },
     {
       "name": "Wind River",
-      "visits": 7,
+      "visits": 6,
       "industry": null
     },
     {
@@ -27,39 +27,20 @@
       "industry": null
     },
     {
-      "name": "LD-PD PTE. LTD.",
-      "visits": 2,
-      "industry": null
-    },
-    {
       "name": "IIITDM Kancheepuram",
       "visits": 1,
       "industry": null
     },
     {
-      "name": "greensm.com",
-      "visits": 1,
-      "industry": null
-    },
-    {
-      "name": "Cyberverse, Inc.",
-      "visits": 1,
-      "industry": null
-    },
-    {
-      "name": "STMicroelectronics N.V.",
+      "name": "LD-PD PTE. LTD.",
       "visits": 1,
       "industry": null
     }
   ],
   "dailyVisits": [
     {
-      "date": "2026-10-19",
-      "visits": 4
-    },
-    {
       "date": "2026-10-20",
-      "visits": 5
+      "visits": 1
     },
     {
       "date": "2026-10-21",
@@ -176,16 +157,20 @@
     {
       "date": "2026-11-18",
       "visits": 0
+    },
+    {
+      "date": "2026-11-19",
+      "visits": 0
     }
   ],
   "sources": [
     {
       "name": "direct",
-      "visits": 42
+      "visits": 35
     },
     {
       "name": "google / organic",
-      "visits": 6
+      "visits": 5
     },
     {
       "name": "github.com / referral",
@@ -195,28 +180,23 @@
   "topPages": [
     {
       "path": "/install-moveit2/binary/",
-      "views": 23,
+      "views": 21,
       "title": "MoveIt 2 Binary Install | MoveIt"
     },
     {
       "path": "/robots/",
-      "views": 13,
+      "views": 12,
       "title": "Robots | MoveIt"
     },
     {
       "path": "/roscon/workshop/2025/moveit/2025/10/06/Hands-On-Workshop-with-ROS-2-and-MoveIt-Pro-at-ROSCon-2025.html",
-      "views": 7,
+      "views": 6,
       "title": "Hands-On Workshop with ROS\u00a02 and MoveIt Pro at ROSCon 2 | PickNik"
     },
     {
       "path": "/cartesian%20planners/moveit/motion%20planning/2021/01/07/guide-to-cartesian-planners-in-moveit.html",
-      "views": 4,
-      "title": "Guide to Cartesian Planners in MoveIt | PickNik"
-    },
-    {
-      "path": "/behaviors/?categories=all&exclude=conversions",
       "views": 3,
-      "title": "Behaviors Hub | PickNik"
+      "title": "Guide to Cartesian Planners in MoveIt | PickNik"
     },
     {
       "path": "/vscode/docker/ros2/2024/01/23/ROS2-and-VSCode.html",
@@ -239,10 +219,10 @@
       "title": "Robotics Solution Study | Feasibility & Risk Assessment | PickNik"
     },
     {
-      "path": "/",
+      "path": "/behaviors/?categories=all&exclude=conversions",
       "views": 1,
-      "title": "Robotics Solutions Company | Robotics Software | PickNik"
+      "title": "Behaviors Hub | PickNik"
     }
   ],
-  "updatedAt": "2026-11-18T19:55:20.012755+00:00"
+  "updatedAt": "2026-11-19T19:54:47.561632+00:00"
 }
