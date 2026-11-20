@@ -3,7 +3,7 @@
   "topCompanies": [
     {
       "name": "Grapevine M\u00fcnchen GmbH",
-      "visits": 17,
+      "visits": 16,
       "industry": null
     },
     {
@@ -38,10 +38,6 @@
     }
   ],
   "dailyVisits": [
-    {
-      "date": "2026-10-20",
-      "visits": 1
-    },
     {
       "date": "2026-10-21",
       "visits": 4
@@ -161,12 +157,16 @@
     {
       "date": "2026-11-19",
       "visits": 0
+    },
+    {
+      "date": "2026-11-20",
+      "visits": 0
     }
   ],
   "sources": [
     {
       "name": "direct",
-      "visits": 35
+      "visits": 34
     },
     {
       "name": "google / organic",
@@ -180,7 +180,7 @@
   "topPages": [
     {
       "path": "/install-moveit2/binary/",
-      "views": 21,
+      "views": 20,
       "title": "MoveIt 2 Binary Install | MoveIt"
     },
     {
@@ -224,5 +224,5 @@
       "title": "Behaviors Hub | PickNik"
     }
   ],
-  "updatedAt": "2026-11-19T19:54:47.561632+00:00"
+  "updatedAt": "2026-11-20T19:34:59.776311+00:00"
 }
