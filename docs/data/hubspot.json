@@ -10,7 +10,7 @@
       "key": "Upsell",
       "label": "Upsell",
       "goal": null,
-      "count": 2
+      "count": 3
     },
     {
       "key": "(not set)",
@@ -39,7 +39,7 @@
     {
       "label": "3. Proposing & Negotiating",
       "goal": 10,
-      "count": 6
+      "count": 7
     },
     {
       "label": "4. Closing & Contracting",
@@ -49,7 +49,7 @@
   ],
   "dealOrigins": {
     "since": "2026-05-01",
-    "totalDeals": 230,
+    "totalDeals": 231,
     "counts": [
       {
         "name": "Website Inbound",
@@ -61,7 +61,7 @@
       },
       {
         "name": "Upsell",
-        "count": 33
+        "count": 34
       },
       {
         "name": "(not set)",
@@ -93,6 +93,6 @@
       "license": 0
     }
   },
-  "updatedAt": "2026-11-20T19:34:54.841031+00:00",
+  "updatedAt": "2026-11-21T18:39:38.454193+00:00",
   "period": "November 2026"
 }

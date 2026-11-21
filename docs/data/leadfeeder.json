@@ -1,14 +1,14 @@
 {
-  "identifiedCompanies": 9,
+  "identifiedCompanies": 8,
   "topCompanies": [
     {
       "name": "Grapevine M\u00fcnchen GmbH",
-      "visits": 16,
+      "visits": 15,
       "industry": null
     },
     {
       "name": "OneRobotics (Shenzhen) Co., Ltd.",
-      "visits": 9,
+      "visits": 7,
       "industry": null
     },
     {
@@ -30,21 +30,12 @@
       "name": "IIITDM Kancheepuram",
       "visits": 1,
       "industry": null
-    },
-    {
-      "name": "LD-PD PTE. LTD.",
-      "visits": 1,
-      "industry": null
     }
   ],
   "dailyVisits": [
     {
-      "date": "2026-10-21",
-      "visits": 4
-    },
-    {
       "date": "2026-10-22",
-      "visits": 3
+      "visits": 2
     },
     {
       "date": "2026-10-23",
@@ -161,16 +152,20 @@
     {
       "date": "2026-11-20",
       "visits": 0
+    },
+    {
+      "date": "2026-11-21",
+      "visits": 0
     }
   ],
   "sources": [
     {
       "name": "direct",
-      "visits": 34
+      "visits": 30
     },
     {
       "name": "google / organic",
-      "visits": 5
+      "visits": 4
     },
     {
       "name": "github.com / referral",
@@ -180,12 +175,12 @@
   "topPages": [
     {
       "path": "/install-moveit2/binary/",
-      "views": 20,
+      "views": 19,
       "title": "MoveIt 2 Binary Install | MoveIt"
     },
     {
       "path": "/robots/",
-      "views": 12,
+      "views": 9,
       "title": "Robots | MoveIt"
     },
     {
@@ -194,19 +189,14 @@
       "title": "Hands-On Workshop with ROS\u00a02 and MoveIt Pro at ROSCon 2 | PickNik"
     },
     {
-      "path": "/cartesian%20planners/moveit/motion%20planning/2021/01/07/guide-to-cartesian-planners-in-moveit.html",
-      "views": 3,
-      "title": "Guide to Cartesian Planners in MoveIt | PickNik"
-    },
-    {
       "path": "/vscode/docker/ros2/2024/01/23/ROS2-and-VSCode.html",
       "views": 2,
       "title": "ROS 2 and VSCode | PickNik"
     },
     {
-      "path": "/hybrid-planning/fraunhofer/moveit/2022/02/03/Hybrid-planning-Welding-with-the-UR10e.html",
+      "path": "/cartesian%20planners/moveit/motion%20planning/2021/01/07/guide-to-cartesian-planners-in-moveit.html",
       "views": 2,
-      "title": "Hybrid Planning - Welding with the UR10e | PickNik"
+      "title": "Guide to Cartesian Planners in MoveIt | PickNik"
     },
     {
       "path": "/moveit/ros2/servo/jog/2020/09/09/moveit2-servo.html",
@@ -214,15 +204,15 @@
       "title": "Introducing MoveIt Servo in ROS 2 | MoveIt"
     },
     {
+      "path": "/hybrid-planning/fraunhofer/moveit/2022/02/03/Hybrid-planning-Welding-with-the-UR10e.html",
+      "views": 1,
+      "title": "Hybrid Planning - Welding with the UR10e | PickNik"
+    },
+    {
       "path": "/services/solution-studies/",
       "views": 1,
       "title": "Robotics Solution Study | Feasibility & Risk Assessment | PickNik"
-    },
-    {
-      "path": "/behaviors/?categories=all&exclude=conversions",
-      "views": 1,
-      "title": "Behaviors Hub | PickNik"
     }
   ],
-  "updatedAt": "2026-11-20T19:34:59.776311+00:00"
+  "updatedAt": "2026-11-21T18:39:42.539800+00:00"
 }
