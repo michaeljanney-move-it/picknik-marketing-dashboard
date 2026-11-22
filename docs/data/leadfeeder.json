@@ -3,17 +3,17 @@
   "topCompanies": [
     {
       "name": "Grapevine M\u00fcnchen GmbH",
-      "visits": 15,
-      "industry": null
-    },
-    {
-      "name": "OneRobotics (Shenzhen) Co., Ltd.",
-      "visits": 7,
+      "visits": 13,
       "industry": null
     },
     {
       "name": "Wind River",
       "visits": 6,
+      "industry": null
+    },
+    {
+      "name": "OneRobotics (Shenzhen) Co., Ltd.",
+      "visits": 5,
       "industry": null
     },
     {
@@ -34,12 +34,8 @@
   ],
   "dailyVisits": [
     {
-      "date": "2026-10-22",
-      "visits": 2
-    },
-    {
       "date": "2026-10-23",
-      "visits": 3
+      "visits": 1
     },
     {
       "date": "2026-10-24",
@@ -156,12 +152,16 @@
     {
       "date": "2026-11-21",
       "visits": 0
+    },
+    {
+      "date": "2026-11-22",
+      "visits": 0
     }
   ],
   "sources": [
     {
       "name": "direct",
-      "visits": 30
+      "visits": 26
     },
     {
       "name": "google / organic",
@@ -175,12 +175,12 @@
   "topPages": [
     {
       "path": "/install-moveit2/binary/",
-      "views": 19,
+      "views": 17,
       "title": "MoveIt 2 Binary Install | MoveIt"
     },
     {
       "path": "/robots/",
-      "views": 9,
+      "views": 7,
       "title": "Robots | MoveIt"
     },
     {
@@ -214,5 +214,5 @@
       "title": "Robotics Solution Study | Feasibility & Risk Assessment | PickNik"
     }
   ],
-  "updatedAt": "2026-11-21T18:39:42.539800+00:00"
+  "updatedAt": "2026-11-22T18:59:28.355909+00:00"
 }
