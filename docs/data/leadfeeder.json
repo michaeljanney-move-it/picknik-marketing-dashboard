@@ -3,7 +3,7 @@
   "topCompanies": [
     {
       "name": "Grapevine M\u00fcnchen GmbH",
-      "visits": 13,
+      "visits": 12,
       "industry": null
     },
     {
@@ -17,12 +17,12 @@
       "industry": null
     },
     {
-      "name": "JEBE Sant'Anna",
-      "visits": 2,
+      "name": "China Internet Network Information Center (CNNIC)",
+      "visits": 4,
       "industry": null
     },
     {
-      "name": "China Internet Network Information Center (CNNIC)",
+      "name": "JEBE Sant'Anna",
       "visits": 2,
       "industry": null
     },
@@ -33,10 +33,6 @@
     }
   ],
   "dailyVisits": [
-    {
-      "date": "2026-10-23",
-      "visits": 1
-    },
     {
       "date": "2026-10-24",
       "visits": 5
@@ -156,6 +152,10 @@
     {
       "date": "2026-11-22",
       "visits": 0
+    },
+    {
+      "date": "2026-11-23",
+      "visits": 2
     }
   ],
   "sources": [
@@ -165,7 +165,7 @@
     },
     {
       "name": "google / organic",
-      "visits": 4
+      "visits": 5
     },
     {
       "name": "github.com / referral",
@@ -175,7 +175,7 @@
   "topPages": [
     {
       "path": "/install-moveit2/binary/",
-      "views": 17,
+      "views": 16,
       "title": "MoveIt 2 Binary Install | MoveIt"
     },
     {
@@ -189,19 +189,19 @@
       "title": "Hands-On Workshop with ROS\u00a02 and MoveIt Pro at ROSCon 2 | PickNik"
     },
     {
-      "path": "/vscode/docker/ros2/2024/01/23/ROS2-and-VSCode.html",
-      "views": 2,
-      "title": "ROS 2 and VSCode | PickNik"
-    },
-    {
       "path": "/cartesian%20planners/moveit/motion%20planning/2021/01/07/guide-to-cartesian-planners-in-moveit.html",
-      "views": 2,
+      "views": 3,
       "title": "Guide to Cartesian Planners in MoveIt | PickNik"
     },
     {
       "path": "/moveit/ros2/servo/jog/2020/09/09/moveit2-servo.html",
-      "views": 1,
+      "views": 2,
       "title": "Introducing MoveIt Servo in ROS 2 | MoveIt"
+    },
+    {
+      "path": "/vscode/docker/ros2/2024/01/23/ROS2-and-VSCode.html",
+      "views": 2,
+      "title": "ROS 2 and VSCode | PickNik"
     },
     {
       "path": "/hybrid-planning/fraunhofer/moveit/2022/02/03/Hybrid-planning-Welding-with-the-UR10e.html",
@@ -214,5 +214,5 @@
       "title": "Robotics Solution Study | Feasibility & Risk Assessment | PickNik"
     }
   ],
-  "updatedAt": "2026-11-22T18:59:28.355909+00:00"
+  "updatedAt": "2026-11-23T23:20:42.444340+00:00"
 }
