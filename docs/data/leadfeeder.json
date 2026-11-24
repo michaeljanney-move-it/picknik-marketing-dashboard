@@ -3,7 +3,12 @@
   "topCompanies": [
     {
       "name": "Grapevine M\u00fcnchen GmbH",
-      "visits": 12,
+      "visits": 7,
+      "industry": null
+    },
+    {
+      "name": "China Internet Network Information Center (CNNIC)",
+      "visits": 6,
       "industry": null
     },
     {
@@ -14,11 +19,6 @@
     {
       "name": "OneRobotics (Shenzhen) Co., Ltd.",
       "visits": 5,
-      "industry": null
-    },
-    {
-      "name": "China Internet Network Information Center (CNNIC)",
-      "visits": 4,
       "industry": null
     },
     {
@@ -33,10 +33,6 @@
     }
   ],
   "dailyVisits": [
-    {
-      "date": "2026-10-24",
-      "visits": 5
-    },
     {
       "date": "2026-10-25",
       "visits": 1
@@ -155,17 +151,21 @@
     },
     {
       "date": "2026-11-23",
-      "visits": 2
+      "visits": 4
+    },
+    {
+      "date": "2026-11-24",
+      "visits": 0
     }
   ],
   "sources": [
     {
       "name": "direct",
-      "visits": 26
+      "visits": 22
     },
     {
       "name": "google / organic",
-      "visits": 5
+      "visits": 6
     },
     {
       "name": "github.com / referral",
@@ -175,7 +175,7 @@
   "topPages": [
     {
       "path": "/install-moveit2/binary/",
-      "views": 16,
+      "views": 8,
       "title": "MoveIt 2 Binary Install | MoveIt"
     },
     {
@@ -190,12 +190,12 @@
     },
     {
       "path": "/cartesian%20planners/moveit/motion%20planning/2021/01/07/guide-to-cartesian-planners-in-moveit.html",
-      "views": 3,
+      "views": 4,
       "title": "Guide to Cartesian Planners in MoveIt | PickNik"
     },
     {
       "path": "/moveit/ros2/servo/jog/2020/09/09/moveit2-servo.html",
-      "views": 2,
+      "views": 3,
       "title": "Introducing MoveIt Servo in ROS 2 | MoveIt"
     },
     {
@@ -214,5 +214,5 @@
       "title": "Robotics Solution Study | Feasibility & Risk Assessment | PickNik"
     }
   ],
-  "updatedAt": "2026-11-23T23:20:42.444340+00:00"
+  "updatedAt": "2026-11-24T21:53:16.535124+00:00"
 }
