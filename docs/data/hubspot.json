@@ -22,7 +22,7 @@
       "key": "Networking / Referral",
       "label": "Networking / Referral",
       "goal": null,
-      "count": 1
+      "count": 2
     }
   ],
   "dealStages": [
@@ -34,7 +34,7 @@
     {
       "label": "2. Qualified (BANT)",
       "goal": 20,
-      "count": 10
+      "count": 11
     },
     {
       "label": "3. Proposing & Negotiating",
@@ -49,7 +49,7 @@
   ],
   "dealOrigins": {
     "since": "2026-05-01",
-    "totalDeals": 232,
+    "totalDeals": 233,
     "counts": [
       {
         "name": "Website Inbound",
@@ -69,7 +69,7 @@
       },
       {
         "name": "Networking / Referral",
-        "count": 15
+        "count": 16
       },
       {
         "name": "Outbound",
@@ -93,6 +93,6 @@
       "license": 0
     }
   },
-  "updatedAt": "2026-11-24T21:53:11.569152+00:00",
+  "updatedAt": "2026-11-25T21:00:09.229373+00:00",
   "period": "November 2026"
 }
