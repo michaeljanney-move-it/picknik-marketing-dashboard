@@ -34,10 +34,6 @@
   ],
   "dailyVisits": [
     {
-      "date": "2026-10-27",
-      "visits": 0
-    },
-    {
       "date": "2026-10-28",
       "visits": 4
     },
@@ -156,6 +152,10 @@
     {
       "date": "2026-11-26",
       "visits": 2
+    },
+    {
+      "date": "2026-11-27",
+      "visits": 1
     }
   ],
   "sources": [
@@ -169,7 +169,7 @@
     },
     {
       "name": "github.com / referral",
-      "visits": 2
+      "visits": 3
     }
   ],
   "topPages": [
@@ -194,14 +194,14 @@
       "title": "Guide to Cartesian Planners in MoveIt | PickNik"
     },
     {
+      "path": "/",
+      "views": 3,
+      "title": "MoveIt Motion Planning Framework"
+    },
+    {
       "path": "/moveit/ros2/servo/jog/2020/09/09/moveit2-servo.html",
       "views": 3,
       "title": "Introducing MoveIt Servo in ROS 2 | MoveIt"
-    },
-    {
-      "path": "/",
-      "views": 2,
-      "title": "MoveIt Motion Planning Framework"
     },
     {
       "path": "/vscode/docker/ros2/2024/01/23/ROS2-and-VSCode.html",
@@ -219,5 +219,5 @@
       "title": "Robotics Solution Study | Feasibility & Risk Assessment | PickNik"
     }
   ],
-  "updatedAt": "2026-11-26T20:53:15.244061+00:00"
+  "updatedAt": "2026-11-27T20:38:33.872964+00:00"
 }
